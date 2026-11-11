@@ -1,0 +1,9 @@
+# Environment for data auditing and synthetic generation (no GPU, runs on macOS or Windows).
+# Training has its own environment on the Windows RTX 3070 machine.
+google-genai==2.34.0
+PyYAML==6.0.3
+pytest==9.2.0
+scikit-learn==1.9.1
+numpy==2.5.4
+datasets==5.1.0
+huggingface_hub==2.4.0

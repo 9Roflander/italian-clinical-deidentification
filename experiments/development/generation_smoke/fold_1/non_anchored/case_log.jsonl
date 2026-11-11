@@ -1,0 +1,3 @@
+{"case_id": "F1-N00000", "request_id": "F1-non_anchored-A1-R00000", "attempt": 1, "record_type": "synthetic_named", "anchor_ids": [], "arm": "non_anchored", "fold": 1, "status": "rejected", "reasons": ["case_missing_from_response"]}
+{"case_id": "F1-N00001", "request_id": "F1-non_anchored-A1-R00000", "attempt": 1, "record_type": "synthetic_named", "anchor_ids": [], "arm": "non_anchored", "fold": 1, "status": "rejected", "reasons": ["case_missing_from_response"]}
+{"case_id": "F1-N00002", "request_id": "F1-non_anchored-A1-R00000", "attempt": 1, "record_type": "synthetic_named", "anchor_ids": [], "arm": "non_anchored", "fold": 1, "status": "rejected", "reasons": ["case_missing_from_response"]}

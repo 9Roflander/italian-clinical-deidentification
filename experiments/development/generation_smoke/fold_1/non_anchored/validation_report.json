@@ -1,0 +1,30 @@
+{
+ "fold": 1,
+ "arm": "non_anchored",
+ "planned_cases": 1756,
+ "cases_attempted": 3,
+ "cases_accepted": 0,
+ "attempts_logged": 3,
+ "accepted_by_type": {},
+ "rejection_reason_counts": {
+  "case_missing_from_response": 3
+ },
+ "requests": 1,
+ "tokens": {
+  "prompt": 1082,
+  "output": 2491,
+  "thoughts": 0
+ },
+ "cost_usd_at_configured_price": 0.0102,
+ "models_returned": [
+  "gemini-3.8-flash"
+ ],
+ "finish_reasons": {
+  "STOP": 1
+ },
+ "accepted_mentions_per_note": {},
+ "accepted_median_chars": null,
+ "acceptance_rate_per_attempt": 0.0,
+ "post_audit": "not_run",
+ "permitted_for_training": false
+}

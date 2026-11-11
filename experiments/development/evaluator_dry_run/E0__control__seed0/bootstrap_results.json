@@ -1,0 +1,154 @@
+{
+ "configuration": {
+  "confidence": 0.95,
+  "iterations": 10000,
+  "method": "percentile",
+  "minimum_iterations": 2000,
+  "numpy_version": "2.5.4",
+  "resampling_unit": "document",
+  "seed": 42,
+  "strata": "fold"
+ },
+ "metrics": {
+  "complete_entity_recall": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "f1_DATA": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "f1_ETÀ": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "f1_LUOGO/INDIRIZZO": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "f1_NOME": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "invalid_output_rate": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "macro_f1": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "micro_f1": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "micro_precision": {
+   "lower": null,
+   "point": null,
+   "undefined_replicates": 10000,
+   "upper": null
+  },
+  "micro_recall": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "non_sensitive_preservation": {
+   "lower": 1.0,
+   "point": 1.0,
+   "undefined_replicates": 0,
+   "upper": 1.0
+  },
+  "note_exact_rate": {
+   "lower": 0.0,
+   "point": 0.012195121951219513,
+   "undefined_replicates": 0,
+   "upper": 0.036585365853658534
+  },
+  "over_redaction_rate": {
+   "lower": null,
+   "point": null,
+   "undefined_replicates": 10000,
+   "upper": null
+  },
+  "precision_DATA": {
+   "lower": null,
+   "point": null,
+   "undefined_replicates": 10000,
+   "upper": null
+  },
+  "precision_ETÀ": {
+   "lower": null,
+   "point": null,
+   "undefined_replicates": 10000,
+   "upper": null
+  },
+  "precision_LUOGO/INDIRIZZO": {
+   "lower": null,
+   "point": null,
+   "undefined_replicates": 10000,
+   "upper": null
+  },
+  "precision_NOME": {
+   "lower": null,
+   "point": null,
+   "undefined_replicates": 10000,
+   "upper": null
+  },
+  "recall_DATA": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "recall_ETÀ": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "recall_LUOGO/INDIRIZZO": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "recall_NOME": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "removal_coverage": {
+   "lower": 0.0,
+   "point": 0.0,
+   "undefined_replicates": 0,
+   "upper": 0.0
+  },
+  "text_preserved_rate": {
+   "lower": 1.0,
+   "point": 1.0,
+   "undefined_replicates": 0,
+   "upper": 1.0
+  }
+ },
+ "note_order_sha256": "cb2ecb860d9c64df2c7757616f14a09c58e163ddc99bc6f36e75fda58698a5c6",
+ "scope": "Pooled out-of-fold results. Intervals are conditional on the trained fold models."
+}

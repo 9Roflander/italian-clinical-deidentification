@@ -1,0 +1,50 @@
+{
+ "note": "How much uncertainty can 82 notes support? A planning simulation, not a result.\n\nUses per-note mention COUNTS from gold_v2 only, and hypothetical outcomes. It reports the expected 95% interval\nhalf-width for recall, and the smallest paired recall difference whose interval excludes zero in 80% of simulations,\nusing the protocol's fold-stratified bootstrap. Assumed: recall 0.80 for the weaker model, 20% of outcome variance\nat note level, and 40% shared between the two models at mention level. Other assumptions give other numbers.\n",
+ "assumptions": {
+  "base_recall": 0.8,
+  "note_variance_share": 0.2,
+  "shared_variance_share": 0.4,
+  "simulations": 400,
+  "bootstrap": 2000
+ },
+ "NOME": {
+  "mentions": 54,
+  "notes_with_mentions": 29,
+  "largest_note": 5,
+  "effective_notes_kish": 19.4,
+  "ci95_halfwidth_recall": 0.112,
+  "smallest_detectable_difference_80pct": 0.16
+ },
+ "ETÀ": {
+  "mentions": 102,
+  "notes_with_mentions": 80,
+  "largest_note": 6,
+  "effective_notes_kish": 56.5,
+  "ci95_halfwidth_recall": 0.078,
+  "smallest_detectable_difference_80pct": 0.12
+ },
+ "DATA": {
+  "mentions": 59,
+  "notes_with_mentions": 17,
+  "largest_note": 13,
+  "effective_notes_kish": 9.5,
+  "ci95_halfwidth_recall": 0.118,
+  "smallest_detectable_difference_80pct": 0.16
+ },
+ "LUOGO/INDIRIZZO": {
+  "mentions": 37,
+  "notes_with_mentions": 16,
+  "largest_note": 8,
+  "effective_notes_kish": 10.0,
+  "ci95_halfwidth_recall": 0.137,
+  "smallest_detectable_difference_80pct": "above 0.18"
+ },
+ "ALL": {
+  "mentions": 252,
+  "notes_with_mentions": 81,
+  "largest_note": 15,
+  "effective_notes_kish": 44.3,
+  "ci95_halfwidth_recall": 0.057,
+  "smallest_detectable_difference_80pct": 0.08
+ }
+}

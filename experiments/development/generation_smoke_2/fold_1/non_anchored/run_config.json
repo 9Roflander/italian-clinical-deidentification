@@ -1,0 +1,48 @@
+{
+ "fold": 1,
+ "arm": "non_anchored",
+ "generation_version": "v1",
+ "prompt_version": "v1",
+ "template_sha256": "f05cbe05409c19ace83e53a3aefd75aed9648bf01d84502108602b0be7114f5c",
+ "plan_sha256": "9e143974db9f27e1f9e8fa57585dca7cf1792c9afadd906676b5e2dff62f05dd",
+ "gold_sha256": "0072600806a67c1701c9bd202df317ed4f588888a95df5fc8504a616d9973f56",
+ "git_commit": "8edf3ef9242f5d84c7993f527fc13b7f0b62e675",
+ "anchor_pool_size": 63,
+ "anchors_excluded_from_pool": [
+  "gold_058"
+ ],
+ "model": {
+  "id": "gemini-3.8-flash",
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "max_output_tokens": 16384,
+  "thinking_level": "LOW",
+  "timeout_s": 300
+ },
+ "anchors": {
+  "mode": "none"
+ },
+ "validation": {
+  "min_chars": 500,
+  "max_chars": 4200,
+  "length_tolerance": [
+   0.6,
+   1.5
+  ],
+  "min_entities": 2,
+  "count_tolerance_share": 0.34,
+  "count_tolerance_min": 1,
+  "max_verbatim_run_anchor": 10,
+  "max_verbatim_run_train": 12,
+  "near_duplicate_containment": 0.2,
+  "max_entity_chars": 80,
+  "max_attempts_per_case": 3
+ },
+ "limits": {
+  "workers": 4,
+  "requests_per_minute": 10,
+  "max_retries": 5,
+  "max_cost_usd": 5.0
+ },
+ "started": "2026-11-05T11:34:45+00:00"
+}

@@ -1,0 +1,154 @@
+{
+ "configuration": {
+  "confidence": 0.95,
+  "iterations": 10000,
+  "method": "percentile",
+  "minimum_iterations": 2000,
+  "numpy_version": "1.26.4",
+  "resampling_unit": "document",
+  "seed": 42,
+  "strata": "fold"
+ },
+ "metrics": {
+  "complete_entity_recall": {
+   "lower": 0.43333333333333335,
+   "point": 0.5396825396825397,
+   "undefined_replicates": 0,
+   "upper": 0.6555023923444976
+  },
+  "f1_DATA": {
+   "lower": 0.24691358024691357,
+   "point": 0.5227272727272727,
+   "undefined_replicates": 0,
+   "upper": 0.7884615384615384
+  },
+  "f1_ETÀ": {
+   "lower": 0.6310064074769958,
+   "point": 0.7236180904522613,
+   "undefined_replicates": 0,
+   "upper": 0.8139564099567606
+  },
+  "f1_LUOGO/INDIRIZZO": {
+   "lower": 0.1111111111111111,
+   "point": 0.4067796610169492,
+   "undefined_replicates": 0,
+   "upper": 0.5925925925925926
+  },
+  "f1_NOME": {
+   "lower": 0.38461538461538464,
+   "point": 0.5858585858585859,
+   "undefined_replicates": 0,
+   "upper": 0.7818181818181819
+  },
+  "invalid_output_rate": {
+   "lower": 0.10975609756097561,
+   "point": 0.18292682926829268,
+   "undefined_replicates": 0,
+   "upper": 0.2682926829268293
+  },
+  "macro_f1": {
+   "lower": 0.4331617641740375,
+   "point": 0.5597459025137672,
+   "undefined_replicates": 0,
+   "upper": 0.6656643776250295
+  },
+  "micro_f1": {
+   "lower": 0.5120772946859904,
+   "point": 0.6112359550561798,
+   "undefined_replicates": 0,
+   "upper": 0.7101474880934091
+  },
+  "micro_precision": {
+   "lower": 0.6009609741784038,
+   "point": 0.7046632124352331,
+   "undefined_replicates": 0,
+   "upper": 0.803030303030303
+  },
+  "micro_recall": {
+   "lower": 0.43333333333333335,
+   "point": 0.5396825396825397,
+   "undefined_replicates": 0,
+   "upper": 0.6555023923444976
+  },
+  "non_sensitive_preservation": {
+   "lower": 0.9000313187977188,
+   "point": 0.9578059596594125,
+   "undefined_replicates": 0,
+   "upper": 0.9993896153034023
+  },
+  "note_exact_rate": {
+   "lower": 0.3170731707317073,
+   "point": 0.4268292682926829,
+   "undefined_replicates": 0,
+   "upper": 0.5365853658536586
+  },
+  "over_redaction_rate": {
+   "lower": 0.03264225023868191,
+   "point": 0.0851063829787234,
+   "undefined_replicates": 0,
+   "upper": 0.16302195231969527
+  },
+  "precision_DATA": {
+   "lower": 0.5184865900383144,
+   "point": 0.7931034482758621,
+   "undefined_replicates": 0,
+   "upper": 0.9629629629629629
+  },
+  "precision_ETÀ": {
+   "lower": 0.6516776620966912,
+   "point": 0.7422680412371134,
+   "undefined_replicates": 0,
+   "upper": 0.8295454545454546
+  },
+  "precision_LUOGO/INDIRIZZO": {
+   "lower": 0.16666666666666666,
+   "point": 0.5454545454545454,
+   "undefined_replicates": 1,
+   "upper": 0.7931034482758621
+  },
+  "precision_NOME": {
+   "lower": 0.4117647058823529,
+   "point": 0.6444444444444445,
+   "undefined_replicates": 0,
+   "upper": 0.8709884201819683
+  },
+  "recall_DATA": {
+   "lower": 0.15872531939605114,
+   "point": 0.3898305084745763,
+   "undefined_replicates": 0,
+   "upper": 0.7037247474747472
+  },
+  "recall_ETÀ": {
+   "lower": 0.5963302752293578,
+   "point": 0.7058823529411765,
+   "undefined_replicates": 0,
+   "upper": 0.8172043010752689
+  },
+  "recall_LUOGO/INDIRIZZO": {
+   "lower": 0.08333333333333333,
+   "point": 0.32432432432432434,
+   "undefined_replicates": 0,
+   "upper": 0.5094432112467627
+  },
+  "recall_NOME": {
+   "lower": 0.34481345392877344,
+   "point": 0.5370370370370371,
+   "undefined_replicates": 0,
+   "upper": 0.7419354838709677
+  },
+  "removal_coverage": {
+   "lower": 0.2927960735038217,
+   "point": 0.4288563829787234,
+   "undefined_replicates": 0,
+   "upper": 0.5842559322439327
+  },
+  "text_preserved_rate": {
+   "lower": 0.7317073170731707,
+   "point": 0.8170731707317073,
+   "undefined_replicates": 0,
+   "upper": 0.8902439024390244
+  }
+ },
+ "note_order_sha256": "cb2ecb860d9c64df2c7757616f14a09c58e163ddc99bc6f36e75fda58698a5c6",
+ "scope": "Pooled out-of-fold results. Intervals are conditional on the trained fold models."
+}

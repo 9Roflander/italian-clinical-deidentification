@@ -1,0 +1,83 @@
+{
+ "note": "Removing notes assuming their mentions were all correct gives the low end; assuming all missed gives the high end.",
+ "bounds": {
+  "llama_v3": {
+   "reported": 0.5355,
+   "without_anchors": [
+    0.5136,
+    0.5446
+   ],
+   "without_anchors_and_gold_0_1": [
+    0.4749,
+    0.5506
+   ]
+  },
+  "llama_v4": {
+   "reported": 0.6486,
+   "without_anchors": [
+    0.6275,
+    0.6596
+   ],
+   "without_anchors_and_gold_0_1": [
+    0.5768,
+    0.6779
+   ]
+  },
+  "gemma_1b": {
+   "reported": 0.6107,
+   "without_anchors": [
+    0.5881,
+    0.6272
+   ],
+   "without_anchors_and_gold_0_1": [
+    0.5332,
+    0.6589
+   ]
+  },
+  "bert_truncated": {
+   "reported": 0.5688,
+   "without_anchors": [
+    0.5551,
+    0.5828
+   ],
+   "without_anchors_and_gold_0_1": [
+    0.4821,
+    0.6129
+   ]
+  },
+  "bert_chunked": {
+   "reported": 0.5082,
+   "without_anchors": [
+    0.474,
+    0.5268
+   ],
+   "without_anchors_and_gold_0_1": [
+    0.3714,
+    0.573
+   ]
+  },
+  "bert_cpt_chunked": {
+   "reported": 0.5877,
+   "without_anchors": [
+    0.5745,
+    0.6018
+   ],
+   "without_anchors_and_gold_0_1": [
+    0.4987,
+    0.6358
+   ]
+  }
+ },
+ "cv_nome_f1": {
+  "llama_v3": 0.593,
+  "llama_v4": 0.714
+ },
+ "lora_llama_3_2_3b": {
+  "hidden": 3072,
+  "intermediate": 8192,
+  "layers": 28,
+  "trainable": 24313856,
+  "base_params_approx": 3212574720,
+  "pct": 0.76
+ }
+}

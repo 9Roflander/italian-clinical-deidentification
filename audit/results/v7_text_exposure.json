@@ -1,0 +1,26 @@
+{
+ "files_with_gold_text": [
+  {
+   "file": "original_work/src/generalization_test.py",
+   "in_git_index": true,
+   "gold_ids": [
+    0
+   ],
+   "shared_8grams": 80,
+   "max_share_of_one_note": 0.141
+  },
+  {
+   "file": "original_work/splnproc1703_dairov_zhang_brkicBakaric copy.pdf",
+   "in_git_index": false,
+   "gold_ids": [
+    42
+   ],
+   "shared_8grams": 19,
+   "max_share_of_one_note": 0.078
+  }
+ ],
+ "unreadable_pdfs": [],
+ "gold_in_public_git": {
+  "data/gold_standard_80.json": "tracked at HEAD on main"
+ }
+}

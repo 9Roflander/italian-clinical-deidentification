@@ -1,0 +1,45 @@
+{
+ "fold": 3,
+ "arm": "non_anchored",
+ "planned_cases": 300,
+ "cases_attempted": 300,
+ "cases_accepted": 296,
+ "attempts_logged": 396,
+ "accepted_by_type": {
+  "synthetic_named": 201,
+  "synthetic_name_free": 75,
+  "synthetic_negative": 20
+ },
+ "rejection_reason_counts": {
+  "near_duplicate_of_accepted_note": 74,
+  "named_facility_unmarked": 12,
+  "residual_date": 10,
+  "length_out_of_range": 7,
+  "length_off_target": 5,
+  "adjacent_entities": 3,
+  "entity_too_long": 2
+ },
+ "requests": 133,
+ "tokens": {
+  "prompt": 204869,
+  "output": 315139,
+  "thoughts": 0
+ },
+ "cost_usd_at_configured_price": 1.3354,
+ "models_returned": [
+  "gemini-3.8-flash"
+ ],
+ "finish_reasons": {
+  "STOP": 133
+ },
+ "accepted_mentions_per_note": {
+  "NOME": 1.42,
+  "ETÀ": 1.14,
+  "LUOGO/INDIRIZZO": 0.52,
+  "DATA": 0.92
+ },
+ "accepted_median_chars": 2014,
+ "acceptance_rate_per_attempt": 0.747,
+ "post_audit": "passed",
+ "permitted_for_training": true
+}

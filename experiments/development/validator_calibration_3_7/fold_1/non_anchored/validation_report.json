@@ -1,0 +1,24 @@
+{
+ "fold": 1,
+ "arm": "non_anchored",
+ "planned_cases": 1756,
+ "cases_attempted": 0,
+ "cases_accepted": 0,
+ "attempts_logged": 0,
+ "accepted_by_type": {},
+ "rejection_reason_counts": {},
+ "requests": 0,
+ "tokens": {
+  "prompt": 0,
+  "output": 0,
+  "thoughts": 0
+ },
+ "cost_usd_at_configured_price": 0.0,
+ "models_returned": [],
+ "finish_reasons": {},
+ "accepted_mentions_per_note": {},
+ "accepted_median_chars": null,
+ "acceptance_rate_per_attempt": 0.0,
+ "post_audit": "not_run",
+ "permitted_for_training": false
+}

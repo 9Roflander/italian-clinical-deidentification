@@ -1,0 +1,60 @@
+{
+ "fold": 4,
+ "arm": "non_anchored",
+ "examples_checked": 295,
+ "requests_checked": 137,
+ "prompts_rerendered": 137,
+ "prompt_hash_mismatches": 0,
+ "longest_verbatim_run_with_any_test_note": 8,
+ "entity_check": {
+  "policy": "v1, owner 2026-11-09; terminology: candidate match, never leak",
+  "by_class": {
+   "candidate_match": {
+    "test_entities": 21,
+    "matched": 2
+   },
+   "single_token_DATA": {
+    "test_entities": 1,
+    "matched": 1
+   },
+   "single_token_ET\u00c0": {
+    "test_entities": 17,
+    "matched": 17
+   },
+   "single_token_NOME": {
+    "test_entities": 6,
+    "matched": 1
+   }
+  },
+  "candidate_matches": [
+   {
+    "type": "ET\u00c0",
+    "n_tokens": 2,
+    "test_notes": [
+     "gold_046"
+    ],
+    "n_records": 4,
+    "record_ids": [
+     "syn_f4_non_anchored_00071",
+     "syn_f4_non_anchored_00226",
+     "syn_f4_non_anchored_00270",
+     "syn_f4_non_anchored_00167"
+    ]
+   },
+   {
+    "type": "LUOGO/INDIRIZZO",
+    "n_tokens": 1,
+    "test_notes": [
+     "gold_046"
+    ],
+    "n_records": 1,
+    "record_ids": [
+     "syn_f4_non_anchored_00069"
+    ]
+   }
+  ]
+ },
+ "entity_candidate_matches": 2,
+ "violations": [],
+ "passed": true
+}

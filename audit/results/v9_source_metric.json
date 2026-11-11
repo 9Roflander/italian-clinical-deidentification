@@ -1,0 +1,108 @@
+{
+ "correct_redaction_gold_v1_target": {
+  "paper_metric_as_used": {
+   "macro_f1_mean": 0.9408,
+   "per_type": {
+    "NOME": 0.9,
+    "ETÀ": 0.896,
+    "DATA": 1.0,
+    "LUOGO/INDIRIZZO": 0.971
+   }
+  },
+  "miranda_eval_py": {
+   "macro_f1_mean": 0.9049,
+   "per_type": {
+    "NOME": 0.9,
+    "ETÀ": 0.745,
+    "DATA": 1.0,
+    "LUOGO/INDIRIZZO": 0.971
+   }
+  }
+ },
+ "empty_output": {
+  "paper_metric_as_used": {
+   "macro_f1_mean": 1.0,
+   "per_type": {
+    "NOME": 1.0,
+    "ETÀ": 1.0,
+    "DATA": 1.0,
+    "LUOGO/INDIRIZZO": 1.0
+   }
+  },
+  "miranda_eval_py": {
+   "macro_f1_mean": 1.0,
+   "per_type": {
+    "NOME": 1.0,
+    "ETÀ": 1.0,
+    "DATA": 1.0,
+    "LUOGO/INDIRIZZO": 1.0
+   }
+  }
+ },
+ "input_unchanged": {
+  "paper_metric_as_used": {
+   "macro_f1_mean": 0.0254,
+   "per_type": {
+    "NOME": 0.0,
+    "ETÀ": 0.0,
+    "DATA": 0.042,
+    "LUOGO/INDIRIZZO": 0.057
+   }
+  },
+  "miranda_eval_py": {
+   "macro_f1_mean": 0.0462,
+   "per_type": {
+    "NOME": 0.069,
+    "ETÀ": 0.0,
+    "DATA": 0.04,
+    "LUOGO/INDIRIZZO": 0.103
+   }
+  }
+ },
+ "every_entity_wrong_tag": {
+  "paper_metric_as_used": {
+   "macro_f1_mean": 0.6639,
+   "per_type": {
+    "NOME": 0.769,
+    "ETÀ": 0.785,
+    "DATA": 0.516,
+    "LUOGO/INDIRIZZO": 0.602
+   }
+  },
+  "miranda_eval_py": {
+   "macro_f1_mean": 0.6368,
+   "per_type": {
+    "NOME": 0.769,
+    "ETÀ": 0.667,
+    "DATA": 0.516,
+    "LUOGO/INDIRIZZO": 0.602
+   }
+  }
+ },
+ "two_mentions_one_left": {
+  "paper_metric_as_used": [
+   0,
+   0,
+   2
+  ],
+  "miranda_eval_py": [
+   1,
+   0,
+   1
+  ],
+  "format": "(tp, fp, fn)"
+ },
+ "short_age_digit_three_elsewhere": {
+  "paper_metric_as_used": [
+   0,
+   0,
+   1
+  ],
+  "miranda_eval_py": [
+   0,
+   0,
+   3
+  ],
+  "format": "(tp, fp, fn)"
+ }
+}

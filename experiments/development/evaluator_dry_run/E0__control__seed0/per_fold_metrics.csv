@@ -1,0 +1,8 @@
+scope,notes,micro_precision,micro_recall,micro_f1,macro_f1,f1_NOME,f1_ETÀ,f1_DATA,f1_LUOGO/INDIRIZZO,invalid_output_rate,removal_coverage,over_redaction_rate
+fold_1,16,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+fold_2,17,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+fold_3,17,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+fold_4,16,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+fold_5,16,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+mean_of_folds,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+sd_of_folds,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,

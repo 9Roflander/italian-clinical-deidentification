@@ -1,0 +1,26 @@
+{
+ "dyspnea": {
+  "rows": 2667,
+  "exact_normalised_hash_matches_to_gold": 0,
+  "gold_notes_sharing_12gram": 0,
+  "max_shared_12grams_any_gold_note": 0,
+  "gold_notes_sharing_10gram": 0,
+  "max_shared_10grams_any_gold_note": 0,
+  "gold_notes_sharing_8gram": 0,
+  "max_shared_8grams_any_gold_note": 0,
+  "gold_notes_sharing_6gram": 5,
+  "max_shared_6grams_any_gold_note": 2,
+  "gold_notes_sharing_5gram": 36,
+  "max_shared_5grams_any_gold_note": 5,
+  "note": "Word n-gram overlap only. Short shared n-grams can be generic clinical wording; no text is reported.",
+  "hf_sha": "b58288bb83d1969f3baa585085e448183d8652ec",
+  "hf_last_modified": "2025-12-12 14:54:55+00:00"
+ },
+ "dart": {
+  "gated": "manual",
+  "sha": "14ce22de91924a012f8214e2b27ccb4a9c9e1be7",
+  "last_modified": "2026-05-25 09:45:30+00:00",
+  "overlap_check": "NOT PERFORMED",
+  "data_access": "denied: DatasetNotFoundError"
+ }
+}

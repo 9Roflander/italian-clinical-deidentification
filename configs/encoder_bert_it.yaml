@@ -1,0 +1,22 @@
+# Encoder baseline (owner decision 2026-11-10): Italian BERT token classification with BIO labels, the conventional
+# sequence-labelling baseline the reviewer asked for. Same folds, same training examples as the LLM arms (built by
+# src/training/dataset.py, gold oversampled as in configs/training.yaml), same evaluator. Fixed before any result exists.
+model:
+  id: dbmdz/bert-base-italian-xxl-cased
+  revision: 9bdf84aedf00aa4e99b01a6f2c76f6070ac7240b
+  run_folder: bert_it
+data:
+  experiments: [E1, E3]      # gold only, and gold + style-anchored synthetic + negatives (the E3 example list)
+  gold_oversample: 5         # as in configs/training.yaml, so the example lists are identical to the LLM arms
+windows:
+  size: 510                  # body tokens; [CLS] and [SEP] make 512, the model's limit
+  stride: 128                # overlap between consecutive windows of one long note
+training:                    # standard BERT fine-tuning values; no tuning on held-out notes
+  epochs: 3
+  batch_size: 16
+  learning_rate: 5.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  scheduler: linear
+  max_grad_norm: 1.0
+  seeds: [42]

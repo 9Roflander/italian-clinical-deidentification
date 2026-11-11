@@ -1,0 +1,46 @@
+# Experiment arms. Domain-adaptation arms stay blocked until DART is cleared.
+# Volumes follow the reduced plan of 2026-11-06: 300 accepted notes per fold and arm (202 named, 78 name-free, 20 negative).
+# E8, E9 and E10 use base weights while domain adaptation is blocked, so they compare with E3, not E5.
+# Synthetic arms draw on the same matched accepted cases, so compared arms differ by design and not by rejections.
+# allow_shortfall (owner decision 2026-11-09, decision D): folds have 291-298 matched cases, not 300; each dataset
+# manifest records the counts actually used.
+experiments:
+  E1: {domain_adaptation: false, synthetic: null, description: Gold-only}
+  E2:
+    domain_adaptation: false
+    description: Gold plus non-anchored synthetic data
+    synthetic: {arm: non_anchored, matched_with: style_anchored, n_named: 202, n_name_free: 78, n_negative: 20, allow_shortfall: true}
+  E3:
+    domain_adaptation: false
+    description: Gold plus anchored synthetic data
+    synthetic: {arm: style_anchored, matched_with: non_anchored, n_named: 202, n_name_free: 78, n_negative: 20, allow_shortfall: true}
+  E8:
+    domain_adaptation: false
+    description: E3 without negative examples
+    synthetic: {arm: style_anchored, matched_with: non_anchored, n_named: 202, n_name_free: 78, n_negative: 0, allow_shortfall: true}
+  E9:
+    domain_adaptation: false
+    description: Anchored, named notes only, at the shared volume
+    synthetic: {arm: style_anchored, matched_with: non_anchored, n_named: 202, n_name_free: 0, n_negative: 20, allow_shortfall: true}
+  E10:
+    domain_adaptation: false
+    description: Anchored, 72/28 named and name-free, at the shared volume
+    synthetic: {arm: style_anchored, matched_with: non_anchored, n_named: 145, n_name_free: 57, n_negative: 20, allow_shortfall: true}
+  E4: {domain_adaptation: true, synthetic: null, blocked: "DART overlap audit and Phase 1 are unresolved", description: Domain-adapted gold-only}
+  E5:
+    domain_adaptation: true
+    blocked: "DART overlap audit and Phase 1 are unresolved"
+    description: Domain-adapted main pipeline
+    synthetic: {arm: style_anchored, matched_with: non_anchored, n_named: 202, n_name_free: 78, n_negative: 20, allow_shortfall: true}
+  E7:
+    domain_adaptation: true
+    blocked: "DART overlap audit and Phase 1 are unresolved"
+    description: Domain-adapted non-anchored
+    synthetic: {arm: non_anchored, matched_with: style_anchored, n_named: 202, n_name_free: 78, n_negative: 20, allow_shortfall: true}
+
+comparisons:
+  - {id: RQ2-non-anchored, a: E1, b: E2, single_factor: false, note: "Adds synthetic notes and negatives together, so no claim about either alone"}
+  - {id: RQ2-anchored, a: E1, b: E3, single_factor: false, note: "Adds synthetic notes, anchoring and negatives together"}
+  - {id: RQ3, a: E2, b: E3, single_factor: true, factor: synthetic_arm}
+  - {id: RQ4, a: E9, b: E10, single_factor: true, factor: entity_mix}
+  - {id: RQ5, a: E8, b: E3, single_factor: true, factor: negatives}

@@ -1,0 +1,11 @@
+{
+ "fold": 1,
+ "arm": "non_anchored",
+ "examples_checked": 12,
+ "requests_checked": 5,
+ "prompts_rerendered": 5,
+ "prompt_hash_mismatches": 0,
+ "longest_verbatim_run_with_any_test_note": 0,
+ "violations": [],
+ "passed": true
+}

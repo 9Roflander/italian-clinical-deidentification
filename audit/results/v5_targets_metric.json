@@ -1,0 +1,369 @@
+{
+ "identical_function_copies": {
+  "redact_gold": {
+   "train_evaluate_cv_v3.py": true,
+   "train_evaluate_cv_gemma.py": true,
+   "train_evaluate_cv_bert.py": false,
+   "train_redact_v3.py": false
+  },
+  "paper_metric": {
+   "train_evaluate_cv_v3.py": true,
+   "train_evaluate_cv_gemma.py": true,
+   "train_evaluate_cv_bert.py": true,
+   "train_redact_v3.py": false
+  }
+ },
+ "gold_targets": {
+  "substring_replacements": 287,
+  "replacements_inside_a_longer_token": 41,
+  "by_type": {
+   "ETÀ": 40,
+   "NOME": 1
+  },
+  "notes_with_corrupted_tokens": [
+   21,
+   41,
+   58,
+   60,
+   62,
+   63,
+   66,
+   67,
+   68,
+   71,
+   77
+  ],
+  "n_notes_with_corrupted_tokens": 11,
+  "excess_placeholders_vs_annotations_by_type": {
+   "NOME": 10,
+   "ETÀ": 55,
+   "LUOGO/INDIRIZZO": 1
+  },
+  "n_notes_with_excess_placeholders": 20
+ },
+ "annotations": {
+  "has_character_offsets": false,
+  "record_keys": [
+   "entities",
+   "text"
+  ],
+  "has_document_ids": false,
+  "by_type": {
+   "NOME": {
+    "unique_strings": 29,
+    "annotated_mentions": 46,
+    "fewer_occurrences_than_annotations": 2,
+    "more_occurrences_than_annotations": 7,
+    "occurrences_equal_annotations": 20
+   },
+   "ETÀ": {
+    "unique_strings": 97,
+    "annotated_mentions": 98,
+    "occurrences_equal_annotations": 85,
+    "more_occurrences_than_annotations": 11,
+    "only_inside_longer_token": 1
+   },
+   "DATA": {
+    "unique_strings": 46,
+    "annotated_mentions": 47,
+    "occurrences_equal_annotations": 43,
+    "more_occurrences_than_annotations": 2,
+    "string_not_in_note": 1
+   },
+   "LUOGO/INDIRIZZO": {
+    "unique_strings": 28,
+    "annotated_mentions": 34,
+    "occurrences_equal_annotations": 24,
+    "fewer_occurrences_than_annotations": 1,
+    "more_occurrences_than_annotations": 2,
+    "string_not_in_note": 1
+   }
+  },
+  "forms": {
+   "name_other": 33,
+   "age_digits_only": 91,
+   "date_year_only": 6,
+   "date_other": 41,
+   "name_initials": 11,
+   "age_other": 5,
+   "age_with_anni": 2,
+   "name_all_lower": 2
+  },
+  "strings_with_two_types": 0,
+  "strings_nested_in_another": 6,
+  "notes_with_annotation_absent_from_text": [
+   10,
+   58
+  ],
+  "notes_without_any_annotation": [
+   20,
+   37
+  ]
+ },
+ "pattern_hits_left_in_gold_targets": {
+  "age_pattern": {
+   "hits": 19,
+   "notes": 11
+  },
+  "month_year": {
+   "hits": 10,
+   "notes": 3
+  },
+  "numeric_date": {
+   "hits": 0,
+   "notes": 0
+  },
+  "bare_year": {
+   "hits": 21,
+   "notes": 12
+  }
+ },
+ "annotated_DATA_mentions": 47,
+ "metric_on_known_outputs": {
+  "historical_training_target": {
+   "macro_f1_mean": 0.9189,
+   "per_fold": [
+    0.918,
+    0.912,
+    0.956,
+    0.93,
+    0.878
+   ],
+   "pooled_per_type_f1": {
+    "NOME": 0.902,
+    "ETÀ": 0.781,
+    "DATA": 1.0,
+    "LUOGO/INDIRIZZO": 0.986
+   },
+   "pooled_counts_tp_fp_fn": {
+    "NOME": [
+     46,
+     10,
+     0
+    ],
+    "ETÀ": [
+     98,
+     55,
+     0
+    ],
+    "DATA": [
+     47,
+     0,
+     0
+    ],
+    "LUOGO/INDIRIZZO": [
+     34,
+     1,
+     0
+    ]
+   }
+  },
+  "oracle_word_boundary_all_occurrences": {
+   "macro_f1_mean": 0.9341,
+   "per_fold": [
+    0.927,
+    0.945,
+    0.967,
+    0.929,
+    0.902
+   ],
+   "pooled_per_type_f1": {
+    "NOME": 0.9,
+    "ETÀ": 0.851,
+    "DATA": 1.0,
+    "LUOGO/INDIRIZZO": 0.986
+   },
+   "pooled_counts_tp_fp_fn": {
+    "NOME": [
+     45,
+     9,
+     1
+    ],
+    "ETÀ": [
+     83,
+     14,
+     15
+    ],
+    "DATA": [
+     47,
+     0,
+     0
+    ],
+    "LUOGO/INDIRIZZO": [
+     34,
+     1,
+     0
+    ]
+   }
+  },
+  "oracle_word_boundary_first_k_occurrences": {
+   "macro_f1_mean": 0.9066,
+   "per_fold": [
+    0.937,
+    0.943,
+    0.966,
+    0.851,
+    0.836
+   ],
+   "pooled_per_type_f1": {
+    "NOME": 0.821,
+    "ETÀ": 0.886,
+    "DATA": 1.0,
+    "LUOGO/INDIRIZZO": 0.954
+   },
+   "pooled_counts_tp_fp_fn": {
+    "NOME": [
+     32,
+     0,
+     14
+    ],
+    "ETÀ": [
+     78,
+     0,
+     20
+    ],
+    "DATA": [
+     47,
+     0,
+     0
+    ],
+    "LUOGO/INDIRIZZO": [
+     31,
+     0,
+     3
+    ]
+   }
+  },
+  "empty_output": {
+   "macro_f1_mean": 1.0,
+   "per_fold": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pooled_per_type_f1": {
+    "NOME": 1.0,
+    "ETÀ": 1.0,
+    "DATA": 1.0,
+    "LUOGO/INDIRIZZO": 1.0
+   },
+   "pooled_counts_tp_fp_fn": {
+    "NOME": [
+     46,
+     0,
+     0
+    ],
+    "ETÀ": [
+     98,
+     0,
+     0
+    ],
+    "DATA": [
+     47,
+     0,
+     0
+    ],
+    "LUOGO/INDIRIZZO": [
+     34,
+     0,
+     0
+    ]
+   }
+  },
+  "input_returned_unchanged": {
+   "macro_f1_mean": 0.0254,
+   "per_fold": [
+    0.056,
+    0.0,
+    0.0,
+    0.071,
+    0.0
+   ],
+   "pooled_per_type_f1": {
+    "NOME": 0.0,
+    "ETÀ": 0.0,
+    "DATA": 0.042,
+    "LUOGO/INDIRIZZO": 0.057
+   },
+   "pooled_counts_tp_fp_fn": {
+    "NOME": [
+     0,
+     0,
+     46
+    ],
+    "ETÀ": [
+     0,
+     0,
+     98
+    ],
+    "DATA": [
+     1,
+     0,
+     46
+    ],
+    "LUOGO/INDIRIZZO": [
+     1,
+     0,
+     33
+    ]
+   }
+  },
+  "every_entity_given_the_wrong_tag": {
+   "macro_f1_mean": 0.6737,
+   "per_fold": [
+    0.68,
+    0.648,
+    0.702,
+    0.684,
+    0.654
+   ],
+   "pooled_per_type_f1": {
+    "NOME": 0.786,
+    "ETÀ": 0.883,
+    "DATA": 0.409,
+    "LUOGO/INDIRIZZO": 0.607
+   },
+   "pooled_counts_tp_fp_fn": {
+    "NOME": [
+     46,
+     25,
+     0
+    ],
+    "ETÀ": [
+     98,
+     26,
+     0
+    ],
+    "DATA": [
+     47,
+     136,
+     0
+    ],
+    "LUOGO/INDIRIZZO": [
+     34,
+     44,
+     0
+    ]
+   }
+  }
+ },
+ "bert_gold_spans": {
+  "spans": 287,
+  "spans_inside_a_longer_token": 43,
+  "by_type": {
+   "ETÀ": 42,
+   "NOME": 1
+  },
+  "notes": 11
+ },
+ "gold_internal_8gram_pairs": [
+  {
+   "a": 0,
+   "b": 1,
+   "shared_8grams": 1,
+   "cross_fold": true
+  }
+ ]
+}

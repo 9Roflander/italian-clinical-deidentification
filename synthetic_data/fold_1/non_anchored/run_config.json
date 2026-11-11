@@ -1,0 +1,96 @@
+{
+ "fold": 1,
+ "arm": "non_anchored",
+ "generation_version": "v2",
+ "prompt_version": "v2",
+ "template_sha256": "c612f46ba8d8e54d287f991099f839544c54e8dd3dd2477b32936af179e842ee",
+ "plan_sha256": "8b71c66d110f78b73feaaf6b4b1b7a5d914d33f86d6ff67f7559fd738b05ecde",
+ "gold_sha256": "c0f66a9639ffb9af5f9f11c7706ebf666880a1bcff05c28735d0fa7ad5c94b8d",
+ "git_commit": "749f7ebcf6a7ca6dbf730ca83d3d79ab4c0958e6",
+ "git_dirty": false,
+ "source_integrity": {
+  "policy_version": "1",
+  "clean": true,
+  "git_available": true,
+  "commit": "749f7ebcf6a7ca6dbf730ca83d3d79ab4c0958e6",
+  "critical_tree_sha256": "f7d3bf88b5aafcba30681b5c3268f824593418dff405d22241634b28274182dd",
+  "blocking_count": 0,
+  "blocking_paths": [],
+  "non_blocking_changes": {
+   "archive": 9,
+   "documentation": 31,
+   "output": 149
+  }
+ },
+ "official_run": true,
+ "infrastructure_version": "1.0.1",
+ "environment": {
+  "machine": "x86_64",
+  "python_implementation": "CPython",
+  "python_version": "3.12.13",
+  "os": "Darwin",
+  "os_release": "25.5.0",
+  "os_version": "Darwin Kernel Version 25.5.0: Mon Apr 27 20:41:26 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T8132"
+ },
+ "anchor_pool_size": 64,
+ "anchors_excluded_from_pool": [
+  "gold_037",
+  "gold_058"
+ ],
+ "model": {
+  "id": "gemini-3.8-flash",
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "max_output_tokens": 16384,
+  "thinking_level": "LOW",
+  "timeout_s": 300
+ },
+ "anchors": {
+  "mode": "none"
+ },
+ "record_type_filter": null,
+ "case_id_filter": null,
+ "plan_details": {
+  "reference_year_range": [
+   1983,
+   2017
+  ],
+  "reference_year_source": "training_partition_dates"
+ },
+ "validation": {
+  "min_chars": 500,
+  "max_chars": 4200,
+  "length_tolerance": [
+   0.6,
+   1.5
+  ],
+  "min_entities": 2,
+  "count_tolerance_share": 0.34,
+  "count_tolerance_min": 1,
+  "max_verbatim_run_anchor": 10,
+  "max_verbatim_run_train": 12,
+  "near_duplicate_containment": 0.2,
+  "max_entity_chars": 80,
+  "max_attempts_per_case": 10,
+  "age_repeat_policy": "context",
+  "reject_line_breaks": true,
+  "reject_unmarked_named_facility": true,
+  "reject_age_milestones": true,
+  "require_patient_age": true,
+  "max_verbatim_run_accepted": 12
+ },
+ "limits": {
+  "workers": 4,
+  "requests_per_minute": 10,
+  "max_retries": 5,
+  "max_retry_wait_s": 300,
+  "max_cost_usd": 5.0
+ },
+ "started": "2026-11-09T12:23:00+00:00",
+ "sdk_version": "2.34.0",
+ "model_reported_by_api": {
+  "name": "models/gemini-3.8-flash",
+  "version": "3.0",
+  "display_name": "Gemini 3.8 Flash"
+ }
+}

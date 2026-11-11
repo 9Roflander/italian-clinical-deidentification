@@ -1,0 +1,81 @@
+{
+ "fold": 2,
+ "arm": "style_anchored",
+ "examples_checked": 296,
+ "requests_checked": 135,
+ "prompts_rerendered": 135,
+ "prompt_hash_mismatches": 0,
+ "longest_verbatim_run_with_any_test_note": 0,
+ "entity_check": {
+  "policy": "v1, owner 2026-11-09; terminology: candidate match, never leak",
+  "by_class": {
+   "candidate_match": {
+    "test_entities": 12,
+    "matched": 4
+   },
+   "single_token_ET\u00c0": {
+    "test_entities": 18,
+    "matched": 17
+   },
+   "single_token_NOME": {
+    "test_entities": 7,
+    "matched": 3
+   }
+  },
+  "candidate_matches": [
+   {
+    "type": "DATA",
+    "n_tokens": 2,
+    "test_notes": [
+     "gold_009"
+    ],
+    "n_records": 2,
+    "record_ids": [
+     "syn_f2_style_anchored_00205",
+     "syn_f2_style_anchored_00199"
+    ]
+   },
+   {
+    "type": "DATA",
+    "n_tokens": 2,
+    "test_notes": [
+     "gold_009"
+    ],
+    "n_records": 4,
+    "record_ids": [
+     "syn_f2_style_anchored_00134",
+     "syn_f2_style_anchored_00176",
+     "syn_f2_style_anchored_00205",
+     "syn_f2_style_anchored_00227"
+    ]
+   },
+   {
+    "type": "DATA",
+    "n_tokens": 2,
+    "test_notes": [
+     "gold_009"
+    ],
+    "n_records": 2,
+    "record_ids": [
+     "syn_f2_style_anchored_00176",
+     "syn_f2_style_anchored_00205"
+    ]
+   },
+   {
+    "type": "ET\u00c0",
+    "n_tokens": 2,
+    "test_notes": [
+     "gold_073"
+    ],
+    "n_records": 2,
+    "record_ids": [
+     "syn_f2_style_anchored_00051",
+     "syn_f2_style_anchored_00221"
+    ]
+   }
+  ]
+ },
+ "entity_candidate_matches": 4,
+ "violations": [],
+ "passed": true
+}

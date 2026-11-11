@@ -1,0 +1,196 @@
+{
+ "folds_frozen": 5,
+ "report": [
+  {
+   "collection_a": "gold",
+   "n_a": 82,
+   "collection_b": "gold",
+   "n_b": 82,
+   "pairs_sharing_8gram": 1,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 1,
+   "max_longest_run_tokens": 8
+  },
+  {
+   "collection_a": "gold",
+   "n_a": 82,
+   "collection_b": "crf",
+   "n_b": 80,
+   "pairs_sharing_8gram": 80,
+   "exact_duplicate": 77,
+   "near_duplicate": 1,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 2,
+   "max_longest_run_tokens": 636
+  },
+  {
+   "collection_a": "gold",
+   "n_a": 82,
+   "collection_b": "dyspnea",
+   "n_b": 2667,
+   "pairs_sharing_8gram": 0,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 0,
+   "max_longest_run_tokens": 0
+  },
+  {
+   "collection_a": "crf",
+   "n_a": 80,
+   "collection_b": "dyspnea",
+   "n_b": 2667,
+   "pairs_sharing_8gram": 0,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 0,
+   "max_longest_run_tokens": 0
+  },
+  {
+   "collection_a": "gold",
+   "n_a": 82,
+   "collection_b": "S1_named",
+   "n_b": 624,
+   "pairs_sharing_8gram": 24,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 24,
+   "max_longest_run_tokens": 9
+  },
+  {
+   "collection_a": "gold",
+   "n_a": 82,
+   "collection_b": "S1_name_free",
+   "n_b": 254,
+   "pairs_sharing_8gram": 10,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 10,
+   "max_longest_run_tokens": 8
+  },
+  {
+   "collection_a": "gold",
+   "n_a": 82,
+   "collection_b": "S2_named",
+   "n_b": 577,
+   "pairs_sharing_8gram": 24,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 24,
+   "max_longest_run_tokens": 9
+  },
+  {
+   "collection_a": "gold",
+   "n_a": 82,
+   "collection_b": "S2_name_free",
+   "n_b": 221,
+   "pairs_sharing_8gram": 14,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 14,
+   "max_longest_run_tokens": 9
+  },
+  {
+   "collection_a": "crf",
+   "n_a": 80,
+   "collection_b": "S1_named",
+   "n_b": 624,
+   "pairs_sharing_8gram": 24,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 24,
+   "max_longest_run_tokens": 9
+  },
+  {
+   "collection_a": "crf",
+   "n_a": 80,
+   "collection_b": "S1_name_free",
+   "n_b": 254,
+   "pairs_sharing_8gram": 10,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 10,
+   "max_longest_run_tokens": 8
+  },
+  {
+   "collection_a": "crf",
+   "n_a": 80,
+   "collection_b": "S2_named",
+   "n_b": 577,
+   "pairs_sharing_8gram": 24,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 24,
+   "max_longest_run_tokens": 9
+  },
+  {
+   "collection_a": "crf",
+   "n_a": 80,
+   "collection_b": "S2_name_free",
+   "n_b": 221,
+   "pairs_sharing_8gram": 14,
+   "exact_duplicate": 0,
+   "near_duplicate": 0,
+   "partial_overlap_review": 0,
+   "shared_phrase_only": 14,
+   "max_longest_run_tokens": 9
+  }
+ ],
+ "exact_duplicates_within_historical_synthetic": 0,
+ "negative_decisions": {
+  "excluded": 78,
+  "quarantined": 2
+ },
+ "negative_reasons": {
+  "duplicate_of_gold_note": 77,
+  "near_duplicate_of_gold_note": 1,
+  "no_annotations_and_pii_status_unverified": 2
+ },
+ "gold_notes_with_exact_crf_twin": 77,
+ "gold_notes_with_near_crf_twin_only": [],
+ "crf_rows_quarantined": [
+  "IT101195",
+  "IT102068"
+ ],
+ "gold_without_crf_twin": [
+  "gold_053",
+  "gold_055",
+  "gold_061",
+  "gold_066",
+  "gold_079"
+ ],
+ "test_notes_in_crf_per_fold": {
+  "1": 16,
+  "2": 14,
+  "3": 15,
+  "4": 16,
+  "5": 16
+ },
+ "dataset_versions": {
+  "NLP-FBK/synthetic-crf-train": {
+   "sha": "5c6a0098d96a2e1ddd7a92c4954a4c6627bf2977",
+   "last_modified": "2025-12-12 14:54:08+00:00",
+   "gated": "False"
+  },
+  "NLP-FBK/dyspnea-clinical-notes": {
+   "sha": "b58288bb83d1969f3baa585085e448183d8652ec",
+   "last_modified": "2025-12-12 14:54:55+00:00",
+   "gated": "False"
+  },
+  "praiselab-picuslab/DART": {
+   "sha": "14ce22de91924a012f8214e2b27ccb4a9c9e1be7",
+   "last_modified": "2026-05-25 09:45:30+00:00",
+   "gated": "manual"
+  }
+ }
+}

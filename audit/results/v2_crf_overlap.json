@@ -1,0 +1,754 @@
+{
+ "crf_rows": 80,
+ "unique_rows": 80,
+ "cumulative_rows_matched_by_level": {
+  "byte_identical": 0,
+  "whitespace_trimmed": 66,
+  "whitespace_normalised": 75,
+  "unicode_case_whitespace": 75,
+  "token_level_punct_insensitive": 75
+ },
+ "distinct_gold_matched": 75,
+ "gold_not_matched": [
+  53,
+  55,
+  61,
+  66,
+  79
+ ],
+ "crf_rows_not_matched": [
+  {
+   "crf_row": 48,
+   "document_id": "IT101011"
+  },
+  {
+   "crf_row": 74,
+   "document_id": "IT101195"
+  },
+  {
+   "crf_row": 77,
+   "document_id": "IT102056"
+  },
+  {
+   "crf_row": 78,
+   "document_id": "IT102057"
+  },
+  {
+   "crf_row": 79,
+   "document_id": "IT102068"
+  }
+ ],
+ "first_match_level_counts": {
+  "whitespace_trimmed": 66,
+  "whitespace_normalised": 9
+ },
+ "gold_to_crf": [
+  {
+   "gold_id": 0,
+   "crf_row": 0,
+   "document_id": "IT100002",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 1,
+   "crf_row": 1,
+   "document_id": "IT100003",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 2,
+   "crf_row": 2,
+   "document_id": "IT100010",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 3,
+   "crf_row": 3,
+   "document_id": "IT100015",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 4,
+   "crf_row": 4,
+   "document_id": "IT100027",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 5,
+   "crf_row": 5,
+   "document_id": "IT100177",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 6,
+   "crf_row": 6,
+   "document_id": "IT100205",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 7,
+   "crf_row": 7,
+   "document_id": "IT100332",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 8,
+   "crf_row": 8,
+   "document_id": "IT100333",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 9,
+   "crf_row": 9,
+   "document_id": "IT100335",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 10,
+   "crf_row": 10,
+   "document_id": "IT100341",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 11,
+   "crf_row": 11,
+   "document_id": "IT100344",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 12,
+   "crf_row": 12,
+   "document_id": "IT100368",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 13,
+   "crf_row": 13,
+   "document_id": "IT100402",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 14,
+   "crf_row": 14,
+   "document_id": "IT100414",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 15,
+   "crf_row": 15,
+   "document_id": "IT100415",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 16,
+   "crf_row": 16,
+   "document_id": "IT100459",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 17,
+   "crf_row": 17,
+   "document_id": "IT100460",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 18,
+   "crf_row": 18,
+   "document_id": "IT100509",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 19,
+   "crf_row": 19,
+   "document_id": "IT100525",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 20,
+   "crf_row": 20,
+   "document_id": "IT100589",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 21,
+   "crf_row": 21,
+   "document_id": "IT100608",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 22,
+   "crf_row": 22,
+   "document_id": "IT100622",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 23,
+   "crf_row": 23,
+   "document_id": "IT100633",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 24,
+   "crf_row": 24,
+   "document_id": "IT100637",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 25,
+   "crf_row": 25,
+   "document_id": "IT100649",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 26,
+   "crf_row": 26,
+   "document_id": "IT100667",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 27,
+   "crf_row": 27,
+   "document_id": "IT100682",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 28,
+   "crf_row": 28,
+   "document_id": "IT100711",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 29,
+   "crf_row": 29,
+   "document_id": "IT100742",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 30,
+   "crf_row": 30,
+   "document_id": "IT100743",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 31,
+   "crf_row": 31,
+   "document_id": "IT100748",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 32,
+   "crf_row": 32,
+   "document_id": "IT100753",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 33,
+   "crf_row": 33,
+   "document_id": "IT100759",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 34,
+   "crf_row": 34,
+   "document_id": "IT100779",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 35,
+   "crf_row": 35,
+   "document_id": "IT100803",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 36,
+   "crf_row": 36,
+   "document_id": "IT100809",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 37,
+   "crf_row": 37,
+   "document_id": "IT100825",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 38,
+   "crf_row": 38,
+   "document_id": "IT100854",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 39,
+   "crf_row": 39,
+   "document_id": "IT100862",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 40,
+   "crf_row": 40,
+   "document_id": "IT100902",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 41,
+   "crf_row": 41,
+   "document_id": "IT100918",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 42,
+   "crf_row": 42,
+   "document_id": "IT100961",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 43,
+   "crf_row": 43,
+   "document_id": "IT100963",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 44,
+   "crf_row": 44,
+   "document_id": "IT100990",
+   "level": "whitespace_normalised"
+  },
+  {
+   "gold_id": 45,
+   "crf_row": 45,
+   "document_id": "IT100997",
+   "level": "whitespace_normalised"
+  },
+  {
+   "gold_id": 46,
+   "crf_row": 46,
+   "document_id": "IT100998",
+   "level": "whitespace_normalised"
+  },
+  {
+   "gold_id": 47,
+   "crf_row": 47,
+   "document_id": "IT101004",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 48,
+   "crf_row": 49,
+   "document_id": "IT101013",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 49,
+   "crf_row": 50,
+   "document_id": "IT101025",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 50,
+   "crf_row": 51,
+   "document_id": "IT101038",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 51,
+   "crf_row": 52,
+   "document_id": "IT101060",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 52,
+   "crf_row": 53,
+   "document_id": "IT101061",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 54,
+   "crf_row": 54,
+   "document_id": "IT101097",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 56,
+   "crf_row": 55,
+   "document_id": "IT101106",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 57,
+   "crf_row": 56,
+   "document_id": "IT101110",
+   "level": "whitespace_normalised"
+  },
+  {
+   "gold_id": 58,
+   "crf_row": 57,
+   "document_id": "IT101137",
+   "level": "whitespace_normalised"
+  },
+  {
+   "gold_id": 59,
+   "crf_row": 58,
+   "document_id": "IT101139",
+   "level": "whitespace_normalised"
+  },
+  {
+   "gold_id": 60,
+   "crf_row": 59,
+   "document_id": "IT101141",
+   "level": "whitespace_normalised"
+  },
+  {
+   "gold_id": 62,
+   "crf_row": 60,
+   "document_id": "IT101145",
+   "level": "whitespace_normalised"
+  },
+  {
+   "gold_id": 63,
+   "crf_row": 61,
+   "document_id": "IT101146",
+   "level": "whitespace_normalised"
+  },
+  {
+   "gold_id": 64,
+   "crf_row": 62,
+   "document_id": "IT101154",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 65,
+   "crf_row": 63,
+   "document_id": "IT101158",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 67,
+   "crf_row": 64,
+   "document_id": "IT101164",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 68,
+   "crf_row": 65,
+   "document_id": "IT101165",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 69,
+   "crf_row": 66,
+   "document_id": "IT101167",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 70,
+   "crf_row": 67,
+   "document_id": "IT101172",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 71,
+   "crf_row": 68,
+   "document_id": "IT101173",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 72,
+   "crf_row": 69,
+   "document_id": "IT101177",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 73,
+   "crf_row": 70,
+   "document_id": "IT101179",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 74,
+   "crf_row": 71,
+   "document_id": "IT101180",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 75,
+   "crf_row": 72,
+   "document_id": "IT101184",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 76,
+   "crf_row": 73,
+   "document_id": "IT101191",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 77,
+   "crf_row": 75,
+   "document_id": "IT101197",
+   "level": "whitespace_trimmed"
+  },
+  {
+   "gold_id": 78,
+   "crf_row": 76,
+   "document_id": "IT101493",
+   "level": "whitespace_trimmed"
+  }
+ ],
+ "unmatched_crf_rows_best_gold_candidate": [
+  {
+   "crf_row": 48,
+   "document_id": "IT101011",
+   "best_gold_id": 50,
+   "token_seq_ratio": 0.9868,
+   "n_edit_ops": 2,
+   "shared_8grams": 91,
+   "containment_8": 0.858,
+   "shared_5grams": 100,
+   "containment_5": 0.917,
+   "length_tokens": 113,
+   "best_gold_test_fold": 3
+  },
+  {
+   "crf_row": 74,
+   "document_id": "IT101195",
+   "best_gold_id": 75,
+   "token_seq_ratio": 0.0948,
+   "n_edit_ops": 29,
+   "shared_8grams": 0,
+   "containment_8": 0.0,
+   "shared_5grams": 2,
+   "containment_5": 0.004,
+   "length_tokens": 505,
+   "best_gold_test_fold": 4
+  },
+  {
+   "crf_row": 77,
+   "document_id": "IT102056",
+   "best_gold_id": 0,
+   "token_seq_ratio": 0.0711,
+   "n_edit_ops": 30,
+   "shared_8grams": 0,
+   "containment_8": 0.0,
+   "shared_5grams": 0,
+   "containment_5": 0.0,
+   "length_tokens": 354,
+   "best_gold_test_fold": 1
+  },
+  {
+   "crf_row": 78,
+   "document_id": "IT102057",
+   "best_gold_id": 0,
+   "token_seq_ratio": 0.0577,
+   "n_edit_ops": 26,
+   "shared_8grams": 0,
+   "containment_8": 0.0,
+   "shared_5grams": 0,
+   "containment_5": 0.0,
+   "length_tokens": 501,
+   "best_gold_test_fold": 1
+  },
+  {
+   "crf_row": 79,
+   "document_id": "IT102068",
+   "best_gold_id": 0,
+   "token_seq_ratio": 0.0401,
+   "n_edit_ops": 18,
+   "shared_8grams": 0,
+   "containment_8": 0.0,
+   "shared_5grams": 0,
+   "containment_5": 0.0,
+   "length_tokens": 473,
+   "best_gold_test_fold": 1
+  }
+ ],
+ "unmatched_gold_best_crf_candidate": [
+  {
+   "gold_id": 53,
+   "test_fold": 3,
+   "shared_8grams": 0,
+   "containment_8": 0.0,
+   "shared_5grams": 0,
+   "containment_5": 0.0,
+   "crf_row": 0
+  },
+  {
+   "gold_id": 55,
+   "test_fold": 2,
+   "shared_8grams": 0,
+   "containment_8": 0.0,
+   "shared_5grams": 0,
+   "containment_5": 0.0,
+   "crf_row": 0
+  },
+  {
+   "gold_id": 61,
+   "test_fold": 2,
+   "shared_8grams": 0,
+   "containment_8": 0.0,
+   "shared_5grams": 0,
+   "containment_5": 0.0,
+   "crf_row": 0
+  },
+  {
+   "gold_id": 66,
+   "test_fold": 3,
+   "shared_8grams": 0,
+   "containment_8": 0.0,
+   "shared_5grams": 1,
+   "containment_5": 0.004,
+   "crf_row": 58
+  },
+  {
+   "gold_id": 79,
+   "test_fold": 2,
+   "shared_8grams": 0,
+   "containment_8": 0.0,
+   "shared_5grams": 0,
+   "containment_5": 0.0,
+   "crf_row": 0
+  }
+ ],
+ "per_fold_test_notes_in_training": [
+  {
+   "fold": 1,
+   "in_training": 16,
+   "of": 16,
+   "absent_ids": []
+  },
+  {
+   "fold": 2,
+   "in_training": 13,
+   "of": 16,
+   "absent_ids": [
+    55,
+    61,
+    79
+   ]
+  },
+  {
+   "fold": 3,
+   "in_training": 14,
+   "of": 16,
+   "absent_ids": [
+    53,
+    66
+   ]
+  },
+  {
+   "fold": 4,
+   "in_training": 16,
+   "of": 16,
+   "absent_ids": []
+  },
+  {
+   "fold": 5,
+   "in_training": 16,
+   "of": 16,
+   "absent_ids": []
+  }
+ ],
+ "pii": {
+  "total_annotated_mentions": 225,
+  "mentions_in_matched_notes": 207,
+  "matched_notes_with_pii": 73,
+  "matched_notes_without_annotated_pii": [
+   20,
+   37
+  ]
+ },
+ "rows_remaining_after_exact_exclusion": [
+  {
+   "crf_row": 48,
+   "document_id": "IT101011",
+   "age_pattern_hits": 0,
+   "date_pattern_hits": 0,
+   "initials_pattern_hits": 1,
+   "near_duplicate_of_gold": 50
+  },
+  {
+   "crf_row": 74,
+   "document_id": "IT101195",
+   "age_pattern_hits": 2,
+   "date_pattern_hits": 3,
+   "initials_pattern_hits": 5,
+   "near_duplicate_of_gold": null
+  },
+  {
+   "crf_row": 77,
+   "document_id": "IT102056",
+   "age_pattern_hits": 3,
+   "date_pattern_hits": 0,
+   "initials_pattern_hits": 0,
+   "near_duplicate_of_gold": null
+  },
+  {
+   "crf_row": 78,
+   "document_id": "IT102057",
+   "age_pattern_hits": 1,
+   "date_pattern_hits": 0,
+   "initials_pattern_hits": 0,
+   "near_duplicate_of_gold": null
+  },
+  {
+   "crf_row": 79,
+   "document_id": "IT102068",
+   "age_pattern_hits": 1,
+   "date_pattern_hits": 0,
+   "initials_pattern_hits": 0,
+   "near_duplicate_of_gold": null
+  }
+ ],
+ "all_rows_pattern_positive": {
+  "age": 68,
+  "date": 21,
+  "of": 80
+ },
+ "hf_provenance": {
+  "sha": "5c6a0098d96a2e1ddd7a92c4954a4c6627bf2977",
+  "last_modified": "2025-12-12 14:54:08+00:00",
+  "created": "2025-12-02 11:49:04+00:00",
+  "commits": [
+   {
+    "id": "5c6a0098",
+    "date": "2025-12-12",
+    "title": "Update README.md"
+   },
+   {
+    "id": "baa3e394",
+    "date": "2025-12-10",
+    "title": "Update README.md"
+   },
+   {
+    "id": "9055bc3b",
+    "date": "2025-12-02",
+    "title": "Update README.md"
+   },
+   {
+    "id": "27e4324e",
+    "date": "2025-12-02",
+    "title": "Update README.md"
+   },
+   {
+    "id": "4ffff19d",
+    "date": "2025-12-02",
+    "title": "Upload dataset"
+   },
+   {
+    "id": "49a37713",
+    "date": "2025-12-02",
+    "title": "Upload dataset"
+   },
+   {
+    "id": "fe7b389a",
+    "date": "2025-12-02",
+    "title": "initial commit"
+   }
+  ]
+ },
+ "crf_vs_synth_notes_sharing_8gram": {
+  "S1_named": 24,
+  "S1_noname": 10,
+  "S2_named": 24,
+  "S2_noname": 14
+ }
+}

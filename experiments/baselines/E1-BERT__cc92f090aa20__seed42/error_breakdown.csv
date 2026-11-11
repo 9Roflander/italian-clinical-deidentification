@@ -1,0 +1,9 @@
+category,side,kind,count
+DATA,gold,missed,59
+ETÀ,gold,correct,4
+ETÀ,gold,missed,98
+ETÀ,prediction,spurious,1
+ETÀ,prediction,wrong_boundary_and_category,6
+LUOGO/INDIRIZZO,gold,missed,37
+NOME,gold,missed,52
+NOME,gold,wrong_boundary_and_category,2

@@ -1,0 +1,3544 @@
+{
+ "by_status": {
+  "valid": 82
+ },
+ "invalid_note_ids": [],
+ "invalid_outputs": 0,
+ "missing_predictions": 0,
+ "notes": 82,
+ "outputs_normalized": 0,
+ "outputs_not_alignable_unambiguously": 0,
+ "per_note": [
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     20,
+     22,
+     "ETÀ"
+    ],
+    [
+     431,
+     438,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     511,
+     527,
+     "DATA"
+    ],
+    [
+     594,
+     610,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     789,
+     803,
+     "DATA"
+    ],
+    [
+     1041,
+     1046,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1050,
+     1057,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1059,
+     1063,
+     "NOME"
+    ],
+    [
+     2608,
+     2612,
+     "NOME"
+    ],
+    [
+     2861,
+     2865,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 10,
+   "note_id": "gold_000",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     20,
+     22,
+     "ETÀ"
+    ],
+    [
+     431,
+     438,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     511,
+     527,
+     "DATA"
+    ],
+    [
+     594,
+     610,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     789,
+     803,
+     "DATA"
+    ],
+    [
+     1041,
+     1057,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1059,
+     1063,
+     "NOME"
+    ],
+    [
+     2608,
+     2612,
+     "NOME"
+    ],
+    [
+     2861,
+     2865,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     0,
+     8,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ],
+    [
+     43,
+     47,
+     "DATA"
+    ],
+    [
+     185,
+     192,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     595,
+     599,
+     "DATA"
+    ],
+    [
+     613,
+     621,
+     "NOME"
+    ],
+    [
+     712,
+     720,
+     "NOME"
+    ],
+    [
+     1037,
+     1042,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1046,
+     1053,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1364,
+     1372,
+     "NOME"
+    ],
+    [
+     2406,
+     2414,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 11,
+   "note_id": "gold_001",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     8,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ],
+    [
+     43,
+     47,
+     "DATA"
+    ],
+    [
+     185,
+     192,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     595,
+     599,
+     "DATA"
+    ],
+    [
+     613,
+     621,
+     "NOME"
+    ],
+    [
+     712,
+     720,
+     "NOME"
+    ],
+    [
+     1037,
+     1042,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1046,
+     1053,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1364,
+     1372,
+     "NOME"
+    ],
+    [
+     2406,
+     2414,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     44,
+     46,
+     "ETÀ"
+    ],
+    [
+     367,
+     369,
+     "ETÀ"
+    ],
+    [
+     433,
+     435,
+     "ETÀ"
+    ],
+    [
+     819,
+     823,
+     "DATA"
+    ],
+    [
+     836,
+     838,
+     "ETÀ"
+    ],
+    [
+     2465,
+     2467,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 7,
+   "note_id": "gold_002",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     44,
+     46,
+     "ETÀ"
+    ],
+    [
+     79,
+     81,
+     "ETÀ"
+    ],
+    [
+     367,
+     369,
+     "ETÀ"
+    ],
+    [
+     433,
+     435,
+     "ETÀ"
+    ],
+    [
+     819,
+     823,
+     "DATA"
+    ],
+    [
+     836,
+     838,
+     "ETÀ"
+    ],
+    [
+     2465,
+     2467,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     44,
+     46,
+     "ETÀ"
+    ],
+    [
+     74,
+     78,
+     "DATA"
+    ],
+    [
+     419,
+     430,
+     "DATA"
+    ],
+    [
+     804,
+     817,
+     "DATA"
+    ],
+    [
+     1782,
+     1795,
+     "DATA"
+    ],
+    [
+     2022,
+     2032,
+     "DATA"
+    ],
+    [
+     2515,
+     2526,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 7,
+   "note_id": "gold_003",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     44,
+     46,
+     "ETÀ"
+    ],
+    [
+     74,
+     78,
+     "ETÀ"
+    ],
+    [
+     419,
+     430,
+     "DATA"
+    ],
+    [
+     804,
+     817,
+     "DATA"
+    ],
+    [
+     1782,
+     1795,
+     "DATA"
+    ],
+    [
+     2022,
+     2032,
+     "DATA"
+    ],
+    [
+     2515,
+     2526,
+     "DATA"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     15,
+     17,
+     "ETÀ"
+    ],
+    [
+     27,
+     40,
+     "DATA"
+    ],
+    [
+     1160,
+     1172,
+     "DATA"
+    ],
+    [
+     1175,
+     1188,
+     "DATA"
+    ],
+    [
+     1801,
+     1814,
+     "DATA"
+    ],
+    [
+     2016,
+     2029,
+     "DATA"
+    ],
+    [
+     2031,
+     2033,
+     "ETÀ"
+    ],
+    [
+     2462,
+     2475,
+     "DATA"
+    ],
+    [
+     2478,
+     2492,
+     "DATA"
+    ],
+    [
+     2494,
+     2496,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 12,
+   "note_id": "gold_004",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     15,
+     17,
+     "ETÀ"
+    ],
+    [
+     27,
+     40,
+     "DATA"
+    ],
+    [
+     1160,
+     1172,
+     "DATA"
+    ],
+    [
+     1175,
+     1188,
+     "DATA"
+    ],
+    [
+     1801,
+     1814,
+     "DATA"
+    ],
+    [
+     2016,
+     2029,
+     "DATA"
+    ],
+    [
+     2031,
+     2033,
+     "ETÀ"
+    ],
+    [
+     2462,
+     2475,
+     "DATA"
+    ],
+    [
+     2478,
+     2492,
+     "DATA"
+    ],
+    [
+     2494,
+     2496,
+     "ETÀ"
+    ],
+    [
+     3557,
+     3559,
+     "ETÀ"
+    ],
+    [
+     3654,
+     3656,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     0,
+     7,
+     "NOME"
+    ],
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_005",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     7,
+     "NOME"
+    ],
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_006",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     16,
+     18,
+     "ETÀ"
+    ],
+    [
+     43,
+     50,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     82,
+     102,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     104,
+     111,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     116,
+     133,
+     "DATA"
+    ],
+    [
+     736,
+     753,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1646,
+     1653,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1921,
+     1928,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1931,
+     1943,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     3650,
+     3657,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "n_predictions": 13,
+   "note_id": "gold_007",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     16,
+     18,
+     "ETÀ"
+    ],
+    [
+     43,
+     50,
+     "ETÀ"
+    ],
+    [
+     82,
+     90,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     94,
+     102,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     104,
+     111,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     116,
+     133,
+     "DATA"
+    ],
+    [
+     736,
+     738,
+     "NOME"
+    ],
+    [
+     738,
+     753,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1641,
+     1642,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1646,
+     1653,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1921,
+     1928,
+     "NOME"
+    ],
+    [
+     1931,
+     1936,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     3650,
+     3657,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ],
+    [
+     67,
+     82,
+     "DATA"
+    ],
+    [
+     2034,
+     2042,
+     "DATA"
+    ],
+    [
+     3534,
+     3551,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 4,
+   "note_id": "gold_008",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ],
+    [
+     67,
+     82,
+     "DATA"
+    ],
+    [
+     2034,
+     2055,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     3534,
+     3551,
+     "DATA"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     2,
+     14,
+     "DATA"
+    ],
+    [
+     64,
+     66,
+     "ETÀ"
+    ],
+    [
+     1361,
+     1374,
+     "DATA"
+    ],
+    [
+     1690,
+     1701,
+     "DATA"
+    ],
+    [
+     3044,
+     3055,
+     "DATA"
+    ],
+    [
+     3357,
+     3370,
+     "DATA"
+    ],
+    [
+     3726,
+     3739,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 11,
+   "note_id": "gold_009",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     2,
+     14,
+     "DATA"
+    ],
+    [
+     64,
+     66,
+     "ETÀ"
+    ],
+    [
+     1361,
+     1374,
+     "DATA"
+    ],
+    [
+     1690,
+     1701,
+     "DATA"
+    ],
+    [
+     2232,
+     2236,
+     "DATA"
+    ],
+    [
+     2252,
+     2256,
+     "DATA"
+    ],
+    [
+     3044,
+     3055,
+     "DATA"
+    ],
+    [
+     3357,
+     3370,
+     "DATA"
+    ],
+    [
+     3372,
+     3374,
+     "DATA"
+    ],
+    [
+     3726,
+     3739,
+     "DATA"
+    ],
+    [
+     3741,
+     3744,
+     "DATA"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     36,
+     38,
+     "ETÀ"
+    ],
+    [
+     375,
+     392,
+     "DATA"
+    ],
+    [
+     2277,
+     2288,
+     "DATA"
+    ],
+    [
+     2379,
+     2388,
+     "DATA"
+    ],
+    [
+     2946,
+     2952,
+     "DATA"
+    ],
+    [
+     2995,
+     3004,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 6,
+   "note_id": "gold_010",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     36,
+     38,
+     "ETÀ"
+    ],
+    [
+     375,
+     392,
+     "DATA"
+    ],
+    [
+     2277,
+     2288,
+     "DATA"
+    ],
+    [
+     2379,
+     2388,
+     "DATA"
+    ],
+    [
+     2946,
+     2952,
+     "DATA"
+    ],
+    [
+     2995,
+     3004,
+     "DATA"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_011",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     9,
+     11,
+     "ETÀ"
+    ],
+    [
+     96,
+     100,
+     "DATA"
+    ],
+    [
+     183,
+     187,
+     "DATA"
+    ],
+    [
+     191,
+     204,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 4,
+   "note_id": "gold_012",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     9,
+     11,
+     "ETÀ"
+    ],
+    [
+     96,
+     100,
+     "DATA"
+    ],
+    [
+     183,
+     187,
+     "DATA"
+    ],
+    [
+     191,
+     204,
+     "DATA"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     140,
+     144,
+     "NOME"
+    ],
+    [
+     155,
+     157,
+     "ETÀ"
+    ],
+    [
+     515,
+     519,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_013",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     140,
+     144,
+     "NOME"
+    ],
+    [
+     155,
+     157,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     19,
+     21,
+     "ETÀ"
+    ],
+    [
+     407,
+     411,
+     "DATA"
+    ],
+    [
+     776,
+     780,
+     "DATA"
+    ],
+    [
+     1051,
+     1055,
+     "DATA"
+    ],
+    [
+     1230,
+     1234,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 4,
+   "note_id": "gold_014",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     12,
+     "NOME"
+    ],
+    [
+     19,
+     21,
+     "ETÀ"
+    ],
+    [
+     407,
+     409,
+     "DATA"
+    ],
+    [
+     776,
+     779,
+     "DATA"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     77,
+     79,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_015",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     77,
+     79,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     8,
+     10,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_016",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     8,
+     10,
+     "ETÀ"
+    ],
+    [
+     105,
+     111,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     5,
+     7,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_017",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     5,
+     7,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     7,
+     9,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_018",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     7,
+     9,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     12,
+     18,
+     "NOME"
+    ],
+    [
+     20,
+     22,
+     "ETÀ"
+    ],
+    [
+     400,
+     404,
+     "DATA"
+    ],
+    [
+     1857,
+     1870,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 5,
+   "note_id": "gold_019",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     12,
+     18,
+     "NOME"
+    ],
+    [
+     20,
+     22,
+     "ETÀ"
+    ],
+    [
+     32,
+     34,
+     "ETÀ"
+    ],
+    [
+     400,
+     404,
+     "ETÀ"
+    ],
+    [
+     1857,
+     1870,
+     "DATA"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [],
+   "n_predictions": 0,
+   "note_id": "gold_020",
+   "output_normalized": false,
+   "predicted_entity_spans": [],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     8,
+     10,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_021",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     8,
+     10,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     44,
+     46,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_022",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     44,
+     46,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_023",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     35,
+     37,
+     "ETÀ"
+    ],
+    [
+     194,
+     198,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_024",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     35,
+     37,
+     "ETÀ"
+    ],
+    [
+     194,
+     198,
+     "DATA"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     5,
+     7,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_025",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     7,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_026",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     12,
+     14,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_027",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     12,
+     14,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     10,
+     17,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     21,
+     23,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 5,
+   "note_id": "gold_028",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     10,
+     17,
+     "ETÀ"
+    ],
+    [
+     21,
+     23,
+     "ETÀ"
+    ],
+    [
+     24,
+     25,
+     "ETÀ"
+    ],
+    [
+     25,
+     26,
+     "ETÀ"
+    ],
+    [
+     1027,
+     1028,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     7,
+     9,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_029",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     7,
+     9,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     9,
+     11,
+     "ETÀ"
+    ],
+    [
+     17,
+     29,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_030",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     9,
+     11,
+     "ETÀ"
+    ],
+    [
+     17,
+     21,
+     "ETÀ"
+    ],
+    [
+     21,
+     27,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     22,
+     24,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_031",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     19,
+     20,
+     "ETÀ"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     53,
+     55,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_032",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     53,
+     55,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     5,
+     7,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_033",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     5,
+     7,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     9,
+     11,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_034",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     9,
+     11,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     12,
+     14,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_035",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     12,
+     14,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_036",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     969,
+     971,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_037",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     969,
+     971,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_038",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     11,
+     13,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_039",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     11,
+     13,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     16,
+     18,
+     "ETÀ"
+    ],
+    [
+     152,
+     154,
+     "ETÀ"
+    ],
+    [
+     2351,
+     2353,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 4,
+   "note_id": "gold_040",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     16,
+     18,
+     "ETÀ"
+    ],
+    [
+     72,
+     74,
+     "ETÀ"
+    ],
+    [
+     152,
+     154,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     313,
+     315,
+     "ETÀ"
+    ],
+    [
+     447,
+     451,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_041",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     313,
+     315,
+     "ETÀ"
+    ],
+    [
+     447,
+     451,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ],
+    [
+     37,
+     55,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     57,
+     75,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_042",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ],
+    [
+     37,
+     55,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     57,
+     75,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     6,
+     8,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_043",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     6,
+     8,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     51,
+     58,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_044",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     51,
+     53,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_045",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     82,
+     89,
+     "ETÀ"
+    ],
+    [
+     1213,
+     1218,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1967,
+     1972,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     2530,
+     2535,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "n_predictions": 4,
+   "note_id": "gold_046",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     82,
+     84,
+     "ETÀ"
+    ],
+    [
+     1213,
+     1218,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1967,
+     1972,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     2530,
+     2535,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     8,
+     16,
+     "NOME"
+    ],
+    [
+     20,
+     22,
+     "ETÀ"
+    ],
+    [
+     669,
+     677,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 4,
+   "note_id": "gold_047",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     3,
+     7,
+     "NOME"
+    ],
+    [
+     8,
+     16,
+     "NOME"
+    ],
+    [
+     20,
+     22,
+     "ETÀ"
+    ],
+    [
+     664,
+     677,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     10,
+     17,
+     "NOME"
+    ],
+    [
+     21,
+     23,
+     "ETÀ"
+    ],
+    [
+     357,
+     364,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_048",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     10,
+     17,
+     "NOME"
+    ],
+    [
+     21,
+     23,
+     "ETÀ"
+    ],
+    [
+     357,
+     364,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     10,
+     13,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ],
+    [
+     125,
+     128,
+     "NOME"
+    ],
+    [
+     328,
+     331,
+     "NOME"
+    ],
+    [
+     420,
+     423,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 5,
+   "note_id": "gold_049",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     10,
+     13,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ],
+    [
+     125,
+     128,
+     "NOME"
+    ],
+    [
+     328,
+     331,
+     "NOME"
+    ],
+    [
+     420,
+     423,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     0,
+     5,
+     "NOME"
+    ],
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_050",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     5,
+     "NOME"
+    ],
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     10,
+     17,
+     "NOME"
+    ],
+    [
+     21,
+     23,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_051",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     10,
+     17,
+     "NOME"
+    ],
+    [
+     21,
+     23,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     10,
+     18,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_052",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     10,
+     18,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     8,
+     12,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ],
+    [
+     147,
+     151,
+     "NOME"
+    ],
+    [
+     362,
+     366,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 5,
+   "note_id": "gold_053",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     3,
+     12,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ],
+    [
+     60,
+     64,
+     "NOME"
+    ],
+    [
+     147,
+     151,
+     "NOME"
+    ],
+    [
+     362,
+     366,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     10,
+     16,
+     "NOME"
+    ],
+    [
+     26,
+     28,
+     "ETÀ"
+    ],
+    [
+     218,
+     224,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_054",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     10,
+     16,
+     "NOME"
+    ],
+    [
+     26,
+     28,
+     "ETÀ"
+    ],
+    [
+     218,
+     224,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     10,
+     18,
+     "NOME"
+    ],
+    [
+     28,
+     30,
+     "ETÀ"
+    ],
+    [
+     141,
+     149,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_055",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     10,
+     18,
+     "NOME"
+    ],
+    [
+     28,
+     30,
+     "ETÀ"
+    ],
+    [
+     141,
+     149,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     11,
+     16,
+     "NOME"
+    ],
+    [
+     18,
+     27,
+     "ETÀ"
+    ],
+    [
+     257,
+     262,
+     "NOME"
+    ],
+    [
+     439,
+     444,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_056",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     11,
+     16,
+     "NOME"
+    ],
+    [
+     257,
+     262,
+     "NOME"
+    ],
+    [
+     439,
+     444,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     4,
+     19,
+     "DATA"
+    ],
+    [
+     51,
+     53,
+     "ETÀ"
+    ],
+    [
+     372,
+     382,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "n_predictions": 10,
+   "note_id": "gold_057",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     4,
+     19,
+     "DATA"
+    ],
+    [
+     51,
+     53,
+     "ETÀ"
+    ],
+    [
+     457,
+     463,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     964,
+     965,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     973,
+     974,
+     "NOME"
+    ],
+    [
+     974,
+     975,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     985,
+     986,
+     "NOME"
+    ],
+    [
+     986,
+     987,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1000,
+     1001,
+     "NOME"
+    ],
+    [
+     1001,
+     1002,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     297,
+     299,
+     "ETÀ"
+    ],
+    [
+     320,
+     327,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1038,
+     1039,
+     "ETÀ"
+    ],
+    [
+     1311,
+     1333,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1337,
+     1343,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1539,
+     1541,
+     "ETÀ"
+    ],
+    [
+     2027,
+     2034,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "n_predictions": 5,
+   "note_id": "gold_058",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     26,
+     28,
+     "ETÀ"
+    ],
+    [
+     297,
+     299,
+     "ETÀ"
+    ],
+    [
+     320,
+     327,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1038,
+     1039,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     11,
+     20,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_059",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     11,
+     13,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     11,
+     12,
+     "ETÀ"
+    ],
+    [
+     2818,
+     2820,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_060",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     11,
+     12,
+     "ETÀ"
+    ],
+    [
+     1369,
+     1371,
+     "ETÀ"
+    ],
+    [
+     2818,
+     2820,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     28,
+     30,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_061",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     28,
+     30,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     15,
+     17,
+     "ETÀ"
+    ],
+    [
+     157,
+     158,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 5,
+   "note_id": "gold_062",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     15,
+     17,
+     "ETÀ"
+    ],
+    [
+     157,
+     158,
+     "ETÀ"
+    ],
+    [
+     1123,
+     1124,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     2650,
+     2655,
+     "NOME"
+    ],
+    [
+     2659,
+     2666,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     27,
+     28,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_063",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     27,
+     28,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     31,
+     33,
+     "ETÀ"
+    ],
+    [
+     91,
+     98,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_064",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     31,
+     33,
+     "ETÀ"
+    ],
+    [
+     91,
+     98,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     0,
+     5,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_065",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     5,
+     "NOME"
+    ],
+    [
+     22,
+     24,
+     "ETÀ"
+    ],
+    [
+     1728,
+     1738,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     0,
+     2,
+     "NOME"
+    ],
+    [
+     47,
+     48,
+     "ETÀ"
+    ],
+    [
+     246,
+     259,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     260,
+     269,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     415,
+     418,
+     "ETÀ"
+    ],
+    [
+     540,
+     541,
+     "ETÀ"
+    ],
+    [
+     721,
+     723,
+     "ETÀ"
+    ],
+    [
+     1152,
+     1154,
+     "ETÀ"
+    ],
+    [
+     1505,
+     1507,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_066",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     2,
+     "NOME"
+    ],
+    [
+     251,
+     269,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     11,
+     12,
+     "ETÀ"
+    ],
+    [
+     351,
+     352,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_067",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     11,
+     12,
+     "ETÀ"
+    ],
+    [
+     147,
+     148,
+     "ETÀ"
+    ],
+    [
+     351,
+     352,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     45,
+     46,
+     "ETÀ"
+    ],
+    [
+     63,
+     72,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1119,
+     1127,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1131,
+     1133,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 4,
+   "note_id": "gold_068",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     45,
+     46,
+     "ETÀ"
+    ],
+    [
+     65,
+     71,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1119,
+     1127,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     1131,
+     1133,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     6,
+     8,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_069",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     6,
+     8,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 1,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     17,
+     18,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 2,
+   "note_id": "gold_070",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     17,
+     18,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     32,
+     42,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     47,
+     48,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_071",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     22,
+     30,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     32,
+     42,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     47,
+     48,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     11,
+     19,
+     "NOME"
+    ],
+    [
+     80,
+     81,
+     "ETÀ"
+    ],
+    [
+     612,
+     620,
+     "NOME"
+    ],
+    [
+     2283,
+     2291,
+     "NOME"
+    ],
+    [
+     2766,
+     2774,
+     "NOME"
+    ],
+    [
+     2911,
+     2919,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 6,
+   "note_id": "gold_072",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     11,
+     19,
+     "NOME"
+    ],
+    [
+     80,
+     81,
+     "ETÀ"
+    ],
+    [
+     614,
+     617,
+     "NOME"
+    ],
+    [
+     617,
+     620,
+     "NOME"
+    ],
+    [
+     2283,
+     2291,
+     "NOME"
+    ],
+    [
+     2766,
+     2774,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     51,
+     58,
+     "ETÀ"
+    ],
+    [
+     138,
+     147,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     187,
+     195,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "n_predictions": 4,
+   "note_id": "gold_073",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     138,
+     146,
+     "NOME"
+    ],
+    [
+     187,
+     195,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     200,
+     206,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     210,
+     213,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 5,
+   "gold_entity_spans": [
+    [
+     0,
+     8,
+     "NOME"
+    ],
+    [
+     884,
+     892,
+     "NOME"
+    ],
+    [
+     2346,
+     2354,
+     "NOME"
+    ],
+    [
+     2832,
+     2837,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     3223,
+     3231,
+     "NOME"
+    ]
+   ],
+   "n_predictions": 5,
+   "note_id": "gold_074",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     8,
+     "NOME"
+    ],
+    [
+     884,
+     892,
+     "NOME"
+    ],
+    [
+     2346,
+     2354,
+     "NOME"
+    ],
+    [
+     2832,
+     2837,
+     "LUOGO/INDIRIZZO"
+    ],
+    [
+     3223,
+     3231,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     27,
+     29,
+     "ETÀ"
+    ],
+    [
+     64,
+     77,
+     "DATA"
+    ],
+    [
+     1208,
+     1210,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 4,
+   "note_id": "gold_075",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     27,
+     29,
+     "ETÀ"
+    ],
+    [
+     64,
+     77,
+     "DATA"
+    ],
+    [
+     1208,
+     1210,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     6,
+     8,
+     "ETÀ"
+    ],
+    [
+     24,
+     35,
+     "LUOGO/INDIRIZZO"
+    ]
+   ],
+   "n_predictions": 3,
+   "note_id": "gold_076",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     2,
+     4,
+     "NOME"
+    ],
+    [
+     6,
+     8,
+     "ETÀ"
+    ],
+    [
+     28,
+     33,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     0,
+     4,
+     "NOME"
+    ],
+    [
+     15,
+     16,
+     "ETÀ"
+    ],
+    [
+     23,
+     33,
+     "DATA"
+    ],
+    [
+     274,
+     284,
+     "DATA"
+    ],
+    [
+     413,
+     424,
+     "DATA"
+    ],
+    [
+     491,
+     505,
+     "DATA"
+    ],
+    [
+     816,
+     829,
+     "DATA"
+    ],
+    [
+     881,
+     891,
+     "DATA"
+    ],
+    [
+     1069,
+     1080,
+     "DATA"
+    ],
+    [
+     1115,
+     1127,
+     "DATA"
+    ],
+    [
+     1339,
+     1352,
+     "DATA"
+    ],
+    [
+     1460,
+     1473,
+     "DATA"
+    ],
+    [
+     1636,
+     1647,
+     "DATA"
+    ],
+    [
+     2168,
+     2179,
+     "DATA"
+    ],
+    [
+     2846,
+     2863,
+     "DATA"
+    ]
+   ],
+   "n_predictions": 14,
+   "note_id": "gold_077",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     15,
+     16,
+     "ETÀ"
+    ],
+    [
+     23,
+     33,
+     "DATA"
+    ],
+    [
+     274,
+     284,
+     "DATA"
+    ],
+    [
+     413,
+     424,
+     "DATA"
+    ],
+    [
+     491,
+     505,
+     "DATA"
+    ],
+    [
+     816,
+     829,
+     "DATA"
+    ],
+    [
+     881,
+     891,
+     "DATA"
+    ],
+    [
+     1069,
+     1080,
+     "DATA"
+    ],
+    [
+     1115,
+     1127,
+     "DATA"
+    ],
+    [
+     1339,
+     1352,
+     "DATA"
+    ],
+    [
+     1460,
+     1473,
+     "DATA"
+    ],
+    [
+     1636,
+     1647,
+     "DATA"
+    ],
+    [
+     2168,
+     2179,
+     "DATA"
+    ],
+    [
+     2846,
+     2863,
+     "DATA"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 4,
+   "gold_entity_spans": [
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_078",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     14,
+     16,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_079",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 3,
+   "gold_entity_spans": [
+    [
+     12,
+     14,
+     "ETÀ"
+    ],
+    [
+     105,
+     107,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 1,
+   "note_id": "gold_080",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     12,
+     14,
+     "ETÀ"
+    ]
+   ],
+   "status": "valid"
+  },
+  {
+   "fold": 2,
+   "gold_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ]
+   ],
+   "n_predictions": 6,
+   "note_id": "gold_081",
+   "output_normalized": false,
+   "predicted_entity_spans": [
+    [
+     13,
+     15,
+     "ETÀ"
+    ],
+    [
+     138,
+     140,
+     "NOME"
+    ],
+    [
+     2512,
+     2514,
+     "NOME"
+    ],
+    [
+     2829,
+     2831,
+     "NOME"
+    ],
+    [
+     3482,
+     3489,
+     "ETÀ"
+    ],
+    [
+     3504,
+     3506,
+     "NOME"
+    ]
+   ],
+   "status": "valid"
+  }
+ ],
+ "valid_outputs": 82
+}

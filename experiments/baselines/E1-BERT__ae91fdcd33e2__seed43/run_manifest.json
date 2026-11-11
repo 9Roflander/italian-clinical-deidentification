@@ -1,0 +1,91 @@
+{
+ "bootstrap": {
+  "confidence": 0.95,
+  "iterations": 10000,
+  "method": "percentile",
+  "minimum_iterations": 2000,
+  "seed": 42,
+  "strata": "fold"
+ },
+ "checkpoint": "E1-BERT/seed_43",
+ "config_id": "ae91fdcd33e2",
+ "environment": {
+  "machine": "x86_64",
+  "numpy": "2.5.4",
+  "os": "Darwin",
+  "os_release": "25.5.0",
+  "os_version": "Darwin Kernel Version 25.5.0: Mon Apr 27 20:41:26 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T8132",
+  "python": "3.12.13",
+  "python_implementation": "CPython",
+  "python_version": "3.12.13"
+ },
+ "evaluator": {
+  "fingerprint_sha256": "6e72b75b4d50cde27ab4e1f335b7a2e16bfbed7395cfa175f2d847f9fd1153fe",
+  "git_commit": "f13f8d8579f2ea4fdfe5c847974c7f17452ab44e",
+  "git_dirty": false,
+  "source_integrity": {
+   "blocking_count": 0,
+   "blocking_paths": [],
+   "clean": true,
+   "commit": "f13f8d8579f2ea4fdfe5c847974c7f17452ab44e",
+   "critical_tree_sha256": "a392febdfdb16b1c4ba8bf4f5afc4614757fc98efb341f556b9bb1a5969edd6a",
+   "git_available": true,
+   "non_blocking_changes": {
+    "archive": 9,
+    "documentation": 2,
+    "output": 36
+   },
+   "policy_version": "1"
+  },
+  "version": "1.0.1"
+ },
+ "experiment": "E1-BERT",
+ "files": {
+  "alignment_report.json": "86258d6caf92512d5fcf736e5fa0568ef43739da5e050cf198bd5203b87d0ab1",
+  "bootstrap_results.json": "cd5e08d62f2290777a77cfd1792a6f69d263079e085b5b5678ac2e25cbae9812",
+  "error_breakdown.csv": "48fcf97cec3f6988e440a05a5be00bf8e77668654f169fe70b012031ce18c0e2",
+  "evaluation_summary.md": "10833ef6b1f5998b73e97ffd1cb84adbdb84e7df034e76df4f95446cd4c70347",
+  "per_category_metrics.csv": "1095bbb6b992c247426c6b0d8503f520dbe31c68324c46bf08370f875ef0c57b",
+  "per_fold_metrics.csv": "6af61e3ecbba77419f7488f9e1b3042d649d3866ea32c6c75a567100232ecd14",
+  "per_note_metrics.csv": "ec45db38adecd57fc355bc2e14fe18a37464639a88016a94e27280b7262b4157",
+  "pooled_metrics.json": "cd74d0ea339354957562d03e61fbfc98f9f07210d5ae3b04c2d69e5bfca470cd"
+ },
+ "folds": {
+  "file_sha256": {
+   "1": "21fb110aae73f038677aa5aab2e802047a45c4f8c2a8beea209e3b82c7825fdd",
+   "2": "26decf56361bec41ae4773456cd9ac8b82da1b6b2960952aa7cbbf475772e7c8",
+   "3": "b1734c1be922c61e3418c240a4cbe185ae96f2cd69fa96515be2b628c677ade5",
+   "4": "266d48904cd7256c9de59126e0cd0e147ac32ff783aae5d6f9529c8c12ffe6cd",
+   "5": "df831980622cb31deec752d93d7fd824a28a1d5b03a9036f7da6fa189ea95adb"
+  },
+  "held_out_sizes": {
+   "1": 16,
+   "2": 17,
+   "3": 17,
+   "4": 16,
+   "5": 16
+  },
+  "source": "splits/fold_*.json"
+ },
+ "generated_at_utc": "2026-11-10T19:22:51+00:00",
+ "gold": {
+  "entities": 252,
+  "notes": 82,
+  "sha256": "c0f66a9639ffb9af5f9f11c7706ebf666880a1bcff05c28735d0fa7ad5c94b8d",
+  "verification": "passed: hash, counts per category and fold, offsets, overlaps, NFC, stored targets",
+  "version": "v2"
+ },
+ "infrastructure_version": "1.0.1",
+ "manifest_sha256": "4b6d84c064ba865fe19ba0cd6943e224d3ad50a6f14d86e3451a43f46f3ce002",
+ "model": "dbmdz/bert-base-italian-xxl-cased",
+ "model_revision": "9bdf84aedf00aa4e99b01a6f2c76f6070ac7240b",
+ "official_run": true,
+ "predictions": {
+  "path": "predictions_secure/E1-BERT__ae91fdcd33e2__seed43/predictions_oof.jsonl",
+  "records": 82,
+  "sha256": "206530f15d1d11fa208008ad2897184864816ad7108ff646ab6f9d07b2f06c67"
+ },
+ "run_id": "E1-BERT__ae91fdcd33e2__seed43",
+ "seed": 43,
+ "stage": "development_cross_validation"
+}

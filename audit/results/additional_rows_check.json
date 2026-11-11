@@ -1,0 +1,287 @@
+{
+ "surplus_listings": [
+  {
+   "note_id": "gold_000",
+   "shape": "aaaa",
+   "uncovered_variant_spans": [],
+   "similar_uncovered_words": [
+    {
+     "start": 23,
+     "shape": "aaaa",
+     "ratio": 0.75
+    }
+   ],
+   "uncovered_single_initial_at": []
+  },
+  {
+   "note_id": "gold_007",
+   "shape": "aaaaaaaa aa aaaaaaaa",
+   "uncovered_variant_spans": [
+    [
+     736,
+     753,
+     "aaaaaaaa aaaaaaaa"
+    ]
+   ],
+   "similar_uncovered_words": [],
+   "uncovered_single_initial_at": []
+  },
+  {
+   "note_id": "gold_056",
+   "shape": "aaaaa",
+   "uncovered_variant_spans": [],
+   "similar_uncovered_words": [],
+   "uncovered_single_initial_at": []
+  }
+ ],
+ "gold_065_start": {
+  "entities_starting_before_8": [
+   [
+    0,
+    "NOME",
+    "a. a."
+   ]
+  ],
+  "first_token_shapes": [
+   "a.",
+   "a.",
+   "a"
+  ]
+ },
+ "italia": {
+  "annotated_as_mention": [],
+  "total_occurrences": 2
+ },
+ "gold_073": {
+  "place_mentions": [
+   [
+    138,
+    "aaaaaaaaa"
+   ],
+   [
+    187,
+    "aaaaaaaa"
+   ]
+  ],
+  "unannotated_place_at": 200
+ },
+ "uncovered_age_like": {
+  "tally": {
+   "digits|duration_like_word": 33,
+   "digits|other_word": 10,
+   "digits|punctuation": 2,
+   "spelled|duration_like_word": 16,
+   "spelled|other_word": 2,
+   "spelled|punctuation": 4
+  },
+  "to_inspect": [
+   {
+    "note_id": "gold_002",
+    "start": 190,
+    "end": 192,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "99",
+    "unit": "anni",
+    "prev_shape": "aaaaaa"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 1651,
+    "end": 1653,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "99",
+    "unit": "anni",
+    "prev_shape": "aaa"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 1750,
+    "end": 1752,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "99",
+    "unit": "anni",
+    "prev_shape": "aaa"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 3429,
+    "end": 3431,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "99",
+    "unit": "anni",
+    "prev_shape": "aaa"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 3654,
+    "end": 3656,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "99",
+    "unit": "anni",
+    "prev_shape": "aaa"
+   },
+   {
+    "note_id": "gold_005",
+    "start": 368,
+    "end": 371,
+    "kind": "spelled",
+    "category": "punctuation",
+    "number_shape": "aaa",
+    "unit": "anni",
+    "prev_shape": "."
+   },
+   {
+    "note_id": "gold_011",
+    "start": 216,
+    "end": 219,
+    "kind": "spelled",
+    "category": "punctuation",
+    "number_shape": "aaa",
+    "unit": "mesi",
+    "prev_shape": "."
+   },
+   {
+    "note_id": "gold_019",
+    "start": 32,
+    "end": 34,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "99",
+    "unit": "anni",
+    "prev_shape": "aaa"
+   },
+   {
+    "note_id": "gold_028",
+    "start": 68,
+    "end": 69,
+    "kind": "digits",
+    "category": "punctuation",
+    "number_shape": "9",
+    "unit": "mesi",
+    "prev_shape": "("
+   },
+   {
+    "note_id": "gold_032",
+    "start": 364,
+    "end": 367,
+    "kind": "spelled",
+    "category": "other_word",
+    "number_shape": "aaa",
+    "unit": "anni",
+    "prev_shape": "aaaaaaaaaaa"
+   },
+   {
+    "note_id": "gold_040",
+    "start": 2394,
+    "end": 2395,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "9",
+    "unit": "mesi",
+    "prev_shape": "aaaaaa"
+   },
+   {
+    "note_id": "gold_048",
+    "start": 106,
+    "end": 109,
+    "kind": "spelled",
+    "category": "other_word",
+    "number_shape": "aaa",
+    "unit": "mesi",
+    "prev_shape": "aaaaa"
+   },
+   {
+    "note_id": "gold_051",
+    "start": 415,
+    "end": 416,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "9",
+    "unit": "mesi",
+    "prev_shape": "aaaaaaa"
+   },
+   {
+    "note_id": "gold_054",
+    "start": 259,
+    "end": 260,
+    "kind": "digits",
+    "category": "punctuation",
+    "number_shape": "9",
+    "unit": "anni",
+    "prev_shape": ","
+   },
+   {
+    "note_id": "gold_058",
+    "start": 1539,
+    "end": 1541,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "99",
+    "unit": "mesi",
+    "prev_shape": "aa"
+   },
+   {
+    "note_id": "gold_076",
+    "start": 105,
+    "end": 106,
+    "kind": "digits",
+    "category": "other_word",
+    "number_shape": "9",
+    "unit": "mesi",
+    "prev_shape": "aaaaaaaa"
+   },
+   {
+    "note_id": "gold_081",
+    "start": 2936,
+    "end": 2941,
+    "kind": "spelled",
+    "category": "punctuation",
+    "number_shape": "aaaaa",
+    "unit": "mesi",
+    "prev_shape": "."
+   },
+   {
+    "note_id": "gold_081",
+    "start": 3477,
+    "end": 3489,
+    "kind": "spelled",
+    "category": "punctuation",
+    "number_shape": "aaaaaaaaaaaa",
+    "unit": "mesi",
+    "prev_shape": "."
+   }
+  ]
+ },
+ "additional_spans": {
+  "gold_037_age_number": [
+   969,
+   971
+  ]
+ },
+ "gold_037_other_mentions": 0,
+ "age_like_context_review_rows": 18,
+ "additional_decisions": {
+  "add_place_consistent_with_other_note": 1,
+  "reject_ordinary_word": 20,
+  "reject_country_of_study_never_annotated": 2,
+  "reject_duration": 15,
+  "add_age_other_person_number_only": 1,
+  "reject_medical_or_generic_term": 162,
+  "locate_variant_mention": 1,
+  "reject_population_threshold": 4,
+  "reject_years_of_schooling": 1,
+  "add_age_number_only": 1
+ },
+ "counts_after_both_proposals": {
+  "NOME": 54,
+  "ETÀ": 102,
+  "DATA": 59,
+  "LUOGO/INDIRIZZO": 37,
+  "total": 252
+ }
+}

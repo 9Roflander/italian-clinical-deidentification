@@ -1,0 +1,55 @@
+{
+ "fold": 2,
+ "arm": "non_anchored",
+ "examples_checked": 295,
+ "requests_checked": 131,
+ "prompts_rerendered": 131,
+ "prompt_hash_mismatches": 0,
+ "longest_verbatim_run_with_any_test_note": 0,
+ "entity_check": {
+  "policy": "v1, owner 2026-11-09; terminology: candidate match, never leak",
+  "by_class": {
+   "candidate_match": {
+    "test_entities": 12,
+    "matched": 2
+   },
+   "single_token_ET\u00c0": {
+    "test_entities": 18,
+    "matched": 17
+   },
+   "single_token_NOME": {
+    "test_entities": 7,
+    "matched": 3
+   }
+  },
+  "candidate_matches": [
+   {
+    "type": "DATA",
+    "n_tokens": 2,
+    "test_notes": [
+     "gold_009"
+    ],
+    "n_records": 1,
+    "record_ids": [
+     "syn_f2_non_anchored_00227"
+    ]
+   },
+   {
+    "type": "DATA",
+    "n_tokens": 2,
+    "test_notes": [
+     "gold_009"
+    ],
+    "n_records": 3,
+    "record_ids": [
+     "syn_f2_non_anchored_00134",
+     "syn_f2_non_anchored_00199",
+     "syn_f2_non_anchored_00176"
+    ]
+   }
+  ]
+ },
+ "entity_candidate_matches": 2,
+ "violations": [],
+ "passed": true
+}

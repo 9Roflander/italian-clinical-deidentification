@@ -1,0 +1,48 @@
+{
+ "fold": 5,
+ "arm": "style_anchored",
+ "examples_checked": 299,
+ "requests_checked": 132,
+ "prompts_rerendered": 132,
+ "prompt_hash_mismatches": 0,
+ "longest_verbatim_run_with_any_test_note": 8,
+ "entity_check": {
+  "policy": "v1, owner 2026-11-09; terminology: candidate match, never leak",
+  "by_class": {
+   "candidate_match": {
+    "test_entities": 5,
+    "matched": 1
+   },
+   "single_token_DATA": {
+    "test_entities": 7,
+    "matched": 3
+   },
+   "single_token_ET\u00c0": {
+    "test_entities": 17,
+    "matched": 17
+   },
+   "single_token_NOME": {
+    "test_entities": 6,
+    "matched": 1
+   }
+  },
+  "candidate_matches": [
+   {
+    "type": "LUOGO/INDIRIZZO",
+    "n_tokens": 1,
+    "test_notes": [
+     "gold_074"
+    ],
+    "n_records": 3,
+    "record_ids": [
+     "syn_f5_style_anchored_00025",
+     "syn_f5_style_anchored_00145",
+     "syn_f5_style_anchored_00252"
+    ]
+   }
+  ]
+ },
+ "entity_candidate_matches": 1,
+ "violations": [],
+ "passed": true
+}

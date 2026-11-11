@@ -1,0 +1,94 @@
+{
+ "notes": 82,
+ "mentions": 252,
+ "by_type": {
+  "NOME": 54,
+  "ETÀ": 102,
+  "LUOGO/INDIRIZZO": 37,
+  "DATA": 59
+ },
+ "status": {
+  "located": 195,
+  "added_in_review": 27,
+  "located_reviewed": 26,
+  "located_variant_in_review": 1,
+  "corrected_source_typo": 1,
+  "located_inside_longer_token": 1,
+  "located_whitespace_variant": 1
+ },
+ "origin": {
+  "source_annotation": 225,
+  "added_in_review": 27
+ },
+ "mentions_without_offsets": 0,
+ "offsets_verified": 252,
+ "changes": {
+  "remove_mention": 3,
+  "add_mention": 27,
+  "locate_mention": 1,
+  "correct_mention": 1
+ },
+ "changes_by_type": {
+  "add_mention|DATA": 12,
+  "add_mention|ETÀ": 2,
+  "add_mention|LUOGO/INDIRIZZO": 3,
+  "add_mention|NOME": 10,
+  "correct_mention|DATA": 1,
+  "locate_mention|LUOGO/INDIRIZZO": 1,
+  "remove_mention|ETÀ": 1,
+  "remove_mention|NOME": 2
+ },
+ "notes_changed": 17,
+ "ambiguous_mentions_now_reviewed": 26,
+ "decisions_read": 297,
+ "decisions_by_action": {
+  "remove_surplus_listing": 2,
+  "add_data": 21,
+  "keep": 16,
+  "add_nome": 10,
+  "age_boundary_pending_decision": 11,
+  "remove_age_is_a_duration": 1,
+  "reject_not_pii": 23,
+  "locate_variant_mention": 2,
+  "correct_source_typo": 1,
+  "add_luogo": 2,
+  "already_handled": 1,
+  "add_place_consistent_with_other_note": 1,
+  "reject_ordinary_word": 20,
+  "reject_country_of_study_never_annotated": 2,
+  "reject_duration": 15,
+  "add_age_other_person_number_only": 1,
+  "reject_medical_or_generic_term": 162,
+  "reject_population_threshold": 4,
+  "reject_years_of_schooling": 1,
+  "add_age_number_only": 1
+ },
+ "notes_without_annotation": [
+  "gold_020"
+ ],
+ "residual_patterns": {
+  "date": 7,
+  "age": 0,
+  "title_name": 0,
+  "initials": 2,
+  "contact": 0
+ },
+ "residual_notes": {
+  "date": [
+   "gold_008",
+   "gold_009",
+   "gold_032",
+   "gold_071",
+   "gold_076",
+   "gold_077"
+  ],
+  "initials": [
+   "gold_016",
+   "gold_062"
+  ]
+ },
+ "residual_matches_rejected_rows": true,
+ "name_or_place_string_left_unannotated": [],
+ "gold_v1_sha256": "09712d0a3e61cdb03ed7474856a13d038c3e28239c74d5cf875cc339b5455fd4",
+ "gold_v2_sha256": "c0f66a9639ffb9af5f9f11c7706ebf666880a1bcff05c28735d0fa7ad5c94b8d"
+}

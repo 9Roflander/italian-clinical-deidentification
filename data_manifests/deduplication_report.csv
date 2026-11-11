@@ -1,0 +1,13 @@
+collection_a,n_a,collection_b,n_b,pairs_sharing_8gram,exact_duplicate,near_duplicate,partial_overlap_review,shared_phrase_only,max_longest_run_tokens
+gold,82,gold,82,1,0,0,0,1,8
+gold,82,crf,80,80,77,1,0,2,636
+gold,82,dyspnea,2667,0,0,0,0,0,0
+crf,80,dyspnea,2667,0,0,0,0,0,0
+gold,82,S1_named,624,24,0,0,0,24,9
+gold,82,S1_name_free,254,10,0,0,0,10,8
+gold,82,S2_named,577,24,0,0,0,24,9
+gold,82,S2_name_free,221,14,0,0,0,14,9
+crf,80,S1_named,624,24,0,0,0,24,9
+crf,80,S1_name_free,254,10,0,0,0,10,8
+crf,80,S2_named,577,24,0,0,0,24,9
+crf,80,S2_name_free,221,14,0,0,0,14,9

@@ -1,0 +1,87 @@
+{
+ "purpose": "Deliberate bugs planted in a temporary copy of the evaluator.",
+ "planted": 20,
+ "detected": 20,
+ "results": [
+  {
+   "bug": "undefined metrics reported as 1.0",
+   "detected": true
+  },
+  {
+   "bug": "unknown placeholders ignored in micro",
+   "detected": true
+  },
+  {
+   "bug": "macro skips categories scoring zero",
+   "detected": true
+  },
+  {
+   "bug": "duplicates earn extra true positives",
+   "detected": true
+  },
+  {
+   "bug": "category ignored when matching",
+   "detected": true
+  },
+  {
+   "bug": "invalid outputs drop their false negatives",
+   "detected": true
+  },
+  {
+   "bug": "invalid outputs drop their false positives",
+   "detected": true
+  },
+  {
+   "bug": "over-redaction always zero",
+   "detected": true
+  },
+  {
+   "bug": "note-exact ignores extra predictions",
+   "detected": true
+  },
+  {
+   "bug": "empty gaps allowed in alignment",
+   "detected": true
+  },
+  {
+   "bug": "ambiguous alignment guessed",
+   "detected": true
+  },
+  {
+   "bug": "whitespace silently collapsed",
+   "detected": true
+  },
+  {
+   "bug": "truncation flag ignored",
+   "detected": true
+  },
+  {
+   "bug": "bootstrap not stratified",
+   "detected": true
+  },
+  {
+   "bug": "paired comparison resamples different documents",
+   "detected": true
+  },
+  {
+   "bug": "old metric equation changed",
+   "detected": true
+  },
+  {
+   "bug": "gold counts not checked",
+   "detected": true
+  },
+  {
+   "bug": "prediction from wrong fold model accepted",
+   "detected": true
+  },
+  {
+   "bug": "missing notes dropped",
+   "detected": true
+  },
+  {
+   "bug": "input hash not checked",
+   "detected": true
+  }
+ ]
+}

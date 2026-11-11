@@ -1,0 +1,27 @@
+# Encoder baseline v2 (owner decision 2026-11-10): the full data grid, an equal update budget and three seeds.
+# Changes from v1 (configs/encoder_bert_it.yaml, kept unchanged with its runs):
+# - updates: one fixed number of updates for every arm, as the LLM arms share 79 optimizer steps (decision A). v1 used
+#   3 epochs, which gave E1 90 updates against E3's 174; E1 stayed on the all-"O" loss plateau (seen in its training loss).
+#   175 = 3 passes over the largest arm (about 930 windows) at batch 16. Set by this rule, not by held-out results.
+# - experiments: all six runnable arms. seeds: three, because the bootstrap does not capture training randomness.
+# - save_model_seeds: weights kept for seed 42 only (about 440 MB each); every run records its model hash.
+model:
+  id: dbmdz/bert-base-italian-xxl-cased
+  revision: 9bdf84aedf00aa4e99b01a6f2c76f6070ac7240b
+  run_folder: bert_it_v2
+data:
+  experiments: [E1, E2, E3, E8, E9, E10]
+  gold_oversample: 5
+windows:
+  size: 510
+  stride: 128
+training:
+  updates: 175
+  batch_size: 16
+  learning_rate: 5.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  scheduler: linear
+  max_grad_norm: 1.0
+  seeds: [42, 43, 44]
+  save_model_seeds: [42]

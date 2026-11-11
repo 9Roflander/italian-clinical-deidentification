@@ -1,0 +1,55 @@
+{
+ "fold": 4,
+ "arm": "non_anchored",
+ "plan": {
+  "cases": 1780,
+  "by_type": {
+   "synthetic_name_free": 482,
+   "synthetic_negative": 80,
+   "synthetic_named": 1218
+  },
+  "mean_mentions_per_non_negative_note": {
+   "NOME": 1.31,
+   "ETÀ": 1.33,
+   "DATA": 0.88,
+   "LUOGO/INDIRIZZO": 0.5
+  },
+  "median_target_chars": 1893,
+  "age_bands": {
+   "41-65": 597,
+   "18-40": 357,
+   "66-95": 498,
+   "0-17": 328
+  },
+  "density": {
+   "bassa": 686,
+   "nessuna": 80,
+   "alta": 352,
+   "media": 662
+  },
+  "gender": {
+   "uomo": 872,
+   "donna": 908
+  }
+ },
+ "plan_sha256": "d8937a8cf178ee795ead53c23eee4490e00cd2479c0ef74480782004b203f29e",
+ "requests_first_pass": 594,
+ "mean_prompt_chars": 4342,
+ "distinct_anchors_used": 0,
+ "anchor_use_min_max": [
+  0,
+  0
+ ],
+ "anchor_pool_size": 65,
+ "anchors_excluded_from_pool": [
+  "gold_037"
+ ],
+ "cost_estimate": {
+  "requests": 594,
+  "prompt_tokens_est": 736962,
+  "output_tokens_est": 1262163,
+  "usd_first_pass_est": 5.29,
+  "assumes": "chars/3.5 input, chars/3.2 output, no rejections"
+ },
+ "guards_passed_on_all_prompts": true
+}

@@ -1,0 +1,51 @@
+# Training configuration for Gemma 3 1B. Same data, budget, LoRA and inference settings as configs/training.yaml (Llama 3.2 3B).
+prompt_version: redaction_segments_v1
+
+model:
+  # Owner decision 2026-11-10: Gemma 3 1B (instruction-tuned) for the next training runs. Llama 3.2 3B results stay in
+  # configs/training.yaml and remain the first model. Everything below this section is unchanged from that file, so the
+  # two models differ only in the model, its chat template and its attention implementation.
+  id: google/gemma-3-1b-it
+  revision: dcc83ea841ab6100d6b47a070329e1ba4cf78752
+  # Gemma 3 has no system role; the project template folds the system text into the first user turn, as Gemma's own template does.
+  chat_template: {name: project_gemma3_segments_v1, sha256: 3047ced7fe737d0e67291364874108ad0ad3048ee602f8b5555a3d0cd59a1a7c}
+  # Gemma 3 model cards advise eager attention for training.
+  attn_implementation: eager
+  # Checkpoints go to checkpoints/<official|development>/gemma3_1b/, apart from the Llama runs.
+  run_folder: gemma3_1b
+  # Needs transformers >= 4.50 (Gemma 3). Pinned stack for this model: transformers 4.57.6, the last 4.x release.
+
+quantization:     # QLoRA. bitsandbytes needs CUDA, so this cannot run on the Mac
+  load_in_4bit: true
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: bfloat16
+
+lora:             # historical values, original_work/src/train_evaluate_cv_v4.py
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  bias: none
+  task_type: CAUSAL_LM
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+training:
+  batch_size: 1
+  gradient_accumulation_steps: 16
+  gradient_checkpointing: true
+  learning_rate: 5.0e-5     # owner decision 2026-11-09
+  scheduler: cosine
+  warmup_steps: 8           # owner decision 2026-11-09 (decision B): about 10% of 79 steps; 50 would exceed E1's 2-epoch budget
+  max_grad_norm: 1.0
+  gold_oversample: 5
+  optimizer_steps: 79       # owner decision 2026-11-09 (decision A): 2 epochs of E2/E3 (about 627 examples x 2 / 16), shared by every
+                            # primary arm so arms differ by data, not by steps. Was 263, sized for the old 1,700-note plan
+  max_length: 3072          # owner decision 2026-11-09 (decision C): 1536 rejected about half of the synthetic examples (fold-1 max
+                            # 2,920 tokens). Examples are never truncated; training refuses to start if one is longer
+  seeds: [42]
+
+inference:
+  do_sample: false
+  num_beams: 1
+  max_new_tokens_factor: 2.0   # of input tokens
+  max_new_tokens_margin: 512   # JSON overhead is per segment, so short notes with many entities need room. Training refuses to start if this does not cover every training target

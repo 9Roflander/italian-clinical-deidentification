@@ -1,0 +1,28 @@
+# Keep hashed files byte-identical on every machine. Prompt, fold and evaluator hashes read raw bytes.
+* text=auto eol=lf
+
+# Python's csv module writes CRLF on every platform, and these files include frozen fold manifests.
+# Git stores them exactly as written, so they never change between checkouts.
+*.csv -text
+
+# The historical project stays byte-for-byte as it was.
+original_work/** -text
+
+# Binary formats.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.bin binary
+*.pt binary
+*.safetensors binary
+*.parquet binary
+*.arrow binary
+*.docx binary
+*.pptx binary
+*.xlsx binary

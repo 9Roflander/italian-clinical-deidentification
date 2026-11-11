@@ -1,0 +1,39 @@
+Sei un medico italiano esperto nella redazione di casi clinici per la letteratura medica. Scrivi {{N_CASES}} nuovi casi clinici in italiano, ognuno secondo la propria scheda.
+{{ANCHOR_BLOCK}}
+STILE E STRUTTURA DI OGNI CASO
+- Testo narrativo continuo in terza persona, con tempi al passato o presente storico, come un caso clinico pubblicato: presentazione del paziente, anamnesi, esame obiettivo ed esami strumentali, diagnosi, trattamento ed evoluzione.
+- Terminologia medica italiana precisa, coerente con la specialità, il sesso e la fascia d'età della scheda. Il decorso clinico deve essere plausibile.
+- Ogni caso è inventato e originale: non deve corrispondere a persone o eventi reali.
+- Niente titoli, elenchi, markdown o commenti: solo il testo del caso.
+- Rispetta la lunghezza indicata nella scheda.
+
+INFORMAZIONI SENSIBILI
+Sono informazioni sensibili soltanto queste quattro categorie:
+- NOME: nomi di persona (paziente, familiari, personale sanitario), nella forma indicata dalla scheda. Gli eponimi medici non sono nomi di persona e restano testo ordinario.
+- ETÀ: l'età di una persona, espressa con il solo numero in cifre. La parola che segue il numero (ad esempio "anni" o "mesi") resta testo ordinario e non fa parte dell'entità.
+- DATA: ogni riferimento di calendario: anno, mese da solo, mese e anno, giorno e mese, data completa, in formati vari. Le durate (ad esempio settimane o mesi di terapia) non sono date e vanno scritte senza riferimenti di calendario.
+- LUOGO/INDIRIZZO: città, province, regioni, ospedali, reparti con nome proprio, strutture e aziende sanitarie, indirizzi. Usa luoghi verosimili dell'area geografica indicata dalla scheda.
+
+Regole sulle informazioni sensibili:
+- Rispetta il numero di occorrenze richiesto dalla scheda per ogni categoria. Le ripetizioni dello stesso valore contano come occorrenze separate.
+- Se la scheda chiede zero occorrenze di una categoria, quella categoria non deve comparire in alcuna forma nel testo. In particolare, con zero NOME riferisciti alle persone con descrizioni anonime; con zero ETÀ non indicare l'età in cifre; con zero DATA usa solo riferimenti temporali relativi; con zero LUOGO/INDIRIZZO non nominare luoghi o strutture.
+- Varia nomi e luoghi: evita i valori più scontati e non riutilizzarli tra un caso e l'altro.
+- Non usare segnaposto come parentesi quadre nel testo: tutti i valori devono essere scritti per esteso.
+
+FORMATO DI USCITA
+Restituisci un oggetto JSON con la chiave "cases". Ogni caso contiene "case_id", cioè il solo codice della scheda senza la parola SCHEDA, e "segments": la sequenza ordinata dei segmenti che, concatenati senza aggiungere nulla, formano il testo completo del caso.
+- Ogni segmento ha "text" ed "entity_type".
+- Il testo ordinario ha entity_type "NESSUNA". Spazi e punteggiatura attorno alle entità appartengono al testo ordinario.
+- Ogni singola occorrenza di informazione sensibile è un segmento a sé, contiene solo il valore e ha come entity_type la sua categoria: "NOME", "ETÀ", "DATA" oppure "LUOGO/INDIRIZZO".
+- Marca ogni occorrenza. Nessuna informazione sensibile può restare in un segmento "NESSUNA".
+
+VERIFICHE AUTOMATICHE
+Ogni caso viene controllato automaticamente e scartato se:
+- un'informazione sensibile resta in un segmento "NESSUNA", anche solo in parte;
+- il numero di occorrenze o la lunghezza si allontanano dalla scheda;
+- un valore non rispetta la sua categoria, ad esempio un'età non scritta in cifre;
+- lo stesso valore è marcato con categorie diverse;
+- il testo riprende frasi degli esempi o di altri casi.
+
+SCHEDE
+{{CASE_SPECS}}

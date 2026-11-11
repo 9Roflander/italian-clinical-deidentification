@@ -1,0 +1,90 @@
+{
+ "bootstrap": {
+  "confidence": 0.95,
+  "iterations": 10000,
+  "method": "percentile",
+  "minimum_iterations": 2000,
+  "seed": 42,
+  "strata": "fold"
+ },
+ "checkpoint": "E1/seed_42",
+ "config_id": "7123858ac751",
+ "environment": {
+  "machine": "x86_64",
+  "numpy": "1.26.4",
+  "os": "Darwin",
+  "os_release": "25.5.0",
+  "os_version": "Darwin Kernel Version 25.5.0: Mon Apr 27 20:41:26 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T8132",
+  "python": "3.12.13",
+  "python_implementation": "CPython",
+  "python_version": "3.12.13"
+ },
+ "evaluator": {
+  "fingerprint_sha256": "6e72b75b4d50cde27ab4e1f335b7a2e16bfbed7395cfa175f2d847f9fd1153fe",
+  "git_commit": "5f69f2ad5ba1f2b0ccbc38f32a91b214950fd56c",
+  "git_dirty": false,
+  "source_integrity": {
+   "blocking_count": 0,
+   "blocking_paths": [],
+   "clean": true,
+   "commit": "5f69f2ad5ba1f2b0ccbc38f32a91b214950fd56c",
+   "critical_tree_sha256": "6b0a1d55d6ae711c424c5a9eed300060e97a5fce9e3b32ba6a76358f19bdaf67",
+   "git_available": true,
+   "non_blocking_changes": {
+    "archive": 9,
+    "documentation": 1
+   },
+   "policy_version": "1"
+  },
+  "version": "1.0.1"
+ },
+ "experiment": "E1",
+ "files": {
+  "alignment_report.json": "d9a5caf197596534aa79f1f03285aec7afd7decc513994e785c53e05ba349d1f",
+  "bootstrap_results.json": "bae824b39105949bd76be210247698202998a2d8f2595ce86e4b6d1a9dd6855a",
+  "error_breakdown.csv": "d2d4a8922b69649f22560b105875aad8e01c651c6013f49c079421044394f445",
+  "evaluation_summary.md": "487fd2cd01e0ece6b6651717d0bfea84efdba8533bad995e6b1c98faa023f672",
+  "per_category_metrics.csv": "4cd9babd23f6f55baa411290ce155458809f3ad1ba17b124c112ab2e1bf48fa3",
+  "per_fold_metrics.csv": "0d696ba40e3e4b0944db2845a6d8aeeaa0b78de1f15e4b05fddebaa4c0ed8f64",
+  "per_note_metrics.csv": "ac1822f93668810942e8a1f14cd273da9ac32947eb18b3a1b32aa55f21b1b2c3",
+  "pooled_metrics.json": "a8277c4a125f3d4f0a652e2b10f1ff881bb4b721debb19ea84cb364a1730b61b"
+ },
+ "folds": {
+  "file_sha256": {
+   "1": "21fb110aae73f038677aa5aab2e802047a45c4f8c2a8beea209e3b82c7825fdd",
+   "2": "26decf56361bec41ae4773456cd9ac8b82da1b6b2960952aa7cbbf475772e7c8",
+   "3": "b1734c1be922c61e3418c240a4cbe185ae96f2cd69fa96515be2b628c677ade5",
+   "4": "266d48904cd7256c9de59126e0cd0e147ac32ff783aae5d6f9529c8c12ffe6cd",
+   "5": "df831980622cb31deec752d93d7fd824a28a1d5b03a9036f7da6fa189ea95adb"
+  },
+  "held_out_sizes": {
+   "1": 16,
+   "2": 17,
+   "3": 17,
+   "4": 16,
+   "5": 16
+  },
+  "source": "splits/fold_*.json"
+ },
+ "generated_at_utc": "2026-11-10T08:52:46+00:00",
+ "gold": {
+  "entities": 252,
+  "notes": 82,
+  "sha256": "c0f66a9639ffb9af5f9f11c7706ebf666880a1bcff05c28735d0fa7ad5c94b8d",
+  "verification": "passed: hash, counts per category and fold, offsets, overlaps, NFC, stored targets",
+  "version": "v2"
+ },
+ "infrastructure_version": "1.0.1",
+ "manifest_sha256": "6c93ed4135e12db3789bbfdd8c5589f4094dff41c979d534b81173e832e0cd6f",
+ "model": "meta-llama/Llama-3.2-3B-Instruct",
+ "model_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+ "official_run": true,
+ "predictions": {
+  "path": "predictions_secure/E1__7123858ac751__seed42/predictions_oof.jsonl",
+  "records": 82,
+  "sha256": "dd5f0fd45dfc2e4fe30130c97055e48c83bac255bae7b8fe54aee82e7d9d42de"
+ },
+ "run_id": "E1__7123858ac751__seed42",
+ "seed": 42,
+ "stage": "development_cross_validation"
+}

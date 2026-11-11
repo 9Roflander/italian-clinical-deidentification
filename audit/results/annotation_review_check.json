@@ -1,0 +1,319 @@
+{
+ "rows_total": 89,
+ "rows_where_note_id_differs": [],
+ "age_all_mentions": {
+  "total": 101,
+  "forms": {
+   "digits_only": 94,
+   "spelled_or_other": 3,
+   "contains_unit_word": 4
+  },
+  "word_after_digit_mentions": {
+   "anni": 61,
+   "mesi": 12,
+   "other_or_none": 15,
+   "aa": 4,
+   "enne": 1,
+   "anno": 1
+  }
+ },
+ "surplus_entries": [
+  {
+   "note_id": "gold_000",
+   "type": "NOME",
+   "listed": 5,
+   "in_narrative_exact": 4,
+   "in_narrative_any_case": 4,
+   "in_relation_tail": 0,
+   "shape": "aaaa"
+  },
+  {
+   "note_id": "gold_007",
+   "type": "LUOGO/INDIRIZZO",
+   "listed": 2,
+   "in_narrative_exact": 1,
+   "in_narrative_any_case": 1,
+   "in_relation_tail": 0,
+   "shape": "aaaaaaaa aa aaaaaaaa"
+  },
+  {
+   "note_id": "gold_056",
+   "type": "NOME",
+   "listed": 4,
+   "in_narrative_exact": 3,
+   "in_narrative_any_case": 3,
+   "in_relation_tail": 0,
+   "shape": "aaaaa"
+  }
+ ],
+ "gold_062_position_539": {
+  "row_found": true,
+  "token_shape": "-9.9",
+  "looks_like_marker_dash_1": false
+ },
+ "gold_077_dates": {
+  "data_mentions": 13,
+  "shapes_with_offsets": [
+   [
+    23,
+    "aaaaa 9999"
+   ],
+   [
+    274,
+    "aaaaa 9999"
+   ],
+   [
+    413,
+    "aaaaaa 9999"
+   ],
+   [
+    491,
+    "aaaaaaaaa 9999"
+   ],
+   [
+    816,
+    "aaaaaaaa 9999"
+   ],
+   [
+    881,
+    "aaaaa 9999"
+   ],
+   [
+    1069,
+    "aaaaaa 9999"
+   ],
+   [
+    1115,
+    "aaaaaaa 9999"
+   ],
+   [
+    1339,
+    "aaaaaaaa 9999"
+   ],
+   [
+    1460,
+    "aaaaaaaa 9999"
+   ],
+   [
+    1636,
+    "aaaaaa 9999"
+   ],
+   [
+    2168,
+    "aaaaaa 9999"
+   ],
+   [
+    2846,
+    "99 aaaaaaaaa 9999"
+   ]
+  ],
+  "month_names_left_in_target": 0
+ },
+ "gold_010_date": {
+  "annotated_digits_differ_at": [
+   16
+  ],
+  "annotated_string_in_note": false,
+  "note_string_occurrences": 1,
+  "other_data_mentions_in_note": 4
+ },
+ "gold_002_age_6": {
+  "located_mentions": 1,
+  "preceding_words": [
+   [
+    "other",
+    "dopo",
+    "circa"
+   ]
+  ],
+  "age_word_within_32_chars": [
+   true
+  ],
+  "following_word": [
+   "mesi"
+  ]
+ },
+ "proposed_date_spans": {
+  "count": 12,
+  "per_note": {
+   "gold_000": 2,
+   "gold_001": 2,
+   "gold_002": 1,
+   "gold_004": 7
+  },
+  "spans": [
+   {
+    "note_id": "gold_000",
+    "start": 511,
+    "end": 527,
+    "shape": "aaaaaaa aaa 9999"
+   },
+   {
+    "note_id": "gold_000",
+    "start": 789,
+    "end": 803,
+    "shape": "aaaaa aaa 9999"
+   },
+   {
+    "note_id": "gold_001",
+    "start": 43,
+    "end": 47,
+    "shape": "9999"
+   },
+   {
+    "note_id": "gold_001",
+    "start": 595,
+    "end": 599,
+    "shape": "9999"
+   },
+   {
+    "note_id": "gold_002",
+    "start": 819,
+    "end": 823,
+    "shape": "9999"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 27,
+    "end": 40,
+    "shape": "aaaaaaaa 9999"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 1160,
+    "end": 1172,
+    "shape": "aaaaaaa 9999"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 1175,
+    "end": 1188,
+    "shape": "aaaaaaaa 9999"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 1801,
+    "end": 1814,
+    "shape": "aaaaaaaa 9999"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 2016,
+    "end": 2029,
+    "shape": "aaaaaaaa 9999"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 2462,
+    "end": 2475,
+    "shape": "aaaaaaaa 9999"
+   },
+   {
+    "note_id": "gold_004",
+    "start": 2478,
+    "end": 2492,
+    "shape": "aaaaaaaaa 9999"
+   }
+  ]
+ },
+ "same_note_case_variants_uncovered": {
+  "by_type": {},
+  "per_note": {}
+ },
+ "string_annotated_elsewhere_uncovered": {
+  "LUOGO/INDIRIZZO": 1,
+  "NOME": 4
+ },
+ "gazetteer_places_uncovered": {
+  "mentions": 16,
+  "notes": [
+   "gold_008",
+   "gold_014",
+   "gold_034",
+   "gold_047",
+   "gold_064",
+   "gold_066",
+   "gold_070",
+   "gold_073",
+   "gold_077",
+   "gold_080"
+  ],
+  "gold_058_has_uncovered_place": false
+ },
+ "unannotated_age_forms": {
+  "age_spelled_with_context": {
+   "mentions": 3,
+   "notes": [
+    "gold_011",
+    "gold_065"
+   ]
+  },
+  "age_digit_enne": {
+   "mentions": 1,
+   "notes": [
+    "gold_037"
+   ]
+  },
+  "age_word_enne": {
+   "mentions": 2,
+   "notes": [
+    "gold_043",
+    "gold_045"
+   ]
+  }
+ },
+ "midsentence_capitalised_words_uncovered": {
+  "mentions": 307,
+  "distinct_words": 208
+ },
+ "capitalised_words_once_in_corpus": 165,
+ "additional_rows_by_issue": {
+  "string_annotated_in_another_note": 5,
+  "place_name_not_annotated": 16,
+  "age_spelled_with_context": 3,
+  "age_digit_enne": 1,
+  "age_word_enne": 2,
+  "capitalised_word_once_in_corpus": 163
+ },
+ "proposal": {
+  "rows": 89,
+  "by_action": {
+   "keep": 16,
+   "add_nome": 10,
+   "add_luogo": 2,
+   "add_data": 21,
+   "reject_not_pii": 23,
+   "remove_age_is_a_duration": 1,
+   "remove_surplus_listing": 2,
+   "locate_variant_mention": 1,
+   "correct_source_typo": 1,
+   "already_handled": 1,
+   "age_boundary_pending_decision": 11
+  },
+  "add_rows_without_offsets": [],
+  "gold_040_initials_at_note_start": true,
+  "initials_already_annotated_as_NOME_in_corpus": 11
+ },
+ "gold_058_place_check": {
+  "occurrences": 1,
+  "all_covered_by_a_mention": true
+ },
+ "gold_072_name_mentions": {
+  "annotated": 4,
+  "extra_occurrences": 1
+ },
+ "place_candidates_detail": {
+  "capitalised": 2,
+  "lowercase_likely_ordinary_words": 14,
+  "capitalised_by_note": {
+   "gold_066": 1,
+   "gold_073": 1
+  }
+ },
+ "counts_after_proposal_if_age_boundaries_unchanged": {
+  "NOME": 54,
+  "ETÀ": 100,
+  "DATA": 59,
+  "LUOGO/INDIRIZZO": 36
+ }
+}

@@ -1,0 +1,92 @@
+# Model weights and checkpoints (too large for git)
+llama-3.2-3b-*/
+temp_merged*/
+cv_fold_outputs/
+models/
+checkpoint-*/
+
+# Environments & caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Scratch notes/logs with sensitive content
+data/notes.txt
+
+# Logs and scratch output files
+*.log
+output.txt
+output_*.txt
+debug_raw.json
+data/_debug_raw_batch*.txt
+
+# Rejected/intermediate synthetic data
+data/*_rejected.json
+data/synthetic_v2_test20*.json
+data/synthetic_clinical_1000.json
+data/synthetic_clinical_1000_backup.json
+data/synthetic_clinical_100_v4.json
+
+# CV output model checkpoints
+cv_v3_outputs/
+cv_v4_outputs/
+cv_gemma1b_outputs/
+cv_gemma4b_outputs/
+cv_bert_outputs/
+cv_bert_cpt_outputs/
+cv_bert_chunked_outputs/
+bert_it_clinical_cpt/
+bert_it_clinical_cpt_ckpts/
+
+# macOS
+.DS_Store
+
+# Claude Code internal
+.claude/
+
+# --- research-reconstruction additions ---
+# Root-anchored rules from the original project, re-pointed at original_work/
+original_work/data/notes.txt
+original_work/data/_debug_raw_batch*.txt
+original_work/data/*_rejected.json
+original_work/data/synthetic_v2_test20*.json
+original_work/data/synthetic_clinical_1000.json
+original_work/data/synthetic_clinical_1000_backup.json
+original_work/data/synthetic_clinical_100_v4.json
+
+# Never commit clinical text, raw model outputs, weights, or secrets
+predictions_secure/
+checkpoints/
+synthetic_data/**/examples.jsonl
+# Public release: the non-anchored synthetic notes are published (owner decision 2026-11-11).
+!synthetic_data/fold_*/non_anchored/examples.jsonl
+prompts/rendered/
+.env
+key.txt
+*.key
+.venv-gen/
+synthetic_data/**/raw_responses.jsonl
+synthetic_data/**/rejected.jsonl
+experiments/**/examples.jsonl
+experiments/**/raw_responses.jsonl
+experiments/**/rejected.jsonl
+data_secure/
+
+# Left out of the reconstruction commit (owner rule of 2026-11-07): API credentials, raw clinical notes and
+# historical generated notes. The originals stay in commit 8edf3ef; local copies stay on disk.
+original_work/data/gold_standard_80.json
+original_work/data/synthetic_v2_1000.json
+original_work/data/synthetic_v2_noname_400.json
+original_work/data/synthetic_v4_named_more.json
+original_work/data/synthetic_v4_noname_more.json
+# Historical scripts holding credentials or note text, moved out of original_work/src/ so the source guard still
+# treats every file under original_work/src/ as critical.
+original_work/excluded_from_git/
+
+# Public release: never add these
+original_work/
+paper_revisions/
+reports/
+*.docx
+*.pdf

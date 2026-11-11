@@ -1,0 +1,116 @@
+{
+ "source": {
+  "repo": "michele17284/Italian-Clinical-Note-Deidentification",
+  "commit": "e8609c92f870eb6f0e0ca12e890667b7a22a0715",
+  "file": "Annotated clinical notes - samples.csv",
+  "sha256": "6be1cf9d0d2f9f199ba7c3e0a95636081c99023ae54fea878aa6202a36fea9f7",
+  "licence_file_present": false
+ },
+ "csv_lines_including_header": 83,
+ "notes": 82,
+ "document_ids_unique": true,
+ "document_ids_ascending": true,
+ "first_last_document_id": [
+  "IT100002",
+  "IT102057"
+ ],
+ "relation_lines": 649,
+ "relation_offsets_ok": 649,
+ "tails_not_fully_explained": [],
+ "old_gold_relation": {
+  "identical": 80,
+  "absent_from_old_file": 2
+ },
+ "narrative_differs_from_old_file": [],
+ "notes_added": [
+  "gold_080",
+  "gold_081"
+ ],
+ "mentions": 228,
+ "by_type": {
+  "NOME": 46,
+  "ETÀ": 101,
+  "LUOGO/INDIRIZZO": 34,
+  "DATA": 47
+ },
+ "mention_status": {
+  "located": 195,
+  "annotated_more_often_than_occurs": 3,
+  "located_ambiguous": 27,
+  "located_fuzzy_variant": 1,
+  "located_inside_longer_token": 1,
+  "located_whitespace_variant": 1
+ },
+ "located_mentions": 225,
+ "located_offsets_verified": 225,
+ "extra_occurrences_by_type": {
+  "NOME": 9,
+  "ETÀ": 14,
+  "LUOGO/INDIRIZZO": 2
+ },
+ "notes_without_annotation": [
+  "gold_020",
+  "gold_037"
+ ],
+ "non_nfc_notes": [
+  "gold_005",
+  "gold_006"
+ ],
+ "notes_needing_review": [
+  "gold_000",
+  "gold_001",
+  "gold_002",
+  "gold_004",
+  "gold_007",
+  "gold_008",
+  "gold_009",
+  "gold_010",
+  "gold_015",
+  "gold_016",
+  "gold_032",
+  "gold_040",
+  "gold_046",
+  "gold_047",
+  "gold_049",
+  "gold_054",
+  "gold_055",
+  "gold_056",
+  "gold_058",
+  "gold_060",
+  "gold_062",
+  "gold_066",
+  "gold_067",
+  "gold_068",
+  "gold_071",
+  "gold_072",
+  "gold_074",
+  "gold_076",
+  "gold_077"
+ ],
+ "review_rows_by_issue": {
+  "annotated_more_often_than_occurs": 3,
+  "unannotated_date": 28,
+  "located_ambiguous": 27,
+  "extra_occurrence": 25,
+  "located_fuzzy_variant": 1,
+  "unannotated_initials": 3,
+  "located_inside_longer_token": 1,
+  "located_whitespace_variant": 1
+ },
+ "unannotated_pattern_totals": {
+  "date": 28,
+  "age": 0,
+  "title_name": 0,
+  "initials": 3,
+  "contact": 0
+ },
+ "unannotated_pattern_notes": {
+  "date": 10,
+  "age": 0,
+  "title_name": 0,
+  "initials": 3,
+  "contact": 0
+ },
+ "annotations_column": "not used; 516 items with over 25 labels, and eval.py uses annotations_redacted as the gold standard",
+ "output_sha256": "09712d0a3e61cdb03ed7474856a13d038c3e28239c74d5cf875cc339b5455fd4"
+}

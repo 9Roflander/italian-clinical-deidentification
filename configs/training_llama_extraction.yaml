@@ -1,0 +1,56 @@
+# Experiment E3-X (owner decision 2026-11-10): Llama 3.2 3B exactly as in configs/training.yaml, except the output format.
+# The model lists only the sensitive strings (prompts/redaction_extraction_v1.txt) and the fixed locator in
+# src/training/extraction.py places them; the evaluator scores the located spans. Fixed before any E3-X result exists.
+prompt_version: redaction_extraction_v1
+output_format: extraction
+
+model:
+  # Owner decision 2026-11-06: Instruct for the first full pipeline experiment. Do not use the base variant.
+  id: meta-llama/Llama-3.2-3B-Instruct
+  revision: 0cb88a4f764b7a12671c53f0838cd831a0843b95
+  # The project's own template, written out in src/training/formatting.py and pinned here by hash. The tokenizer's
+  # template is not used for training or inference. The preflight records how it differs.
+  chat_template: {name: project_llama3_segments_v1, sha256: 06a66d19e13005de99de6e1db7e2b7072e32d37aa1082cb802592825323a5ba0}
+  # Future controlled comparison, after the first pipeline works. Not pinned and not runnable:
+  # there is no "Qwen3-1.7B-Instruct". Qwen/Qwen3-1.7B is a hybrid thinking model, and the -Instruct-2507 releases start at 4B.
+  future_comparison: Qwen3 1.7B, model ID to be decided
+  # Checkpoints go to checkpoints/<official|development>/llama_extraction/, apart from the segments runs.
+  run_folder: llama_extraction
+  candidates:
+    base: {id: meta-llama/Llama-3.2-3B, revision: 13afe5124825b4f3751f836b40dafda64c1ed062}
+    instruct: {id: meta-llama/Llama-3.2-3B-Instruct, revision: 0cb88a4f764b7a12671c53f0838cd831a0843b95}
+
+quantization:     # QLoRA. bitsandbytes needs CUDA, so this cannot run on the Mac
+  load_in_4bit: true
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: bfloat16
+
+lora:             # historical values, original_work/src/train_evaluate_cv_v4.py
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  bias: none
+  task_type: CAUSAL_LM
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+training:
+  batch_size: 1
+  gradient_accumulation_steps: 16
+  gradient_checkpointing: true
+  learning_rate: 5.0e-5     # owner decision 2026-11-09
+  scheduler: cosine
+  warmup_steps: 8           # owner decision 2026-11-09 (decision B): about 10% of 79 steps; 50 would exceed E1's 2-epoch budget
+  max_grad_norm: 1.0
+  gold_oversample: 5
+  optimizer_steps: 79       # owner decision 2026-11-09 (decision A): 2 epochs of E2/E3 (about 627 examples x 2 / 16), shared by every
+                            # primary arm so arms differ by data, not by steps. Was 263, sized for the old 1,700-note plan
+  max_length: 3072          # owner decision 2026-11-09 (decision C): 1536 rejected about half of the synthetic examples (fold-1 max
+                            # 2,920 tokens). Examples are never truncated; training refuses to start if one is longer
+  seeds: [42]
+
+inference:
+  do_sample: false
+  num_beams: 1
+  max_new_tokens_factor: 2.0   # of input tokens
+  max_new_tokens_margin: 512   # JSON overhead is per segment, so short notes with many entities need room. Training refuses to start if this does not cover every training target

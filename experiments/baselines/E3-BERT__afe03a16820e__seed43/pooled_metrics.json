@@ -1,0 +1,111 @@
+{
+ "correct_redaction_recall": 0.6190476190476191,
+ "correct_redaction_recall_note": "Protocol 4.1. Identical to strict micro recall by definition, so it is not a separate result.",
+ "counts": {
+  "DATA": {
+   "fn": 19,
+   "fp": 5,
+   "tp": 40
+  },
+  "ETÀ": {
+   "fn": 29,
+   "fp": 27,
+   "tp": 73
+  },
+  "LUOGO/INDIRIZZO": {
+   "fn": 27,
+   "fp": 26,
+   "tp": 10
+  },
+  "NOME": {
+   "fn": 21,
+   "fp": 36,
+   "tp": 33
+  }
+ },
+ "distinction": "Pooled metrics combine TP, FP and FN from all held-out folds. They differ from the arithmetic mean of fold scores in per_fold_metrics.csv.",
+ "gold": {
+  "entities": 252,
+  "notes": 82,
+  "sha256": "c0f66a9639ffb9af5f9f11c7706ebf666880a1bcff05c28735d0fa7ad5c94b8d",
+  "version": "v2"
+ },
+ "historical_not_for_quality_claims": {
+  "gold_v1": {
+   "miranda_deterministic": {
+    "macro_f1_mean_over_folds": 0.6672288425658632,
+    "per_type_f1_pooled": {
+     "DATA": 0.8431372549019609,
+     "ETÀ": 0.635593220338983,
+     "LUOGO/INDIRIZZO": 0.6111111111111113,
+     "NOME": 0.6016260162601627
+    }
+   },
+   "paper_metric": {
+    "macro_f1_mean_over_folds": 0.6884402324171971,
+    "per_type_f1_pooled": {
+     "DATA": 0.8431372549019609,
+     "ETÀ": 0.7653061224489796,
+     "LUOGO/INDIRIZZO": 0.6111111111111113,
+     "NOME": 0.5641025641025642
+    }
+   }
+  },
+  "gold_v2": {
+   "miranda_deterministic": {
+    "macro_f1_mean_over_folds": 0.7297275608782469,
+    "per_type_f1_pooled": {
+     "DATA": 0.9482758620689654,
+     "ETÀ": 0.6386554621848739,
+     "LUOGO/INDIRIZZO": 0.6493506493506493,
+     "NOME": 0.6615384615384615
+    }
+   },
+   "paper_metric": {
+    "macro_f1_mean_over_folds": 0.73728758805968,
+    "per_type_f1_pooled": {
+     "DATA": 0.9482758620689654,
+     "ETÀ": 0.7676767676767677,
+     "LUOGO/INDIRIZZO": 0.631578947368421,
+     "NOME": 0.5967741935483871
+    }
+   }
+  },
+  "purpose": "Historical comparison with Miranda et al. only. Not a quality measure: empty output scores 1.0."
+ },
+ "metrics": {
+  "complete_entity_recall": 0.7936507936507936,
+  "f1_DATA": 0.7692307692307693,
+  "f1_ETÀ": 0.7227722772277227,
+  "f1_LUOGO/INDIRIZZO": 0.273972602739726,
+  "f1_NOME": 0.5365853658536586,
+  "invalid_output_rate": 0.0,
+  "macro_f1": 0.5756402537629692,
+  "micro_f1": 0.6215139442231076,
+  "micro_precision": 0.624,
+  "micro_recall": 0.6190476190476191,
+  "non_sensitive_preservation": 0.9992536431543528,
+  "note_exact_rate": 0.3902439024390244,
+  "over_redaction_rate": 0.09049773755656108,
+  "precision_DATA": 0.8888888888888888,
+  "precision_ETÀ": 0.73,
+  "precision_LUOGO/INDIRIZZO": 0.2777777777777778,
+  "precision_NOME": 0.4782608695652174,
+  "recall_DATA": 0.6779661016949152,
+  "recall_ETÀ": 0.7156862745098039,
+  "recall_LUOGO/INDIRIZZO": 0.2702702702702703,
+  "recall_NOME": 0.6111111111111112,
+  "removal_coverage": 0.8018617021276596,
+  "text_preserved_rate": 1.0
+ },
+ "output_copy_fidelity": {
+  "deleted_characters": 0,
+  "inserted_characters": 0,
+  "modified_characters": 0,
+  "notes_with_text_exactly_preserved": 82,
+  "notes_with_unmeasurable_fidelity": 0,
+  "outputs_not_alignable_unambiguously": 0,
+  "share_of_notes": 1.0
+ },
+ "unknown_placeholder_false_positives": 0
+}

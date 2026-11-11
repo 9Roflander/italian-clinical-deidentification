@@ -1,0 +1,97 @@
+# Generation v2, approved 2026-11-06. v1 stays in configs/generation.yaml for the earlier pilots.
+# Freeze before any outer-test score is seen.
+generation_version: v2
+prompt_version: v2        # prompts/generation_v2.txt, SHA-256 recorded in reports/GENERATION_V2_IMPLEMENTATION.md
+seed: 42
+
+model:
+  id: gemini-3.8-flash        # exact ID, no "-latest" alias; the returned model version is logged per request
+  temperature: 0.7            # historical value
+  top_p: 0.95
+  max_output_tokens: 16384
+  thinking_level: LOW
+  timeout_s: 300
+
+anchors:
+  n: 3
+  strategy: rotate_length_strata   # one short, one medium, one long training note per request
+  mode: masked                     # masked | raw. raw also requires --confirm-raw-anchors-authorized
+
+plan:
+  # 300 accepted notes per fold and arm, 3,000 in total (owner decision, 2026-11-06). Plans are shared by both arms.
+  n_named: 202
+  n_name_free: 78
+  n_negative: 20
+  cases_per_request: 3
+  genders: [donna, uomo]
+  age_bands:
+    - {label: "0-17", min: 0, max: 17}
+    - {label: "18-40", min: 18, max: 40}
+    - {label: "41-65", min: 41, max: 65}
+    - {label: "66-95", min: 66, max: 120}
+  specialties:
+    oncologia:
+    cardiologia:
+    nefrologia:
+    neurologia:
+    ortopedia:
+    ginecologia: {exclude_gender: [uomo], exclude_age: ["0-17"]}
+    pneumologia:
+    gastroenterologia:
+    endocrinologia:
+    geriatria: {only_age: ["66-95"]}
+    pediatria: {only_age: ["0-17"]}
+  areas: [Abruzzo, Basilicata, Calabria, Campania, Emilia-Romagna, Friuli-Venezia Giulia, Lazio, Liguria, Lombardia,
+          Marche, Molise, Piemonte, Puglia, Sardegna, Sicilia, Toscana, Trentino-Alto Adige, Umbria, Valle d'Aosta, Veneto]
+  name_forms: {"nome proprio": 0.4, "nome e cognome": 0.35, "iniziali puntate": 0.25}
+  name_letters: [A, B, C, D, E, F, G, I, L, M, N, O, P, R, S, T, V]
+  details:                   # v2: exact patient age within its band, and a reference year for cases with dates
+    patient_age: true
+    reference_year: true
+    min_distinct_training_years: 5   # otherwise the fallback range is used
+    fallback_year_min: 1995
+    fallback_year_max: 2024
+
+validation:
+  min_chars: 500             # historical 1000; 28 of 80 gold notes are under 1000 characters
+  max_chars: 4200            # historical 4000; longest gold note is 4043
+  length_tolerance: [0.6, 1.5]
+  min_entities: 2            # historical rule, also applied when sampling entity profiles
+  count_tolerance_share: 0.34
+  count_tolerance_min: 1
+  max_verbatim_run_anchor: 10      # historical maximum against any gold note was 9
+  max_verbatim_run_train: 12
+  near_duplicate_containment: 0.2
+  max_entity_chars: 80
+  max_attempts_per_case: 5         # v2: owner decision 2026-11-06, was 3
+  age_repeat_policy: context       # v2: owner decision 2026-11-06. An age's digits reappearing unmarked are rejected when they
+                                   # read as an age or are ambiguous, and allowed only as a clear measurement, dose or score
+  reject_line_breaks: true         # v2
+  reject_unmarked_named_facility: true   # v2, proposed 2026-11-07 after the final pilot: a named hospital or facility outside any entity
+  reject_age_milestones: true      # v2
+  require_patient_age: true        # v2: the age given in the specification must be marked
+  accept_spelled_ages: true        # owner decision 2026-11-09: an ETÀ written as one Italian number word ("settantadue") is valid.
+                                   # Folds 2-5 only; fold 1 was generated without it and had no such entity in any attempt
+  max_verbatim_run_accepted: 12    # v2: against notes already accepted in this fold and arm
+
+limits:
+  workers: 4
+  requests_per_minute: 10    # set from aistudio.google.com/rate-limit for your tier. Free tier allows 20 requests per day
+  max_retries: 5
+  max_retry_wait_s: 300      # a 429 asking for a longer wait stops the run at once; it can resume after the reset
+  max_cost_usd: 5.0          # hard stop per run. Testing value: raise to about 12 for full runs
+
+estimate:
+  thought_tokens_per_request: 0   # measured: 0 on all 5 live requests at thinking_level LOW
+
+pricing:                     # standard paid tier, USD per 1M tokens, ai.google.dev pricing page read 2026-11-05
+  as_of: "2026-11-05"
+  input_per_million: 0.75
+  output_per_million: 3.75
+  note: "gemini-3.8-flash price doubles on 2027-01-01 per the pricing page"
+
+post_audit:
+  # Entity-match policy v1, owner 2026-11-09: an exact full test-note entity string anywhere in a synthetic record (L2) is a
+  # candidate match, not a proven leak; single-token NOME, ETÀ and DATA are counted apart. Reported per fold and arm,
+  # compared with the non-anchored arm; set true to make a candidate match stop the fold.
+  candidate_match_blocking: false

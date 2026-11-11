@@ -1,0 +1,32 @@
+# Approved evaluation settings. Hashed into every run manifest with the evaluator code.
+gold:
+  version: v2                      # the gold_version field in data_secure/gold/gold_v2.jsonl
+  sha256: c0f66a9639ffb9af5f9f11c7706ebf666880a1bcff05c28735d0fa7ad5c94b8d
+  notes: 82
+  mentions: {NOME: 54, ETÀ: 102, DATA: 59, LUOGO/INDIRIZZO: 37}
+  total_mentions: 252
+  notes_without_mentions: [gold_020]
+  folds:                           # held-out notes and mentions per frozen fold
+    1: {notes: 16, NOME: 9, ETÀ: 20, DATA: 17, LUOGO/INDIRIZZO: 8}
+    2: {notes: 17, NOME: 12, ETÀ: 20, DATA: 6, LUOGO/INDIRIZZO: 5}
+    3: {notes: 17, NOME: 9, ETÀ: 23, DATA: 13, LUOGO/INDIRIZZO: 11}
+    4: {notes: 16, NOME: 11, ETÀ: 20, DATA: 16, LUOGO/INDIRIZZO: 8}
+    5: {notes: 16, NOME: 13, ETÀ: 19, DATA: 7, LUOGO/INDIRIZZO: 5}
+historical_gold_v1_sha256: 09712d0a3e61cdb03ed7474856a13d038c3e28239c74d5cf875cc339b5455fd4
+bootstrap:
+  iterations: 10000                # protocol minimum is 2,000; 10,000 preferred
+  minimum_iterations: 2000
+  confidence: 0.95
+  seed: 42
+  method: percentile
+  strata: fold
+limitations:                       # copied into every evaluation summary; edit only when resolved
+  - "The gold set is small: 82 notes and 252 mentions, with few mentions in the rarer categories."
+  - "All 82 notes were used in earlier development, so these are development estimates, not an independent generalization estimate."
+  - "No external validation set has been used."
+  - "gold_v2 has no independent second human annotator, so no agreement figure exists yet."
+  - "Gold-span metrics cannot reveal identifiers missed during gold annotation."
+  - "Only four categories are evaluated. They do not cover every form of personally identifiable information."
+  - "Over-redaction is relative to the current gold annotations, not proof that the extra text is non-sensitive."
+  - "Confidence intervals quantify document-sampling uncertainty conditional on the trained fold models. They do not capture all training randomness."
+  - "Each run reflects one training seed. Training randomness is measured only where several seeds are summarized."

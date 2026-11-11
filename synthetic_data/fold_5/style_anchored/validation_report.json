@@ -1,0 +1,50 @@
+{
+ "fold": 5,
+ "arm": "style_anchored",
+ "planned_cases": 300,
+ "cases_attempted": 300,
+ "cases_accepted": 299,
+ "attempts_logged": 390,
+ "accepted_by_type": {
+  "synthetic_named": 202,
+  "synthetic_negative": 20,
+  "synthetic_name_free": 77
+ },
+ "rejection_reason_counts": {
+  "near_duplicate_of_accepted_note": 56,
+  "length_off_target": 13,
+  "residual_date": 13,
+  "length_out_of_range": 9,
+  "named_facility_unmarked": 7,
+  "age_value_repeated_ambiguous": 6,
+  "adjacent_entities": 2,
+  "entity_too_long": 2,
+  "name_part_left_in_redacted": 1,
+  "case_missing_from_response": 1,
+  "age_milestone_marked": 1,
+  "eta_not_numeric": 1
+ },
+ "requests": 132,
+ "tokens": {
+  "prompt": 427735,
+  "output": 311193,
+  "thoughts": 0
+ },
+ "cost_usd_at_configured_price": 1.4878,
+ "models_returned": [
+  "gemini-3.8-flash"
+ ],
+ "finish_reasons": {
+  "STOP": 132
+ },
+ "accepted_mentions_per_note": {
+  "NOME": 1.18,
+  "ETÀ": 1.44,
+  "LUOGO/INDIRIZZO": 0.65,
+  "DATA": 0.78
+ },
+ "accepted_median_chars": 1991,
+ "acceptance_rate_per_attempt": 0.767,
+ "post_audit": "passed",
+ "permitted_for_training": true
+}

@@ -1,0 +1,301 @@
+case_id,fold,record_type,order_index,type_order,specialty,gender,age_band,area,name_form,name_letter,n_nome,n_eta,n_data,n_luogo,target_chars,density_level,reference_year,patient_age
+F1-N00000,1,synthetic_name_free,0,0,cardiologia,donna,18-40,Trentino-Alto Adige,nome e cognome,E,0,1,0,2,1575,media,,34
+F1-N00001,1,synthetic_name_free,1,1,endocrinologia,donna,66-95,Veneto,nome e cognome,C,0,2,0,0,3310,bassa,,78
+F1-N00002,1,synthetic_named,2,0,pneumologia,uomo,41-65,Piemonte,nome e cognome,G,1,2,1,0,3037,media,2015,54
+F1-N00003,1,synthetic_named,3,1,endocrinologia,donna,18-40,Calabria,nome e cognome,I,1,1,2,0,2099,media,2004,28
+F1-N00004,1,synthetic_named,4,2,geriatria,donna,66-95,Toscana,nome proprio,R,1,1,4,0,1830,alta,1986,86
+F1-N00005,1,synthetic_name_free,5,2,ortopedia,uomo,66-95,Veneto,nome e cognome,F,0,1,6,0,4142,alta,2003,75
+F1-N00006,1,synthetic_named,6,3,endocrinologia,uomo,66-95,Umbria,iniziali puntate,B,1,2,1,0,2856,media,1985,81
+F1-N00007,1,synthetic_name_free,7,3,gastroenterologia,uomo,18-40,Campania,iniziali puntate,B,0,1,0,2,3496,media,,30
+F1-N00008,1,synthetic_name_free,8,4,neurologia,donna,66-95,Basilicata,nome e cognome,F,0,1,0,2,2987,media,,95
+F1-N00009,1,synthetic_name_free,9,5,oncologia,donna,41-65,Emilia-Romagna,iniziali puntate,D,0,1,1,8,3698,alta,2015,50
+F1-N00010,1,synthetic_named,10,4,gastroenterologia,donna,41-65,Molise,nome e cognome,C,1,1,0,0,3779,bassa,,44
+F1-N00011,1,synthetic_name_free,11,6,pneumologia,uomo,0-17,Calabria,nome e cognome,E,0,1,0,2,3391,media,,8
+F1-N00012,1,synthetic_name_free,12,7,ortopedia,uomo,0-17,Trentino-Alto Adige,iniziali puntate,E,0,1,0,1,3253,bassa,,16
+F1-N00013,1,synthetic_named,13,5,pneumologia,donna,0-17,Basilicata,nome e cognome,S,2,1,0,0,572,media,,14
+F1-N00014,1,synthetic_name_free,14,8,ortopedia,uomo,18-40,Toscana,iniziali puntate,V,0,2,0,0,3473,bassa,,18
+F1-N00015,1,synthetic_negative,15,0,gastroenterologia,uomo,18-40,Veneto,nome e cognome,P,0,0,0,0,1730,nessuna,,
+F1-N00016,1,synthetic_named,16,6,endocrinologia,donna,66-95,Piemonte,nome e cognome,D,2,1,0,0,614,media,,92
+F1-N00017,1,synthetic_name_free,17,9,gastroenterologia,donna,66-95,Emilia-Romagna,nome e cognome,L,0,1,1,1,1634,media,2005,73
+F1-N00018,1,synthetic_named,18,7,oncologia,donna,0-17,Calabria,iniziali puntate,M,3,1,0,0,638,media,,16
+F1-N00019,1,synthetic_negative,19,1,ortopedia,uomo,41-65,Marche,nome proprio,C,0,0,0,0,1729,nessuna,,
+F1-N00020,1,synthetic_named,20,8,endocrinologia,uomo,18-40,Veneto,nome proprio,R,1,1,2,0,2141,media,2014,30
+F1-N00021,1,synthetic_name_free,21,10,ortopedia,donna,66-95,Abruzzo,nome e cognome,S,0,1,0,2,1557,media,,82
+F1-N00022,1,synthetic_named,22,9,neurologia,donna,66-95,Friuli-Venezia Giulia,iniziali puntate,G,1,1,0,0,797,bassa,,68
+F1-N00023,1,synthetic_named,23,10,neurologia,donna,41-65,Lombardia,iniziali puntate,R,1,1,0,0,581,bassa,,42
+F1-N00024,1,synthetic_named,24,11,endocrinologia,donna,41-65,Molise,nome proprio,S,1,1,2,0,2303,media,2005,60
+F1-N00025,1,synthetic_named,25,12,nefrologia,uomo,0-17,Veneto,nome e cognome,D,1,1,0,0,693,bassa,,2
+F1-N00026,1,synthetic_named,26,13,neurologia,donna,0-17,Basilicata,nome e cognome,F,1,1,0,0,3714,bassa,,15
+F1-N00027,1,synthetic_name_free,27,11,gastroenterologia,donna,0-17,Sardegna,nome proprio,S,0,1,0,1,3474,bassa,,3
+F1-N00028,1,synthetic_negative,28,2,ginecologia,donna,41-65,Friuli-Venezia Giulia,iniziali puntate,I,0,0,0,0,1684,nessuna,,
+F1-N00029,1,synthetic_name_free,29,12,nefrologia,uomo,41-65,Umbria,nome proprio,V,0,1,1,1,1669,media,1989,45
+F1-N00030,1,synthetic_name_free,30,13,pediatria,uomo,0-17,Sardegna,nome e cognome,O,0,1,1,8,3932,alta,2017,8
+F1-N00031,1,synthetic_named,31,14,gastroenterologia,uomo,0-17,Puglia,iniziali puntate,P,1,1,0,0,2374,bassa,,4
+F1-N00032,1,synthetic_named,32,15,ginecologia,donna,66-95,Sicilia,iniziali puntate,D,1,1,0,0,1927,bassa,,67
+F1-N00033,1,synthetic_named,33,16,geriatria,uomo,66-95,Trentino-Alto Adige,nome proprio,G,1,1,0,0,1553,bassa,,71
+F1-N00034,1,synthetic_named,34,17,gastroenterologia,uomo,41-65,Emilia-Romagna,iniziali puntate,G,1,1,0,0,1702,bassa,,57
+F1-N00035,1,synthetic_name_free,35,14,nefrologia,donna,41-65,Calabria,iniziali puntate,R,0,1,1,8,3842,alta,1989,52
+F1-N00036,1,synthetic_named,36,18,oncologia,uomo,18-40,Friuli-Venezia Giulia,nome e cognome,I,1,1,2,0,2471,media,1998,31
+F1-N00037,1,synthetic_named,37,19,neurologia,uomo,41-65,Piemonte,nome e cognome,B,1,3,0,4,2101,alta,,44
+F1-N00038,1,synthetic_named,38,20,neurologia,donna,41-65,Lombardia,iniziali puntate,F,1,3,0,0,2510,media,,58
+F1-N00039,1,synthetic_named,39,21,geriatria,donna,66-95,Sicilia,nome proprio,T,1,3,0,4,1901,alta,,70
+F1-N00040,1,synthetic_named,40,22,pneumologia,uomo,41-65,Campania,nome e cognome,D,5,1,2,3,3068,alta,2013,51
+F1-N00041,1,synthetic_named,41,23,oncologia,uomo,18-40,Friuli-Venezia Giulia,nome proprio,S,1,1,0,0,1748,bassa,,23
+F1-N00042,1,synthetic_named,42,24,cardiologia,uomo,41-65,Sardegna,nome e cognome,M,1,1,0,0,569,bassa,,51
+F1-N00043,1,synthetic_name_free,43,15,gastroenterologia,donna,66-95,Toscana,nome proprio,G,0,1,1,1,1720,media,1991,72
+F1-N00044,1,synthetic_named,44,25,neurologia,donna,0-17,Friuli-Venezia Giulia,iniziali puntate,I,2,1,0,0,675,media,,6
+F1-N00045,1,synthetic_named,45,26,nefrologia,donna,66-95,Lombardia,iniziali puntate,F,1,1,4,0,1658,alta,1989,90
+F1-N00046,1,synthetic_name_free,46,16,cardiologia,donna,41-65,Piemonte,iniziali puntate,E,0,1,3,0,3575,media,1988,52
+F1-N00047,1,synthetic_named,47,27,pneumologia,uomo,0-17,Molise,nome e cognome,B,2,1,0,0,653,media,,8
+F1-N00048,1,synthetic_named,48,28,oncologia,donna,18-40,Friuli-Venezia Giulia,iniziali puntate,D,1,1,0,0,2798,bassa,,19
+F1-N00049,1,synthetic_negative,49,3,nefrologia,uomo,41-65,Emilia-Romagna,nome proprio,N,0,0,0,0,3079,nessuna,,
+F1-N00050,1,synthetic_named,50,29,oncologia,donna,41-65,Basilicata,nome e cognome,I,1,3,0,0,2210,media,,48
+F1-N00051,1,synthetic_named,51,30,cardiologia,uomo,18-40,Friuli-Venezia Giulia,nome e cognome,G,3,1,0,0,687,media,,40
+F1-N00052,1,synthetic_name_free,52,17,pneumologia,uomo,18-40,Molise,nome e cognome,R,0,1,0,2,1646,media,,25
+F1-N00053,1,synthetic_named,53,31,nefrologia,donna,41-65,Trentino-Alto Adige,nome e cognome,S,1,3,0,4,2167,alta,,63
+F1-N00054,1,synthetic_named,54,32,neurologia,donna,41-65,Marche,iniziali puntate,P,1,2,1,0,3255,media,2014,56
+F1-N00055,1,synthetic_named,55,33,nefrologia,donna,66-95,Umbria,nome e cognome,B,2,1,0,0,725,media,,87
+F1-N00056,1,synthetic_named,56,34,cardiologia,uomo,66-95,Sicilia,nome e cognome,V,2,1,0,0,750,media,,76
+F1-N00057,1,synthetic_named,57,35,pneumologia,donna,66-95,Emilia-Romagna,nome proprio,O,4,0,0,1,3385,media,,
+F1-N00058,1,synthetic_named,58,36,ortopedia,uomo,0-17,Sicilia,nome e cognome,N,1,1,0,0,563,bassa,,11
+F1-N00059,1,synthetic_name_free,59,18,oncologia,donna,66-95,Liguria,nome proprio,P,0,1,1,8,3878,alta,1993,71
+F1-N00060,1,synthetic_name_free,60,19,oncologia,uomo,41-65,Lombardia,nome proprio,G,0,1,1,0,1670,bassa,1991,49
+F1-N00061,1,synthetic_negative,61,4,neurologia,uomo,41-65,Valle d'Aosta,nome e cognome,F,0,0,0,0,2327,nessuna,,
+F1-N00062,1,synthetic_name_free,62,20,oncologia,donna,41-65,Lombardia,nome proprio,M,0,1,0,1,3238,bassa,,57
+F1-N00063,1,synthetic_named,63,37,ortopedia,donna,0-17,Trentino-Alto Adige,nome proprio,B,1,1,1,0,2008,media,1999,15
+F1-N00064,1,synthetic_named,64,38,neurologia,uomo,41-65,Lazio,iniziali puntate,D,2,1,0,0,634,media,,55
+F1-N00065,1,synthetic_name_free,65,21,pneumologia,donna,0-17,Sardegna,nome proprio,B,0,2,0,0,3746,bassa,,17
+F1-N00066,1,synthetic_name_free,66,22,endocrinologia,uomo,18-40,Abruzzo,nome proprio,L,0,1,0,2,1619,media,,24
+F1-N00067,1,synthetic_negative,67,5,oncologia,donna,41-65,Calabria,nome proprio,G,0,0,0,0,2131,nessuna,,
+F1-N00068,1,synthetic_name_free,68,23,pneumologia,uomo,0-17,Marche,nome proprio,F,0,1,0,3,3366,media,,13
+F1-N00069,1,synthetic_name_free,69,24,oncologia,uomo,41-65,Abruzzo,nome proprio,R,0,2,0,0,2014,bassa,,51
+F1-N00070,1,synthetic_named,70,39,cardiologia,uomo,41-65,Sardegna,iniziali puntate,P,1,1,0,0,3517,bassa,,53
+F1-N00071,1,synthetic_negative,71,6,pneumologia,uomo,41-65,Valle d'Aosta,nome e cognome,N,0,0,0,0,3346,nessuna,,
+F1-N00072,1,synthetic_name_free,72,25,oncologia,uomo,41-65,Marche,iniziali puntate,N,0,1,0,1,2951,bassa,,45
+F1-N00073,1,synthetic_named,73,40,neurologia,donna,0-17,Emilia-Romagna,iniziali puntate,M,1,1,0,0,624,bassa,,11
+F1-N00074,1,synthetic_named,74,41,oncologia,uomo,18-40,Calabria,nome proprio,E,5,1,0,0,2872,alta,,33
+F1-N00075,1,synthetic_named,75,42,ortopedia,donna,66-95,Abruzzo,nome proprio,C,1,3,0,4,2168,alta,,81
+F1-N00076,1,synthetic_named,76,43,nefrologia,donna,0-17,Valle d'Aosta,nome e cognome,C,1,1,13,0,3055,alta,2007,2
+F1-N00077,1,synthetic_name_free,77,26,ortopedia,uomo,0-17,Liguria,nome e cognome,B,0,2,0,0,1865,bassa,,15
+F1-N00078,1,synthetic_named,78,44,neurologia,donna,0-17,Piemonte,nome proprio,B,1,2,1,0,2949,media,1996,12
+F1-N00079,1,synthetic_named,79,45,oncologia,uomo,18-40,Calabria,nome proprio,B,1,1,2,0,2367,media,1994,34
+F1-N00080,1,synthetic_named,80,46,neurologia,uomo,66-95,Sicilia,iniziali puntate,C,3,1,0,0,692,media,,93
+F1-N00081,1,synthetic_negative,81,7,nefrologia,uomo,18-40,Trentino-Alto Adige,nome e cognome,R,0,0,0,0,567,nessuna,,
+F1-N00082,1,synthetic_named,82,47,pneumologia,uomo,66-95,Veneto,nome e cognome,P,1,3,0,4,2051,alta,,87
+F1-N00083,1,synthetic_named,83,48,endocrinologia,uomo,66-95,Molise,iniziali puntate,T,1,3,0,0,2577,media,,79
+F1-N00084,1,synthetic_named,84,49,oncologia,donna,41-65,Marche,iniziali puntate,R,1,6,0,2,2001,alta,,47
+F1-N00085,1,synthetic_name_free,85,27,endocrinologia,uomo,41-65,Veneto,nome proprio,A,0,1,0,3,3556,media,,59
+F1-N00086,1,synthetic_named,86,50,ginecologia,donna,41-65,Basilicata,nome e cognome,N,1,1,0,0,2191,bassa,,41
+F1-N00087,1,synthetic_named,87,51,ortopedia,uomo,18-40,Friuli-Venezia Giulia,nome e cognome,S,1,1,0,0,645,bassa,,20
+F1-N00088,1,synthetic_named,88,52,endocrinologia,uomo,0-17,Umbria,nome proprio,M,1,1,0,0,3517,bassa,,12
+F1-N00089,1,synthetic_named,89,53,endocrinologia,donna,41-65,Molise,nome e cognome,G,4,0,0,1,3114,media,,
+F1-N00090,1,synthetic_named,90,54,ortopedia,uomo,18-40,Veneto,nome proprio,G,1,1,13,0,3249,alta,2011,32
+F1-N00091,1,synthetic_name_free,91,28,endocrinologia,uomo,18-40,Piemonte,nome e cognome,D,0,1,6,0,2835,alta,1994,20
+F1-N00092,1,synthetic_named,92,55,ortopedia,uomo,0-17,Lazio,nome e cognome,E,1,1,0,0,634,bassa,,3
+F1-N00093,1,synthetic_named,93,56,nefrologia,uomo,66-95,Trentino-Alto Adige,nome proprio,S,2,1,0,0,635,media,,66
+F1-N00094,1,synthetic_named,94,57,endocrinologia,uomo,18-40,Liguria,nome e cognome,E,2,1,0,0,631,media,,34
+F1-N00095,1,synthetic_named,95,58,gastroenterologia,uomo,41-65,Veneto,nome proprio,P,3,1,0,0,554,media,,49
+F1-N00096,1,synthetic_named,96,59,endocrinologia,donna,66-95,Friuli-Venezia Giulia,nome e cognome,V,5,1,2,3,2802,alta,1993,88
+F1-N00097,1,synthetic_named,97,60,nefrologia,uomo,18-40,Lazio,iniziali puntate,I,1,1,13,0,3098,alta,1997,18
+F1-N00098,1,synthetic_named,98,61,neurologia,donna,0-17,Valle d'Aosta,iniziali puntate,R,1,2,1,0,2981,media,1987,16
+F1-N00099,1,synthetic_named,99,62,ortopedia,donna,18-40,Lombardia,iniziali puntate,B,1,1,1,0,1751,media,1994,32
+F1-N00100,1,synthetic_named,100,63,ginecologia,donna,66-95,Basilicata,nome proprio,S,1,2,1,0,2972,media,2012,75
+F1-N00101,1,synthetic_named,101,64,gastroenterologia,uomo,0-17,Trentino-Alto Adige,iniziali puntate,I,1,1,0,0,3378,bassa,,5
+F1-N00102,1,synthetic_name_free,102,29,endocrinologia,uomo,66-95,Emilia-Romagna,iniziali puntate,N,0,1,0,3,3619,media,,92
+F1-N00103,1,synthetic_name_free,103,30,pediatria,donna,0-17,Veneto,iniziali puntate,D,0,1,0,1,2987,bassa,,6
+F1-N00104,1,synthetic_named,104,65,nefrologia,donna,66-95,Lombardia,nome e cognome,I,5,1,2,3,2941,alta,2013,84
+F1-N00105,1,synthetic_named,105,66,neurologia,uomo,41-65,Emilia-Romagna,iniziali puntate,I,2,1,0,0,737,media,,49
+F1-N00106,1,synthetic_named,106,67,endocrinologia,uomo,18-40,Calabria,nome proprio,A,1,1,0,0,628,bassa,,18
+F1-N00107,1,synthetic_named,107,68,pneumologia,uomo,0-17,Trentino-Alto Adige,nome proprio,A,1,2,1,0,2894,media,2001,2
+F1-N00108,1,synthetic_name_free,108,31,cardiologia,uomo,41-65,Friuli-Venezia Giulia,nome e cognome,R,0,1,3,0,3727,media,1995,44
+F1-N00109,1,synthetic_named,109,69,gastroenterologia,donna,0-17,Veneto,nome proprio,E,1,1,0,0,574,bassa,,4
+F1-N00110,1,synthetic_named,110,70,cardiologia,uomo,18-40,Friuli-Venezia Giulia,nome proprio,P,1,1,4,0,1722,alta,2001,18
+F1-N00111,1,synthetic_named,111,71,gastroenterologia,donna,18-40,Puglia,nome proprio,O,1,1,0,0,3655,bassa,,19
+F1-N00112,1,synthetic_named,112,72,gastroenterologia,donna,66-95,Toscana,nome e cognome,G,1,1,0,0,1920,bassa,,94
+F1-N00113,1,synthetic_named,113,73,endocrinologia,uomo,41-65,Campania,nome proprio,T,1,1,0,0,1639,bassa,,47
+F1-N00114,1,synthetic_named,114,74,oncologia,donna,41-65,Abruzzo,iniziali puntate,R,1,1,0,0,675,bassa,,41
+F1-N00115,1,synthetic_named,115,75,endocrinologia,donna,41-65,Marche,nome e cognome,B,1,1,0,0,3307,bassa,,57
+F1-N00116,1,synthetic_named,116,76,gastroenterologia,donna,18-40,Piemonte,iniziali puntate,G,2,1,0,0,639,media,,35
+F1-N00117,1,synthetic_named,117,77,nefrologia,uomo,18-40,Valle d'Aosta,iniziali puntate,G,3,1,0,0,587,media,,32
+F1-N00118,1,synthetic_name_free,118,32,cardiologia,donna,18-40,Umbria,nome proprio,V,0,1,0,2,3339,media,,28
+F1-N00119,1,synthetic_named,119,78,gastroenterologia,donna,41-65,Emilia-Romagna,nome proprio,A,1,1,13,0,3093,alta,2014,49
+F1-N00120,1,synthetic_name_free,120,33,ortopedia,uomo,41-65,Lazio,nome proprio,P,0,1,1,8,3859,alta,1991,62
+F1-N00121,1,synthetic_name_free,121,34,gastroenterologia,uomo,18-40,Sicilia,iniziali puntate,M,0,1,0,2,3184,media,,18
+F1-N00122,1,synthetic_name_free,122,35,cardiologia,donna,41-65,Lazio,nome e cognome,D,0,1,6,0,4200,alta,2002,41
+F1-N00123,1,synthetic_named,123,79,oncologia,donna,18-40,Piemonte,nome e cognome,R,1,2,1,0,3215,media,2002,24
+F1-N00124,1,synthetic_named,124,80,endocrinologia,uomo,41-65,Veneto,nome e cognome,M,1,3,0,4,2134,alta,,62
+F1-N00125,1,synthetic_named,125,81,ortopedia,uomo,18-40,Umbria,nome proprio,B,1,1,0,0,733,bassa,,39
+F1-N00126,1,synthetic_name_free,126,36,neurologia,uomo,41-65,Trentino-Alto Adige,nome e cognome,B,0,1,1,1,1815,media,2009,60
+F1-N00127,1,synthetic_named,127,82,gastroenterologia,uomo,66-95,Toscana,nome proprio,M,1,3,0,4,2233,alta,,71
+F1-N00128,1,synthetic_named,128,83,oncologia,uomo,66-95,Trentino-Alto Adige,nome e cognome,C,4,0,0,1,3628,media,,
+F1-N00129,1,synthetic_negative,129,8,pneumologia,donna,18-40,Molise,iniziali puntate,L,0,0,0,0,1756,nessuna,,
+F1-N00130,1,synthetic_named,130,84,ortopedia,donna,0-17,Basilicata,nome proprio,O,1,3,0,4,2193,alta,,14
+F1-N00131,1,synthetic_name_free,131,37,ginecologia,donna,41-65,Piemonte,nome proprio,T,0,1,0,1,2730,bassa,,57
+F1-N00132,1,synthetic_named,132,85,gastroenterologia,uomo,66-95,Piemonte,nome proprio,E,1,1,0,0,688,bassa,,88
+F1-N00133,1,synthetic_named,133,86,gastroenterologia,uomo,18-40,Molise,nome proprio,P,1,6,0,2,2111,alta,,35
+F1-N00134,1,synthetic_named,134,87,neurologia,donna,41-65,Campania,nome e cognome,O,2,1,0,0,746,media,,57
+F1-N00135,1,synthetic_name_free,135,38,cardiologia,uomo,41-65,Piemonte,nome proprio,C,0,1,6,0,3841,alta,1989,59
+F1-N00136,1,synthetic_named,136,88,ortopedia,uomo,41-65,Lombardia,nome proprio,F,1,1,0,0,1666,bassa,,47
+F1-N00137,1,synthetic_named,137,89,neurologia,donna,41-65,Campania,iniziali puntate,T,2,1,0,0,674,media,,65
+F1-N00138,1,synthetic_named,138,90,neurologia,uomo,66-95,Campania,nome proprio,M,1,1,0,0,1952,bassa,,83
+F1-N00139,1,synthetic_negative,139,9,nefrologia,uomo,0-17,Lazio,nome e cognome,O,0,0,0,0,2925,nessuna,,
+F1-N00140,1,synthetic_name_free,140,39,gastroenterologia,donna,41-65,Molise,iniziali puntate,L,0,1,1,8,3771,alta,2008,51
+F1-N00141,1,synthetic_named,141,91,ortopedia,donna,41-65,Basilicata,iniziali puntate,G,1,1,0,0,692,bassa,,44
+F1-N00142,1,synthetic_name_free,142,40,nefrologia,uomo,41-65,Abruzzo,nome e cognome,A,0,5,1,0,3253,alta,2004,58
+F1-N00143,1,synthetic_name_free,143,41,endocrinologia,uomo,41-65,Umbria,iniziali puntate,F,0,1,0,3,3503,media,,55
+F1-N00144,1,synthetic_named,144,92,cardiologia,uomo,41-65,Liguria,iniziali puntate,R,1,1,0,0,3321,bassa,,58
+F1-N00145,1,synthetic_named,145,93,gastroenterologia,uomo,41-65,Lazio,iniziali puntate,S,5,1,2,3,2867,alta,2011,42
+F1-N00146,1,synthetic_named,146,94,nefrologia,uomo,41-65,Lombardia,nome proprio,M,1,1,1,0,1983,media,1991,56
+F1-N00147,1,synthetic_named,147,95,pediatria,uomo,0-17,Toscana,nome e cognome,B,1,2,1,0,3116,media,2005,2
+F1-N00148,1,synthetic_negative,148,10,oncologia,uomo,0-17,Puglia,nome proprio,N,0,0,0,0,2745,nessuna,,
+F1-N00149,1,synthetic_named,149,96,nefrologia,uomo,66-95,Abruzzo,nome proprio,C,5,1,2,3,2710,alta,2006,93
+F1-N00150,1,synthetic_named,150,97,gastroenterologia,donna,18-40,Friuli-Venezia Giulia,iniziali puntate,T,2,1,0,0,675,media,,34
+F1-N00151,1,synthetic_named,151,98,neurologia,donna,0-17,Basilicata,nome proprio,O,3,1,0,0,619,media,,8
+F1-N00152,1,synthetic_named,152,99,ortopedia,uomo,41-65,Calabria,iniziali puntate,G,1,1,0,0,633,bassa,,63
+F1-N00153,1,synthetic_named,153,100,neurologia,donna,0-17,Campania,iniziali puntate,C,5,1,2,3,2599,alta,1995,8
+F1-N00154,1,synthetic_negative,154,11,ginecologia,donna,18-40,Liguria,nome proprio,V,0,0,0,0,2598,nessuna,,
+F1-N00155,1,synthetic_named,155,101,oncologia,uomo,18-40,Calabria,nome e cognome,B,1,1,4,0,1571,alta,2008,31
+F1-N00156,1,synthetic_name_free,156,42,ortopedia,uomo,41-65,Puglia,nome proprio,D,0,1,6,0,3017,alta,1996,53
+F1-N00157,1,synthetic_named,157,102,neurologia,donna,66-95,Sardegna,nome e cognome,E,1,1,0,0,779,bassa,,78
+F1-N00158,1,synthetic_named,158,103,oncologia,uomo,41-65,Veneto,iniziali puntate,P,1,3,0,4,1906,alta,,57
+F1-N00159,1,synthetic_name_free,159,43,neurologia,uomo,66-95,Lazio,nome e cognome,L,0,2,0,0,2320,bassa,,84
+F1-N00160,1,synthetic_name_free,160,44,cardiologia,uomo,0-17,Toscana,nome e cognome,E,0,1,1,1,1614,media,2006,3
+F1-N00161,1,synthetic_name_free,161,45,pneumologia,donna,41-65,Umbria,nome e cognome,N,0,5,1,0,3382,alta,1988,59
+F1-N00162,1,synthetic_named,162,104,ortopedia,donna,18-40,Friuli-Venezia Giulia,nome proprio,S,1,1,0,0,3584,bassa,,31
+F1-N00163,1,synthetic_name_free,163,46,neurologia,donna,41-65,Basilicata,nome proprio,L,0,1,6,0,4126,alta,1990,41
+F1-N00164,1,synthetic_named,164,105,gastroenterologia,uomo,0-17,Calabria,nome e cognome,O,1,1,0,0,3415,bassa,,1
+F1-N00165,1,synthetic_named,165,106,ortopedia,donna,41-65,Lombardia,nome e cognome,R,1,1,0,0,3383,bassa,,50
+F1-N00166,1,synthetic_name_free,166,47,pediatria,uomo,0-17,Veneto,nome proprio,R,0,2,0,0,2005,bassa,,10
+F1-N00167,1,synthetic_named,167,107,gastroenterologia,uomo,41-65,Sicilia,nome proprio,V,4,0,0,1,3546,media,,
+F1-N00168,1,synthetic_named,168,108,pneumologia,donna,18-40,Calabria,nome proprio,E,2,1,0,0,585,media,,29
+F1-N00169,1,synthetic_named,169,109,nefrologia,uomo,0-17,Sicilia,nome proprio,T,1,2,1,0,3265,media,1983,7
+F1-N00170,1,synthetic_name_free,170,48,gastroenterologia,donna,66-95,Marche,iniziali puntate,N,0,1,1,1,1817,media,1997,77
+F1-N00171,1,synthetic_named,171,110,endocrinologia,uomo,66-95,Lazio,nome proprio,N,1,6,0,2,2121,alta,,69
+F1-N00172,1,synthetic_name_free,172,49,ortopedia,uomo,66-95,Sicilia,iniziali puntate,M,0,1,1,0,1762,bassa,1984,88
+F1-N00173,1,synthetic_named,173,111,gastroenterologia,donna,18-40,Valle d'Aosta,nome proprio,V,1,1,0,0,646,bassa,,25
+F1-N00174,1,synthetic_named,174,112,pneumologia,uomo,66-95,Toscana,nome e cognome,O,1,1,0,0,692,bassa,,66
+F1-N00175,1,synthetic_named,175,113,cardiologia,donna,41-65,Friuli-Venezia Giulia,iniziali puntate,B,1,1,0,0,517,bassa,,43
+F1-N00176,1,synthetic_named,176,114,cardiologia,uomo,66-95,Puglia,iniziali puntate,A,1,1,0,0,678,bassa,,78
+F1-N00177,1,synthetic_named,177,115,pneumologia,donna,66-95,Lombardia,nome proprio,L,1,1,0,0,663,bassa,,78
+F1-N00178,1,synthetic_name_free,178,50,endocrinologia,donna,18-40,Friuli-Venezia Giulia,iniziali puntate,N,0,1,6,0,4087,alta,1994,20
+F1-N00179,1,synthetic_named,179,116,nefrologia,donna,66-95,Abruzzo,nome proprio,N,1,1,0,0,660,bassa,,79
+F1-N00180,1,synthetic_negative,180,12,gastroenterologia,uomo,18-40,Lazio,nome e cognome,B,0,0,0,0,1497,nessuna,,
+F1-N00181,1,synthetic_named,181,117,geriatria,uomo,66-95,Emilia-Romagna,iniziali puntate,G,5,1,0,0,3190,alta,,66
+F1-N00182,1,synthetic_named,182,118,endocrinologia,uomo,41-65,Sicilia,iniziali puntate,L,2,1,0,0,667,media,,49
+F1-N00183,1,synthetic_named,183,119,pneumologia,uomo,41-65,Toscana,nome proprio,S,2,1,0,0,666,media,,52
+F1-N00184,1,synthetic_name_free,184,51,cardiologia,uomo,0-17,Toscana,nome e cognome,E,0,2,0,0,2445,bassa,,17
+F1-N00185,1,synthetic_named,185,120,ortopedia,uomo,18-40,Lombardia,nome e cognome,F,1,1,0,0,609,bassa,,29
+F1-N00186,1,synthetic_named,186,121,ginecologia,donna,66-95,Sardegna,nome proprio,P,1,1,0,0,673,bassa,,68
+F1-N00187,1,synthetic_named,187,122,oncologia,uomo,0-17,Liguria,nome proprio,S,1,1,1,0,1750,media,1984,14
+F1-N00188,1,synthetic_named,188,123,oncologia,uomo,41-65,Toscana,iniziali puntate,I,2,1,0,0,620,media,,45
+F1-N00189,1,synthetic_named,189,124,gastroenterologia,uomo,66-95,Valle d'Aosta,nome proprio,I,5,1,0,0,3255,alta,,72
+F1-N00190,1,synthetic_named,190,125,geriatria,uomo,66-95,Sardegna,nome e cognome,M,1,1,13,0,3260,alta,2005,95
+F1-N00191,1,synthetic_named,191,126,ortopedia,uomo,0-17,Molise,nome proprio,E,1,1,0,0,586,bassa,,5
+F1-N00192,1,synthetic_named,192,127,pneumologia,uomo,66-95,Calabria,nome e cognome,L,1,3,0,0,2527,media,,93
+F1-N00193,1,synthetic_named,193,128,endocrinologia,uomo,66-95,Puglia,iniziali puntate,V,1,1,0,0,2629,bassa,,78
+F1-N00194,1,synthetic_named,194,129,nefrologia,uomo,41-65,Sicilia,iniziali puntate,B,1,3,0,4,2199,alta,,61
+F1-N00195,1,synthetic_name_free,195,52,ortopedia,uomo,18-40,Emilia-Romagna,nome e cognome,S,0,1,1,0,1776,bassa,1984,36
+F1-N00196,1,synthetic_named,196,130,nefrologia,uomo,18-40,Friuli-Venezia Giulia,nome e cognome,I,1,3,0,0,2408,media,,40
+F1-N00197,1,synthetic_named,197,131,nefrologia,donna,66-95,Piemonte,nome e cognome,L,2,1,0,0,683,media,,77
+F1-N00198,1,synthetic_name_free,198,53,endocrinologia,donna,41-65,Veneto,iniziali puntate,O,0,1,6,0,2903,alta,1991,44
+F1-N00199,1,synthetic_negative,199,13,oncologia,uomo,0-17,Puglia,nome e cognome,O,0,0,0,0,2651,nessuna,,
+F1-N00200,1,synthetic_name_free,200,54,pneumologia,uomo,41-65,Valle d'Aosta,nome proprio,M,0,1,0,1,2896,bassa,,53
+F1-N00201,1,synthetic_named,201,132,ortopedia,donna,0-17,Toscana,nome e cognome,R,5,1,0,0,3015,alta,,11
+F1-N00202,1,synthetic_name_free,202,55,geriatria,uomo,66-95,Sicilia,nome e cognome,I,0,1,0,2,3272,media,,86
+F1-N00203,1,synthetic_name_free,203,56,geriatria,donna,66-95,Marche,nome e cognome,R,0,5,1,0,3609,alta,2003,94
+F1-N00204,1,synthetic_named,204,133,neurologia,donna,0-17,Umbria,iniziali puntate,C,3,1,0,0,706,media,,17
+F1-N00205,1,synthetic_name_free,205,57,neurologia,donna,18-40,Calabria,nome proprio,O,0,1,1,1,1582,media,2002,31
+F1-N00206,1,synthetic_named,206,134,neurologia,uomo,18-40,Valle d'Aosta,nome e cognome,B,1,1,0,0,605,bassa,,27
+F1-N00207,1,synthetic_named,207,135,pneumologia,uomo,66-95,Trentino-Alto Adige,nome e cognome,R,1,1,1,0,1977,media,1984,68
+F1-N00208,1,synthetic_named,208,136,pediatria,donna,0-17,Sardegna,nome e cognome,O,1,1,0,0,1476,bassa,,14
+F1-N00209,1,synthetic_named,209,137,pneumologia,uomo,66-95,Calabria,nome proprio,S,1,3,0,0,2325,media,,74
+F1-N00210,1,synthetic_name_free,210,58,neurologia,donna,18-40,Toscana,iniziali puntate,F,0,1,0,1,3188,bassa,,34
+F1-N00211,1,synthetic_named,211,138,cardiologia,donna,0-17,Emilia-Romagna,iniziali puntate,B,1,1,13,0,3061,alta,2000,4
+F1-N00212,1,synthetic_named,212,139,cardiologia,donna,0-17,Piemonte,nome e cognome,O,2,1,0,0,699,media,,12
+F1-N00213,1,synthetic_name_free,213,59,pneumologia,donna,41-65,Molise,nome proprio,O,0,5,1,0,3405,alta,2008,64
+F1-N00214,1,synthetic_name_free,214,60,ortopedia,donna,0-17,Liguria,nome proprio,S,0,5,1,0,3204,alta,2008,5
+F1-N00215,1,synthetic_named,215,140,ginecologia,donna,41-65,Campania,nome proprio,F,2,1,0,0,600,media,,52
+F1-N00216,1,synthetic_named,216,141,gastroenterologia,uomo,66-95,Emilia-Romagna,iniziali puntate,S,1,3,0,0,2292,media,,93
+F1-N00217,1,synthetic_negative,217,14,pneumologia,uomo,66-95,Puglia,nome proprio,O,0,0,0,0,1608,nessuna,,
+F1-N00218,1,synthetic_named,218,142,oncologia,donna,41-65,Liguria,nome proprio,T,1,1,0,0,1734,bassa,,53
+F1-N00219,1,synthetic_named,219,143,neurologia,uomo,66-95,Veneto,nome proprio,C,1,1,0,0,647,bassa,,70
+F1-N00220,1,synthetic_named,220,144,endocrinologia,donna,66-95,Sardegna,nome e cognome,S,2,1,0,0,773,media,,93
+F1-N00221,1,synthetic_negative,221,15,endocrinologia,donna,0-17,Lombardia,nome proprio,N,0,0,0,0,3510,nessuna,,
+F1-N00222,1,synthetic_named,222,145,nefrologia,donna,18-40,Valle d'Aosta,nome proprio,E,1,1,0,0,624,bassa,,34
+F1-N00223,1,synthetic_named,223,146,cardiologia,donna,41-65,Trentino-Alto Adige,iniziali puntate,O,1,1,0,0,658,bassa,,49
+F1-N00224,1,synthetic_named,224,147,ortopedia,donna,66-95,Calabria,iniziali puntate,I,1,1,0,0,517,bassa,,78
+F1-N00225,1,synthetic_named,225,148,pneumologia,donna,41-65,Abruzzo,iniziali puntate,L,1,1,4,0,1871,alta,2004,41
+F1-N00226,1,synthetic_named,226,149,ginecologia,donna,41-65,Emilia-Romagna,nome proprio,M,1,1,0,0,2084,bassa,,61
+F1-N00227,1,synthetic_name_free,227,61,neurologia,donna,41-65,Calabria,nome proprio,V,0,1,0,1,3286,bassa,,42
+F1-N00228,1,synthetic_named,228,150,endocrinologia,donna,41-65,Veneto,nome e cognome,E,1,1,0,0,606,bassa,,50
+F1-N00229,1,synthetic_named,229,151,neurologia,uomo,41-65,Abruzzo,nome e cognome,D,1,1,0,0,667,bassa,,41
+F1-N00230,1,synthetic_named,230,152,ginecologia,donna,18-40,Campania,nome e cognome,V,1,1,0,0,2085,bassa,,32
+F1-N00231,1,synthetic_named,231,153,oncologia,uomo,0-17,Calabria,nome e cognome,F,2,1,0,0,704,media,,14
+F1-N00232,1,synthetic_negative,232,16,oncologia,donna,18-40,Lombardia,nome e cognome,I,0,0,0,0,1649,nessuna,,
+F1-N00233,1,synthetic_named,233,154,oncologia,uomo,0-17,Friuli-Venezia Giulia,nome proprio,V,2,1,0,0,675,media,,6
+F1-N00234,1,synthetic_named,234,155,gastroenterologia,uomo,41-65,Liguria,nome e cognome,L,2,1,0,0,695,media,,50
+F1-N00235,1,synthetic_named,235,156,oncologia,donna,66-95,Sicilia,iniziali puntate,L,1,1,0,0,3511,bassa,,66
+F1-N00236,1,synthetic_name_free,236,62,pneumologia,uomo,0-17,Liguria,nome e cognome,S,0,1,0,2,1711,media,,11
+F1-N00237,1,synthetic_named,237,157,endocrinologia,donna,18-40,Campania,iniziali puntate,P,3,1,0,0,703,media,,33
+F1-N00238,1,synthetic_negative,238,17,gastroenterologia,uomo,0-17,Abruzzo,nome proprio,C,0,0,0,0,2281,nessuna,,
+F1-N00239,1,synthetic_named,239,158,oncologia,donna,18-40,Friuli-Venezia Giulia,iniziali puntate,C,1,1,0,0,596,bassa,,35
+F1-N00240,1,synthetic_named,240,159,ortopedia,uomo,41-65,Basilicata,nome proprio,P,1,1,0,0,704,bassa,,49
+F1-N00241,1,synthetic_named,241,160,gastroenterologia,donna,18-40,Sardegna,nome proprio,L,3,1,0,0,742,media,,37
+F1-N00242,1,synthetic_named,242,161,gastroenterologia,uomo,66-95,Umbria,nome proprio,A,1,1,13,0,2830,alta,2005,89
+F1-N00243,1,synthetic_named,243,162,gastroenterologia,donna,0-17,Marche,nome e cognome,D,1,1,13,0,3252,alta,1994,17
+F1-N00244,1,synthetic_name_free,244,63,oncologia,uomo,41-65,Trentino-Alto Adige,nome e cognome,B,0,1,3,0,3581,media,2002,42
+F1-N00245,1,synthetic_named,245,163,endocrinologia,uomo,41-65,Veneto,iniziali puntate,M,3,1,0,0,650,media,,53
+F1-N00246,1,synthetic_named,246,164,pneumologia,uomo,0-17,Sicilia,nome proprio,L,1,1,0,0,667,bassa,,17
+F1-N00247,1,synthetic_named,247,165,oncologia,uomo,41-65,Abruzzo,nome e cognome,O,1,1,0,0,2008,bassa,,41
+F1-N00248,1,synthetic_name_free,248,64,gastroenterologia,donna,18-40,Liguria,nome proprio,A,0,1,1,8,4099,alta,2000,21
+F1-N00249,1,synthetic_named,249,166,gastroenterologia,uomo,0-17,Veneto,nome proprio,P,2,1,0,0,765,media,,5
+F1-N00250,1,synthetic_named,250,167,gastroenterologia,donna,0-17,Sardegna,iniziali puntate,C,1,6,0,2,1950,alta,,1
+F1-N00251,1,synthetic_named,251,168,endocrinologia,uomo,41-65,Marche,nome e cognome,P,1,1,0,0,577,bassa,,63
+F1-N00252,1,synthetic_named,252,169,nefrologia,donna,18-40,Piemonte,nome proprio,D,1,3,0,4,1907,alta,,36
+F1-N00253,1,synthetic_negative,253,18,pediatria,donna,0-17,Toscana,nome proprio,N,0,0,0,0,3393,nessuna,,
+F1-N00254,1,synthetic_named,254,170,nefrologia,donna,41-65,Abruzzo,nome proprio,G,2,1,0,0,750,media,,63
+F1-N00255,1,synthetic_name_free,255,65,neurologia,donna,18-40,Abruzzo,nome e cognome,R,0,1,0,3,3743,media,,18
+F1-N00256,1,synthetic_name_free,256,66,nefrologia,donna,66-95,Lazio,nome e cognome,M,0,2,0,0,1935,bassa,,76
+F1-N00257,1,synthetic_named,257,171,endocrinologia,donna,66-95,Basilicata,iniziali puntate,T,1,1,0,0,661,bassa,,68
+F1-N00258,1,synthetic_named,258,172,gastroenterologia,uomo,18-40,Basilicata,iniziali puntate,F,3,1,0,0,631,media,,24
+F1-N00259,1,synthetic_named,259,173,endocrinologia,donna,66-95,Puglia,nome proprio,E,1,3,0,0,2243,media,,83
+F1-N00260,1,synthetic_named,260,174,oncologia,donna,18-40,Liguria,nome proprio,T,1,1,0,0,623,bassa,,37
+F1-N00261,1,synthetic_named,261,175,cardiologia,donna,0-17,Liguria,nome e cognome,M,1,1,4,0,1811,alta,2000,5
+F1-N00262,1,synthetic_named,262,176,pneumologia,donna,66-95,Abruzzo,nome e cognome,V,1,6,0,2,1927,alta,,76
+F1-N00263,1,synthetic_named,263,177,gastroenterologia,uomo,41-65,Marche,nome e cognome,O,1,1,0,0,2161,bassa,,59
+F1-N00264,1,synthetic_named,264,178,pneumologia,donna,66-95,Umbria,iniziali puntate,S,1,3,0,4,2198,alta,,67
+F1-N00265,1,synthetic_named,265,179,ortopedia,uomo,18-40,Lazio,nome proprio,M,1,1,0,0,585,bassa,,24
+F1-N00266,1,synthetic_named,266,180,ortopedia,uomo,18-40,Toscana,nome proprio,S,1,2,1,0,3256,media,2004,18
+F1-N00267,1,synthetic_name_free,267,67,ginecologia,donna,18-40,Emilia-Romagna,nome proprio,G,0,1,3,0,3994,media,2015,21
+F1-N00268,1,synthetic_name_free,268,68,geriatria,donna,66-95,Emilia-Romagna,nome e cognome,I,0,1,1,8,3993,alta,2017,85
+F1-N00269,1,synthetic_named,269,181,neurologia,uomo,41-65,Molise,nome proprio,M,5,1,0,0,2910,alta,,45
+F1-N00270,1,synthetic_name_free,270,69,gastroenterologia,uomo,41-65,Puglia,nome e cognome,M,0,1,0,1,2625,bassa,,64
+F1-N00271,1,synthetic_named,271,182,endocrinologia,donna,18-40,Emilia-Romagna,nome proprio,T,1,1,0,0,606,bassa,,28
+F1-N00272,1,synthetic_named,272,183,nefrologia,uomo,18-40,Lombardia,nome proprio,I,1,3,0,0,2243,media,,39
+F1-N00273,1,synthetic_name_free,273,70,neurologia,uomo,41-65,Sicilia,nome e cognome,N,0,1,6,0,3121,alta,2007,64
+F1-N00274,1,synthetic_named,274,184,nefrologia,uomo,41-65,Liguria,iniziali puntate,D,4,0,0,1,3133,media,,
+F1-N00275,1,synthetic_named,275,185,oncologia,uomo,66-95,Veneto,iniziali puntate,E,3,1,0,0,605,media,,72
+F1-N00276,1,synthetic_name_free,276,71,pneumologia,uomo,18-40,Sicilia,nome proprio,V,0,1,0,2,1614,media,,23
+F1-N00277,1,synthetic_named,277,186,geriatria,donna,66-95,Sicilia,iniziali puntate,E,1,1,0,0,725,bassa,,95
+F1-N00278,1,synthetic_named,278,187,neurologia,uomo,66-95,Lazio,iniziali puntate,P,4,0,0,1,3371,media,,
+F1-N00279,1,synthetic_name_free,279,72,nefrologia,donna,0-17,Campania,iniziali puntate,R,0,1,0,2,1536,media,,1
+F1-N00280,1,synthetic_name_free,280,73,gastroenterologia,uomo,41-65,Emilia-Romagna,nome e cognome,F,0,1,0,1,2399,bassa,,42
+F1-N00281,1,synthetic_name_free,281,74,pediatria,donna,0-17,Valle d'Aosta,nome proprio,P,0,1,1,1,1585,media,1992,6
+F1-N00282,1,synthetic_named,282,188,pneumologia,uomo,0-17,Abruzzo,nome proprio,M,3,1,0,0,625,media,,13
+F1-N00283,1,synthetic_named,283,189,ortopedia,donna,18-40,Campania,nome proprio,C,1,1,4,0,1646,alta,2001,26
+F1-N00284,1,synthetic_named,284,190,neurologia,uomo,41-65,Lazio,nome proprio,O,1,1,0,0,666,bassa,,54
+F1-N00285,1,synthetic_named,285,191,cardiologia,donna,66-95,Emilia-Romagna,nome proprio,N,2,1,0,0,690,media,,81
+F1-N00286,1,synthetic_named,286,192,neurologia,donna,0-17,Liguria,nome e cognome,G,1,1,0,0,2584,bassa,,12
+F1-N00287,1,synthetic_named,287,193,cardiologia,uomo,18-40,Toscana,nome proprio,V,1,1,13,0,2992,alta,2017,38
+F1-N00288,1,synthetic_named,288,194,gastroenterologia,uomo,18-40,Liguria,nome proprio,V,1,1,1,0,1671,media,1991,22
+F1-N00289,1,synthetic_named,289,195,neurologia,uomo,0-17,Campania,nome proprio,S,1,1,0,0,2599,bassa,,8
+F1-N00290,1,synthetic_named,290,196,neurologia,donna,0-17,Sicilia,nome e cognome,L,1,3,0,4,2082,alta,,13
+F1-N00291,1,synthetic_named,291,197,pneumologia,uomo,18-40,Calabria,nome proprio,T,1,1,0,0,627,bassa,,35
+F1-N00292,1,synthetic_named,292,198,ortopedia,uomo,0-17,Puglia,nome e cognome,A,1,1,4,0,1599,alta,1983,15
+F1-N00293,1,synthetic_named,293,199,pneumologia,uomo,0-17,Toscana,nome proprio,S,3,1,0,0,651,media,,8
+F1-N00294,1,synthetic_name_free,294,75,gastroenterologia,donna,41-65,Trentino-Alto Adige,nome proprio,S,0,1,1,1,1851,media,1987,48
+F1-N00295,1,synthetic_named,295,200,endocrinologia,donna,18-40,Trentino-Alto Adige,nome e cognome,C,3,1,0,0,650,media,,37
+F1-N00296,1,synthetic_name_free,296,76,gastroenterologia,uomo,0-17,Abruzzo,nome e cognome,M,0,2,0,0,3381,bassa,,15
+F1-N00297,1,synthetic_named,297,201,gastroenterologia,uomo,41-65,Valle d'Aosta,iniziali puntate,F,1,1,0,0,539,bassa,,55
+F1-N00298,1,synthetic_name_free,298,77,oncologia,donna,66-95,Toscana,nome e cognome,O,0,1,0,1,3457,bassa,,91
+F1-N00299,1,synthetic_negative,299,19,ginecologia,donna,18-40,Sicilia,nome proprio,L,0,0,0,0,622,nessuna,,
