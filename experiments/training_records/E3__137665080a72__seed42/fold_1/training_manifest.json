@@ -1,0 +1,221 @@
+{
+ "adapter_sha256": "438181daa316f9d31743346b6cf67162d395cc5cb824e6511ea34d01bee223c5",
+ "budget": {
+  "accumulation": 16,
+  "effective_epochs": 2.016,
+  "effective_epochs_per_unique_record": 3.482,
+  "examples_including_repeats": 627,
+  "loss_tokens_processed": 842240,
+  "optimizer_steps": 79,
+  "presentations": 1264,
+  "presentations_by_source": {
+   "gold": 662,
+   "synthetic": 602
+  },
+  "tokens_processed": 1902709,
+  "unique_source_records": 363
+ },
+ "config": {
+  "lora": {
+   "bias": "none",
+   "lora_alpha": 32,
+   "lora_dropout": 0.05,
+   "r": 16,
+   "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+   ],
+   "task_type": "CAUSAL_LM"
+  },
+  "model": {
+   "candidates": {
+    "base": {
+     "id": "meta-llama/Llama-3.2-3B",
+     "revision": "13afe5124825b4f3751f836b40dafda64c1ed062"
+    },
+    "instruct": {
+     "id": "meta-llama/Llama-3.2-3B-Instruct",
+     "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95"
+    }
+   },
+   "chat_template": {
+    "name": "project_llama3_segments_v1",
+    "sha256": "06a66d19e13005de99de6e1db7e2b7072e32d37aa1082cb802592825323a5ba0"
+   },
+   "future_comparison": "Qwen3 1.7B, model ID to be decided",
+   "id": "meta-llama/Llama-3.2-3B-Instruct",
+   "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95"
+  },
+  "prompt_version": "redaction_segments_v1",
+  "quantization": {
+   "bnb_4bit_compute_dtype": "bfloat16",
+   "bnb_4bit_quant_type": "nf4",
+   "bnb_4bit_use_double_quant": true,
+   "load_in_4bit": true
+  },
+  "training": {
+   "batch_size": 1,
+   "gold_oversample": 5,
+   "gradient_accumulation_steps": 16,
+   "gradient_checkpointing": true,
+   "learning_rate": 5e-05,
+   "max_grad_norm": 1.0,
+   "max_length": 3072,
+   "optimizer_steps": 79,
+   "scheduler": "cosine",
+   "seeds": [
+    42
+   ],
+   "warmup_steps": 8
+  }
+ },
+ "config_id": "137665080a72",
+ "dataset_sha256": "3d4cfa61b169e6ffcaa7d91b944d0b5ac0c58dbc5d3514f9218efd0484839b4e",
+ "environment": {
+  "machine": "x86_64",
+  "os": "Linux",
+  "os_release": "6.6.159+",
+  "os_version": "#1 SMP Thu Oct 22 03:07:54 UTC 2026",
+  "python_implementation": "CPython",
+  "python_version": "3.13.16"
+ },
+ "experiment": "E3",
+ "experiment_definition": {
+  "description": "Gold plus anchored synthetic data",
+  "domain_adaptation": false,
+  "synthetic": {
+   "allow_shortfall": true,
+   "arm": "style_anchored",
+   "matched_with": "non_anchored",
+   "n_name_free": 78,
+   "n_named": 202,
+   "n_negative": 20
+  }
+ },
+ "fold": 1,
+ "inference_limit_headroom": {
+  "smallest_headroom_tokens": 602,
+  "tightest_example_id": "syn_f1_style_anchored_00095"
+ },
+ "infrastructure_version": "1.0.1",
+ "losses": [
+  0.15402983920648694,
+  0.11115576256997883,
+  0.11906544119119644,
+  0.12759831501170993,
+  0.10978611186146736,
+  0.10819261334836483,
+  0.08691442757844925,
+  0.07787257060408592,
+  0.06981055700452998,
+  0.06005890551023185,
+  0.04321369284298271,
+  0.03912697976920754,
+  0.035735220939386636,
+  0.027292470214888453,
+  0.023579474771395326,
+  0.02702711388701573,
+  0.02012530103093013,
+  0.01770922844298184,
+  0.01687922731798608,
+  0.013699184331926517,
+  0.015938717435346916,
+  0.014387845309101976,
+  0.011615652576438151,
+  0.012332723097642884,
+  0.010095434052345809,
+  0.012611556056072004,
+  0.007549889560323209,
+  0.007418795634293929,
+  0.009067938328371383,
+  0.010029226075857878,
+  0.005594376518274657,
+  0.007953632150019985,
+  0.010489254011190496,
+  0.006358530070428969,
+  0.007100748109223787,
+  0.006328189621854108,
+  0.0067127786605851725,
+  0.009284213061619084,
+  0.005234938682406209,
+  0.00431976439722348,
+  0.004258835866494337,
+  0.005685477412043838,
+  0.0038225023236009292,
+  0.007909799714980181,
+  0.002962043396109948,
+  0.004616446887666825,
+  0.004807547127711587,
+  0.004295232025469886,
+  0.005245180134807015,
+  0.004223435636959039,
+  0.004645280230761273,
+  0.002882693435822148,
+  0.004057624559209216,
+  0.004692562011769041,
+  0.004777010719408281,
+  0.0036117478884989396,
+  0.0021124039849382825,
+  0.003342184510984225,
+  0.0028651779794017784,
+  0.003364257725479547,
+  0.0023860985711507965,
+  0.004969980593159562,
+  0.0024563708630012115,
+  0.0036417694536794443,
+  0.0032853038210305385,
+  0.0029829483428329695,
+  0.003249223096645437,
+  0.0017459499031247105,
+  0.0025339802505186526,
+  0.003397029742700397,
+  0.0027962792410107795,
+  0.002743999331869418,
+  0.0035150175408489304,
+  0.0028318693657638505,
+  0.0018034244203590788,
+  0.0016297298061545007,
+  0.002842972267899313,
+  0.0029174219416745473,
+  0.0022204173110367265
+ ],
+ "official_run": true,
+ "packages": {
+  "accelerate": "1.14.0",
+  "bitsandbytes": "0.50.2",
+  "numpy": "2.4.6",
+  "peft": "0.21.1",
+  "safetensors": "0.8.0",
+  "tokenizers": "0.20.3",
+  "torch": "2.14.1+cu130",
+  "transformers": "4.46.3"
+ },
+ "peak_gpu_memory_bytes": 9775752704,
+ "pipeline_version": "0.1.0",
+ "prompt_sha256": "a172cfd9f5a4edd2846e72348bd4f0c9f1b883927bf4f4a5db16148c31d896a1",
+ "seed": 42,
+ "source_integrity": {
+  "blocking_count": 0,
+  "blocking_paths": [],
+  "clean": true,
+  "commit": "5f69f2ad5ba1f2b0ccbc38f32a91b214950fd56c",
+  "critical_tree_sha256": "6b0a1d55d6ae711c424c5a9eed300060e97a5fce9e3b32ba6a76358f19bdaf67",
+  "git_available": true,
+  "non_blocking_changes": {},
+  "policy_version": "1"
+ },
+ "token_lengths": {
+  "examples": 627,
+  "longest_example_id": "syn_f1_style_anchored_00035",
+  "max": 2920,
+  "median": 1487,
+  "p95": 2552
+ },
+ "total_parameters": 1827777536,
+ "trainable_parameters": 24313856
+}

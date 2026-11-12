@@ -1,0 +1,41 @@
+Token indices sequence length is longer than the specified maximum sequence length for this model (585 > 512). Running this sequence through the model will result in indexing errors
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at dbmdz/bert-base-italian-xxl-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+encoder E1-BERT fold 1 seed 42: 330 examples, 475 windows, 0 of 990 spans not on token edges
+step 20/90 loss 0.0634 elapsed_min 0.1
+step 40/90 loss 0.0673 elapsed_min 0.2
+step 60/90 loss 0.0501 elapsed_min 0.2
+step 80/90 loss 0.0432 elapsed_min 0.3
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/content/repo/src/encoder/run.py", line 232, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/content/repo/src/encoder/run.py", line 227, in main
+    print(json.dumps(run(a.experiment, a.fold, a.seed, a.official, a.config, log=lambda s: print(s, flush=True)), indent=1))
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/repo/src/encoder/run.py", line 184, in run
+    losses = train(model, items, cfg["training"], seed, tokenizer.pad_token_id, device, log)
+  File "/content/repo/src/encoder/run.py", line 106, in train
+    batch = _batch([items[i] for i in order[k:k + bs]], pad_id, device)
+  File "/content/repo/src/encoder/run.py", line 81, in _batch
+    return {k: torch.tensor(v, device=device) for k, v in (("input_ids", ids), ("attention_mask", mask), ("labels", labels))}
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Token indices sequence length is longer than the specified maximum sequence length for this model (585 > 512). Running this sequence through the model will result in indexing errors
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at dbmdz/bert-base-italian-xxl-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+encoder E1-BERT fold 1 seed 42: 330 examples, 475 windows, 0 of 990 spans not on token edges
+step 20/90 loss 0.0628 elapsed_min 0.1
+step 40/90 loss 0.0671 elapsed_min 0.2
+step 60/90 loss 0.0430 elapsed_min 0.2
+step 80/90 loss 0.0373 elapsed_min 0.3
+step 90/90 loss 0.0551 elapsed_min 0.4
+done: train 0.4 min, 16 held-out notes labelled
+{
+ "checkpoint": "/content/repo_bert/checkpoints/official/bert_it/E1/fold_1/seed_42",
+ "predictions": "/content/repo_bert/predictions_secure/E1-BERT__cc92f090aa20__seed42/fold_1",
+ "updates": 90,
+ "train_minutes": 0.36
+}

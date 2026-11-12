@@ -30,9 +30,10 @@ style-anchored synthetic notes. E8–E10 are exploratory BERT arms.
 | `experiments/baselines/` | BERT runs: final configuration (E1, E2, E3, E8, E9, E10, seeds 42–44) and the first configuration (E1, E3) |
 | `experiments/comparisons/` | Paired bootstrap differences between runs |
 | `experiments/development/` | Evaluator dry runs and generation pilots |
+| `experiments/training_records/` | For each of the 28 runs and each fold: the training manifest (configuration, package versions, per-step losses, update budget, trainable parameters, peak GPU memory, adapter or model hash) and the training log. `datasets/` holds the exact training example list of arms E1–E3 for each fold (example IDs, repeat index and SHA-256 hashes of input and target, no text); every system used the same list for the same arm and fold. The lists of E8–E10, subsets of E3, are identified by `dataset_sha256` in their training manifests |
 | `audit/` | Analysis plan (`PREREGISTRATION_2026-11-10.md` and addendum), evaluation protocol, data provenance, leakage report, known problems of the earlier pipeline |
 | `colab/` | The Google Colab notebooks used for training (outputs cleared), `build_transfer.sh`, `check_status.py` |
-| `scripts/` | Smoke tests with tiny random models |
+| `scripts/` | Smoke tests with tiny random models; `paper_numbers.py`, which recomputes the numbers of the paper |
 
 Every run folder holds pooled, per-fold, per-category and per-note metrics, error breakdowns, bootstrap intervals and a
 run manifest (code commit, configuration, package versions, hashes of the predictions it was computed from).
@@ -87,6 +88,14 @@ The notebooks in `colab/` ran the training on Google Colab (NVIDIA L4). They exp
 E2 can be rebuilt from this repository; E3 and E8–E10 need the style-anchored notes, which are not published.
 
 ## Results
+
+```bash
+python scripts/paper_numbers.py
+```
+
+prints the numbers of Tables 2 and 4–8, Fig. 1 and Sections 3–7 of the paper from the files in this repository. It
+needs neither the gold notes nor the model outputs. Training times are the elapsed minutes at the last optimizer step in
+each training log. Fold 5 of S2 E2 seed 42 was interrupted and run again from the start; both logs are kept.
 
 Strict exact-span micro-F1, pooled over the 82 out-of-fold notes. Brackets give 95% paired document bootstrap
 intervals (10,000 replicates, stratified by fold).

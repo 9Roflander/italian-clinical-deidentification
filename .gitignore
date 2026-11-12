@@ -90,3 +90,5 @@ paper_revisions/
 reports/
 *.docx
 *.pdf
+# Public release: training logs of the official runs (step losses and timings, no text)
+!experiments/training_records/**/*.log

@@ -1,0 +1,85 @@
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [00:14<00:14, 14.54s/it]Downloading shards: 100%|██████████| 2/2 [00:20<00:00,  9.52s/it]Downloading shards: 100%|██████████| 2/2 [00:20<00:00, 10.27s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.89s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.09s/it]
+training E3 fold 1 seed 42: 627 examples, 79 optimizer steps x 16 micro-batches
+step 1/79 loss 1.1183 elapsed_min 0.3 eta_min 25.2
+step 2/79 loss 1.1951 elapsed_min 0.6 eta_min 23.3
+step 3/79 loss 1.2184 elapsed_min 0.9 eta_min 22.2
+step 4/79 loss 0.9443 elapsed_min 1.1 eta_min 21.4
+step 5/79 loss 0.6491 elapsed_min 1.4 eta_min 20.8
+step 6/79 loss 0.6804 elapsed_min 1.7 eta_min 20.4
+step 7/79 loss 0.5278 elapsed_min 2.0 eta_min 20.2
+step 8/79 loss 0.3227 elapsed_min 2.3 eta_min 20.0
+step 9/79 loss 0.4664 elapsed_min 2.5 eta_min 19.6
+step 10/79 loss 0.2674 elapsed_min 2.7 eta_min 18.9
+step 11/79 loss 0.3600 elapsed_min 3.0 eta_min 18.6
+step 12/79 loss 0.2728 elapsed_min 3.2 eta_min 18.1
+step 13/79 loss 0.3123 elapsed_min 3.5 eta_min 17.8
+step 14/79 loss 0.1926 elapsed_min 3.7 eta_min 17.4
+step 15/79 loss 0.1906 elapsed_min 4.0 eta_min 16.9
+step 16/79 loss 0.1980 elapsed_min 4.2 eta_min 16.5
+step 17/79 loss 0.1942 elapsed_min 4.4 eta_min 16.2
+step 18/79 loss 0.1962 elapsed_min 4.7 eta_min 16.0
+step 19/79 loss 0.2331 elapsed_min 5.0 eta_min 15.8
+step 20/79 loss 0.1695 elapsed_min 5.3 eta_min 15.6
+step 21/79 loss 0.2073 elapsed_min 5.6 eta_min 15.4
+step 22/79 loss 0.1378 elapsed_min 5.8 eta_min 15.1
+step 23/79 loss 0.1453 elapsed_min 6.1 eta_min 14.8
+step 24/79 loss 0.0878 elapsed_min 6.4 eta_min 14.6
+step 25/79 loss 0.1624 elapsed_min 6.6 eta_min 14.3
+step 26/79 loss 0.2674 elapsed_min 6.9 eta_min 14.1
+step 27/79 loss 0.0978 elapsed_min 7.2 eta_min 13.9
+step 28/79 loss 0.1049 elapsed_min 7.5 eta_min 13.6
+step 29/79 loss 0.1350 elapsed_min 7.7 eta_min 13.3
+step 30/79 loss 0.1104 elapsed_min 8.0 eta_min 13.1
+step 31/79 loss 0.1759 elapsed_min 8.3 eta_min 12.8
+step 32/79 loss 0.1084 elapsed_min 8.5 eta_min 12.5
+step 33/79 loss 0.1922 elapsed_min 8.8 eta_min 12.3
+step 34/79 loss 0.1186 elapsed_min 9.1 eta_min 12.0
+step 35/79 loss 0.1236 elapsed_min 9.3 eta_min 11.7
+step 36/79 loss 0.1119 elapsed_min 9.6 eta_min 11.5
+step 37/79 loss 0.0951 elapsed_min 9.9 eta_min 11.2
+step 38/79 loss 0.1653 elapsed_min 10.2 eta_min 11.0
+step 39/79 loss 0.0571 elapsed_min 10.4 eta_min 10.7
+step 40/79 loss 0.0652 elapsed_min 10.7 eta_min 10.4
+step 41/79 loss 0.0876 elapsed_min 11.0 eta_min 10.2
+step 42/79 loss 0.0759 elapsed_min 11.2 eta_min 9.9
+step 43/79 loss 0.0798 elapsed_min 11.5 eta_min 9.6
+step 44/79 loss 0.1809 elapsed_min 11.8 eta_min 9.4
+step 45/79 loss 0.0389 elapsed_min 12.0 eta_min 9.1
+step 46/79 loss 0.0641 elapsed_min 12.3 eta_min 8.8
+step 47/79 loss 0.0704 elapsed_min 12.6 eta_min 8.5
+step 48/79 loss 0.0378 elapsed_min 12.8 eta_min 8.3
+step 49/79 loss 0.0688 elapsed_min 13.1 eta_min 8.0
+step 50/79 loss 0.0437 elapsed_min 13.3 eta_min 7.7
+step 51/79 loss 0.0750 elapsed_min 13.6 eta_min 7.5
+step 52/79 loss 0.0956 elapsed_min 13.8 eta_min 7.2
+step 53/79 loss 0.0553 elapsed_min 14.1 eta_min 6.9
+step 54/79 loss 0.0442 elapsed_min 14.3 eta_min 6.6
+step 55/79 loss 0.0606 elapsed_min 14.6 eta_min 6.4
+step 56/79 loss 0.0321 elapsed_min 14.9 eta_min 6.1
+step 57/79 loss 0.0676 elapsed_min 15.2 eta_min 5.8
+step 58/79 loss 0.0874 elapsed_min 15.5 eta_min 5.6
+step 59/79 loss 0.0374 elapsed_min 15.7 eta_min 5.3
+step 60/79 loss 0.0743 elapsed_min 16.0 eta_min 5.1
+step 61/79 loss 0.0613 elapsed_min 16.3 eta_min 4.8
+step 62/79 loss 0.0524 elapsed_min 16.5 eta_min 4.5
+step 63/79 loss 0.0875 elapsed_min 16.8 eta_min 4.3
+step 64/79 loss 0.0518 elapsed_min 17.1 eta_min 4.0
+step 65/79 loss 0.0477 elapsed_min 17.4 eta_min 3.7
+step 66/79 loss 0.0331 elapsed_min 17.6 eta_min 3.5
+step 67/79 loss 0.0274 elapsed_min 17.9 eta_min 3.2
+step 68/79 loss 0.0262 elapsed_min 18.2 eta_min 2.9
+step 69/79 loss 0.0223 elapsed_min 18.4 eta_min 2.7
+step 70/79 loss 0.0445 elapsed_min 18.7 eta_min 2.4
+step 71/79 loss 0.0341 elapsed_min 19.0 eta_min 2.1
+step 72/79 loss 0.0444 elapsed_min 19.3 eta_min 1.9
+step 73/79 loss 0.0281 elapsed_min 19.5 eta_min 1.6
+step 74/79 loss 0.0520 elapsed_min 19.8 eta_min 1.3
+step 75/79 loss 0.0737 elapsed_min 20.1 eta_min 1.1
+step 76/79 loss 0.0230 elapsed_min 20.3 eta_min 0.8
+step 77/79 loss 0.0294 elapsed_min 20.6 eta_min 0.5
+step 78/79 loss 0.0672 elapsed_min 20.9 eta_min 0.3
+step 79/79 loss 0.0529 elapsed_min 21.1 eta_min 0.0
+/content/repo/checkpoints/official/llama_extraction/E3/fold_1/seed_42
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.30s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.95s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.16s/it]
+/content/repo/predictions_secure/E3__00a0cf19e492__seed42/fold_1

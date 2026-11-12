@@ -1,0 +1,20 @@
+Token indices sequence length is longer than the specified maximum sequence length for this model (585 > 512). Running this sequence through the model will result in indexing errors
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at dbmdz/bert-base-italian-xxl-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+encoder E1-BERT fold 1 seed 44: 330 examples, 475 windows, 0 of 990 spans not on token edges
+step 20/175 loss 0.0332 elapsed_min 0.1
+step 40/175 loss 0.0543 elapsed_min 0.2
+step 60/175 loss 0.0252 elapsed_min 0.2
+step 80/175 loss 0.0156 elapsed_min 0.3
+step 100/175 loss 0.0204 elapsed_min 0.4
+step 120/175 loss 0.0133 elapsed_min 0.5
+step 140/175 loss 0.0083 elapsed_min 0.6
+step 160/175 loss 0.0046 elapsed_min 0.7
+step 175/175 loss 0.0059 elapsed_min 0.7
+done: train 0.7 min, 16 held-out notes labelled
+{
+ "checkpoint": "/content/repo_bert/checkpoints/official/bert_it_v2/E1/fold_1/seed_44",
+ "predictions": "/content/repo_bert/predictions_secure/E1-BERT__ae91fdcd33e2__seed44/fold_1",
+ "updates": 175,
+ "train_minutes": 0.72
+}
